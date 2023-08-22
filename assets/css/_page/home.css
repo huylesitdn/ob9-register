@@ -1,0 +1,270 @@
+.home-page #carouselTop .carousel-indicators {
+  place-items: center; }
+  .home-page #carouselTop .carousel-indicators button {
+    width: 16px;
+    height: 16px;
+    background: linear-gradient(180deg, #E8EEFF 0%, #CFD6EB 100%);
+    border: none;
+    border-radius: 50%;
+    opacity: 1; }
+    .home-page #carouselTop .carousel-indicators button.active {
+      width: 25px;
+      height: 25px;
+      background-image: url(../images/home/home-slider-active-dot.svg);
+      background-repeat: no-repeat;
+      background-size: cover; }
+
+.home-page__notification {
+  background: rgba(60, 70, 99, 0.8); }
+  .home-page__notification .container {
+    display: flex;
+    place-items: center;
+    gap: 15px;
+    padding: 15px 0; }
+    .home-page__notification .container img {
+      max-height: 20px; }
+    .home-page__notification .container .text-animated {
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 18px;
+      color: #FFFFFF;
+      width: 100%;
+      white-space: nowrap;
+      overflow: hidden; }
+      .home-page__notification .container .text-animated .text-overflow {
+        word-wrap: none;
+        position: relative; }
+
+.home-page__right-button {
+  position: fixed;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  place-content: center;
+  place-items: flex-end;
+  flex-direction: column;
+  width: 90px; }
+  .home-page__right-button a {
+    transition: 0.5s;
+    width: 70px;
+    max-height: 80px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 10px 0px 0px 10px;
+    padding: 5px;
+    margin-bottom: 7px;
+    display: flex;
+    place-content: center;
+    place-items: center;
+    flex-direction: column;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #597EF7; }
+    .home-page__right-button a img {
+      max-width: 38px; }
+    .home-page__right-button a:hover {
+      background: linear-gradient(90deg, #8EA9FF 0%, #678BFF 32.29%, #557BF7 100%);
+      width: 90px;
+      color: #FFFFFF; }
+
+.home-page__content {
+  background-image: url(../images/home/bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+  .home-page__content .title {
+    display: flex;
+    place-content: center;
+    place-items: center;
+    margin-bottom: 15px; }
+    .home-page__content .title span {
+      font-family: 'Aldo the Apache';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 30px;
+      line-height: 16px;
+      text-align: center;
+      color: #597EF7;
+      position: relative;
+      display: flex;
+      place-content: center;
+      place-items: center;
+      min-width: 185px; }
+      .home-page__content .title span::after {
+        position: absolute;
+        width: 150px;
+        height: 25px;
+        left: -90%;
+        content: "";
+        background-image: url(../images/home/games_title1.png); }
+      .home-page__content .title span::before {
+        position: absolute;
+        width: 150px;
+        height: 25px;
+        right: -90%;
+        content: "";
+        background-image: url(../images/home/games_title2.png); }
+  .home-page__content .subtitle {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    color: #597EF7; }
+  .home-page__content__why_choose_us {
+    margin-bottom: 100px; }
+    .home-page__content__why_choose_us .title {
+      margin-top: 100px; }
+    .home-page__content__why_choose_us__content {
+      text-align: center;
+      margin-top: 30px; }
+      .home-page__content__why_choose_us__content .row {
+        margin-left: -8px;
+        margin-right: -8px; }
+        .home-page__content__why_choose_us__content .row > div {
+          padding-left: 8px;
+          padding-right: 8px; }
+          .home-page__content__why_choose_us__content .row > div .item {
+            background-image: url(../images/home/why-choose-us/bg.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+            padding: 30px;
+            min-height: 340px;
+            height: 100%; }
+            .home-page__content__why_choose_us__content .row > div .item .title {
+              margin: 30px 0 15px;
+              font-family: 'Aldo the Apache';
+              font-style: normal;
+              font-weight: 400;
+              font-size: 30px;
+              line-height: 32px;
+              text-align: center;
+              text-transform: uppercase;
+              color: #424B6A; }
+            .home-page__content__why_choose_us__content .row > div .item .description {
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 20px;
+              text-align: center;
+              color: #424B6E; }
+            .home-page__content__why_choose_us__content .row > div .item .img {
+              height: 130px; }
+              .home-page__content__why_choose_us__content .row > div .item .img img {
+                max-width: 130px; }
+            @media only screen and (max-width: 1150px) {
+              .home-page__content__why_choose_us__content .row > div .item {
+                padding: 20px 20px; }
+                .home-page__content__why_choose_us__content .row > div .item .title {
+                  font-size: 28px;
+                  line-height: 32px; }
+                .home-page__content__why_choose_us__content .row > div .item .description {
+                  font-size: 14px;
+                  line-height: 20px; }
+                .home-page__content__why_choose_us__content .row > div .item .img {
+                  height: 100px; }
+                  .home-page__content__why_choose_us__content .row > div .item .img img {
+                    max-width: 100px; } }
+  .home-page__content__exciting_game {
+    position: relative;
+    text-align: center;
+    margin-top: 30px; }
+    .home-page__content__exciting_game__content {
+      padding-top: 10px; }
+      .home-page__content__exciting_game__content #carouselExcitingGame {
+        display: flex;
+        place-content: flex-start;
+        place-items: flex-start; }
+        .home-page__content__exciting_game__content #carouselExcitingGame .carousel-indicators {
+          position: initial !important;
+          background-image: url(../images/home/exciting-game/left-bg.png);
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+          width: 235px;
+          margin: 0;
+          flex-direction: column;
+          padding: 30px 15px; }
+          .home-page__content__exciting_game__content #carouselExcitingGame .carousel-indicators button {
+            width: auto;
+            height: auto;
+            text-indent: initial;
+            margin: 10px 0;
+            position: relative;
+            display: flex;
+            place-content: center;
+            place-items: center;
+            min-width: 200px;
+            min-height: 70px;
+            background-image: url(../images/home/exciting-game/bg.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+            background-color: transparent;
+            border: none;
+            opacity: 1; }
+            .home-page__content__exciting_game__content #carouselExcitingGame .carousel-indicators button:hover {
+              opacity: 0.7; }
+            .home-page__content__exciting_game__content #carouselExcitingGame .carousel-indicators button span {
+              margin-right: 50px;
+              font-weight: 400;
+              font-size: 18px;
+              line-height: 20px;
+              text-align: center;
+              text-transform: uppercase;
+              color: #515B7C; }
+            .home-page__content__exciting_game__content #carouselExcitingGame .carousel-indicators button img {
+              position: absolute;
+              right: 15px;
+              max-width: 50px;
+              max-height: 50px; }
+              .home-page__content__exciting_game__content #carouselExcitingGame .carousel-indicators button img.default {
+                display: block; }
+              .home-page__content__exciting_game__content #carouselExcitingGame .carousel-indicators button img.focus {
+                display: none; }
+            .home-page__content__exciting_game__content #carouselExcitingGame .carousel-indicators button.active {
+              background-image: url(../images/home/exciting-game/bg-active.png); }
+              .home-page__content__exciting_game__content #carouselExcitingGame .carousel-indicators button.active span {
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 20px;
+                text-align: center;
+                color: #FFFFFF; }
+              .home-page__content__exciting_game__content #carouselExcitingGame .carousel-indicators button.active img.default {
+                display: none; }
+              .home-page__content__exciting_game__content #carouselExcitingGame .carousel-indicators button.active img.focus {
+                display: block; }
+        .home-page__content__exciting_game__content #carouselExcitingGame .carousel-inner .carousel-item > img {
+          padding: 0 15px; }
+        .home-page__content__exciting_game__content #carouselExcitingGame .carousel-inner .carousel-item .button-group {
+          margin-top: 5px;
+          display: flex;
+          place-content: center;
+          place-items: center;
+          flex-wrap: wrap;
+          gap: 10px;
+          min-height: 100px; }
+          .home-page__content__exciting_game__content #carouselExcitingGame .carousel-inner .carousel-item .button-group .btn {
+            min-width: 200px;
+            min-height: 65px;
+            background-image: url(../images/home/exciting-game/bg-active.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+            background-color: transparent;
+            border: none;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 24px;
+            text-align: center;
+            color: #FFFFFF; }
+            .home-page__content__exciting_game__content #carouselExcitingGame .carousel-inner .carousel-item .button-group .btn[data-i18n="home-page.EXCITING_GAMES_slider.HABANERO"] {
+              font-size: 20px; }
+            .home-page__content__exciting_game__content #carouselExcitingGame .carousel-inner .carousel-item .button-group .btn:hover {
+              opacity: 0.8; }
+  .home-page__content__fc {
+    padding: 50px 0; }
+    .home-page__content__fc .container .row {
+      margin-left: -15px;
+      margin-right: -15px; }

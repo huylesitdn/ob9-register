@@ -1,0 +1,119 @@
+<div class="profile-navbar">
+  <div class="profile-navbar__info">
+    <div class="profile-navbar__info__avatar">
+      <img class="profile-navbar__info__avatar__img" src="assets/images/profile/5.png" />
+      <span data-i18n="Edit" data-bs-toggle="modal" data-bs-target="#selectProfilePictureModal"></span>
+      <img class="profile-navbar__info__avatar__vip" src="assets/images/my-account/vip-0.png" />
+    </div>
+    <div class="profile-navbar__info__username">Username8080</div>
+    <div class="profile-navbar__info__join" data-i18n="account_layout.join_since"></div>
+    <div class="profile-navbar__info__Security_Level" data-i18n="account_layout.Security_Level"></div>
+    <div class="profile-navbar__info__icons">
+      <a href="/my-profile.html" id="phonePopover" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="bottom">
+        <img src="assets/icons/profile/phone.svg"/>
+      </a>
+      <a href="/my-profile.html" id="emailPopover" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="bottom">
+        <img src="assets/icons/profile/email.svg" />
+      </a>
+      <a href="/my-profile.html" id="infoPopover" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="bottom">
+        <img src="assets/icons/profile/info.svg" />
+      </a>
+      <a href="/manage-bank-account.html" id="bankPopover" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="bottom">
+        <img src="assets/icons/profile/bank.svg" />
+      </a>
+    </div>
+  </div>
+  <div class="profile-navbar__navbar">
+    <div class="profile-navbar__navbar__Total_Balance" data-i18n="account_layout.Total_Balance"></div>
+    <div class="profile-navbar__navbar__currency">
+      <span>MYR 5888.20</span>
+      <img class="refresh-balance" role="button" src="assets/icons/profile/refresh.svg" />
+    </div>
+    <div class="profile-navbar__navbar__top-icon">
+      <a href="/deposit.html" class="profile-navbar__navbar__top-icon__items @@if (context.activeBalance == 1) {active}">
+        <img class="profile-navbar__navbar__top-icon__items__img" src="assets/icons/profile/deposit.svg" />
+        <img class="profile-navbar__navbar__top-icon__items__img-active" src="assets/icons/profile/deposit-active.svg" />
+        <div data-i18n="account_layout.Deposit"></div>
+      </a>
+      <a href="/withdrawal.html" class="profile-navbar__navbar__top-icon__items @@if (context.activeBalance == 2) {active}">
+        <img class="profile-navbar__navbar__top-icon__items__img" src="assets/icons/profile/withdrawal.svg" />
+        <img class="profile-navbar__navbar__top-icon__items__img-active" src="assets/icons/profile/withdrawal-active.svg" />
+        <div data-i18n="account_layout.Withdrawal"></div>
+      </a>
+      <a href="/transaction-history-rebate.html" class="profile-navbar__navbar__top-icon__items @@if (context.activeBalance == 3) {active}">
+        <img class="profile-navbar__navbar__top-icon__items__img" src="assets/icons/profile/transfer.svg" />
+        <img class="profile-navbar__navbar__top-icon__items__img-active" src="assets/icons/profile/transfer-active.svg" />
+        <div data-i18n="account_layout.Rebate"></div>
+      </a>
+    </div>
+    <ul class="profile-navbar__navbar__bottom-nav">
+      <li class="profile-navbar__navbar__bottom-nav__item">
+        <a href="/my-wallet.html" class="profile-navbar__navbar__bottom-nav__item__link @@if (context.active == 4) {active}">
+          <img class="profile-navbar__navbar__bottom-nav__item__link__img" src="assets/icons/profile/my-wallet.svg" />
+          <img class="profile-navbar__navbar__bottom-nav__item__link__img-active" src="assets/icons/profile/my-wallet-active.svg" />
+          <div data-i18n="account_layout.My_Wallet"></div>
+        </a>
+      </li>
+      <li class="profile-navbar__navbar__bottom-nav__item">
+        <a href="/bonus-center.html" class="profile-navbar__navbar__bottom-nav__item__link @@if (context.active == 5) {active}">
+          <img class="profile-navbar__navbar__bottom-nav__item__link__img" src="assets/icons/profile/bonus-center.svg" />
+          <img class="profile-navbar__navbar__bottom-nav__item__link__img-active" src="assets/icons/profile/bonus-center-active.svg" />
+          <div data-i18n="account_layout.Bonus_Center"></div>
+        </a>
+      </li>
+      <li class="profile-navbar__navbar__bottom-nav__item">
+        <a href="/transaction-history.html" class="profile-navbar__navbar__bottom-nav__item__link @@if (context.active == 6) {active}">
+          <img class="profile-navbar__navbar__bottom-nav__item__link__img" src="assets/icons/profile/transaction-history.svg" />
+          <img class="profile-navbar__navbar__bottom-nav__item__link__img-active" src="assets/icons/profile/transaction-history-active.svg" />
+          <div data-i18n="account_layout.Transaction_History"></div>
+        </a>
+      </li>
+      <li class="profile-navbar__navbar__bottom-nav__item">
+        <a href="/betting-record.html" class="profile-navbar__navbar__bottom-nav__item__link @@if (context.active == 7) {active}">
+          <img class="profile-navbar__navbar__bottom-nav__item__link__img" src="assets/icons/profile/betting-record.svg" />
+          <img class="profile-navbar__navbar__bottom-nav__item__link__img-active" src="assets/icons/profile/betting-record-active.svg" />
+          <div data-i18n="account_layout.Betting_Record"></div>
+        </a>
+      </li>
+      <li class="profile-navbar__navbar__bottom-nav__item">
+        <a href="/manage-bank-account.html" class="profile-navbar__navbar__bottom-nav__item__link @@if (context.active == 8) {active}">
+          <img class="profile-navbar__navbar__bottom-nav__item__link__img" src="assets/icons/profile/manage-bank-account.svg" />
+          <img class="profile-navbar__navbar__bottom-nav__item__link__img-active" src="assets/icons/profile/manage-bank-account-active.svg" />
+          <div data-i18n="account_layout.Manage_Bank_Account"></div>
+        </a>
+      </li>
+      <li class="profile-navbar__navbar__bottom-nav__item divider"></li>
+      <li class="profile-navbar__navbar__bottom-nav__item">
+        <a href="/my-profile.html" class="profile-navbar__navbar__bottom-nav__item__link @@if (context.active == 9) {active}">
+          <img class="profile-navbar__navbar__bottom-nav__item__link__img" src="assets/icons/profile/my-profile.svg" />
+          <img class="profile-navbar__navbar__bottom-nav__item__link__img-active" src="assets/icons/profile/my-profile-active.svg" />
+          <div data-i18n="account_layout.My_Profile"></div>
+        </a>
+      </li>
+      <li class="profile-navbar__navbar__bottom-nav__item">
+        <a href="/vip-detail.html" class="profile-navbar__navbar__bottom-nav__item__link @@if (context.active == 10) {active}">
+          <img class="profile-navbar__navbar__bottom-nav__item__link__img" src="assets/icons/profile/vip-details.svg" />
+          <img class="profile-navbar__navbar__bottom-nav__item__link__img-active" src="assets/icons/profile/vip-details-active.svg" />
+          <div data-i18n="account_layout.VIP_Details"></div>
+        </a>
+      </li>
+      <li class="profile-navbar__navbar__bottom-nav__item">
+        <a href="/referral-program.html" class="profile-navbar__navbar__bottom-nav__item__link @@if (context.active == 11) {active}">
+          <img class="profile-navbar__navbar__bottom-nav__item__link__img" src="assets/icons/profile/referral-program.svg" />
+          <img class="profile-navbar__navbar__bottom-nav__item__link__img-active" src="assets/icons/profile/referral-program-active.svg" />
+          <div data-i18n="account_layout.Referral_Program"></div>
+        </a>
+      </li>
+      <li class="profile-navbar__navbar__bottom-nav__item">
+        <a href="/inbox.html" class="profile-navbar__navbar__bottom-nav__item__link @@if (context.active == 12) {active}">
+          <img class="profile-navbar__navbar__bottom-nav__item__link__img" src="assets/icons/profile/inbox.svg" />
+          <img class="profile-navbar__navbar__bottom-nav__item__link__img-active" src="assets/icons/profile/inbox-active.svg" />
+          <div data-i18n="account_layout.Inbox"></div>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+
+@@include('../select-profile-picture-modal.html')

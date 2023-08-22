@@ -1,0 +1,194 @@
+.login {
+  min-height: 100vh;
+  text-align: center;
+  overflow: hidden; }
+  .login video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    object-fit: cover;
+    z-index: -1;
+    min-width: 100%;
+    min-height: 100%; }
+  .login__container {
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: auto; }
+    .login__container__content {
+      display: flex;
+      place-content: center;
+      place-items: center;
+      flex-direction: column;
+      max-width: 310px;
+      padding: 15px 0;
+      min-height: 100vh;
+      margin: auto; }
+      .login__container__content__top {
+        width: 100%; }
+        .login__container__content__top__logo {
+          width: 100%;
+          margin-bottom: 20px; }
+        .login__container__content__top__logo1 {
+          display: flex;
+          place-content: center;
+          place-items: center;
+          gap: 60px;
+          margin-bottom: 40px; }
+      .login__container__content__form {
+        width: 100%; }
+        .login__container__content__form h1 {
+          font-family: 'Aldo the Apache';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 36px;
+          line-height: 31px;
+          text-align: center;
+          text-transform: uppercase;
+          /* VIP gold gradient */
+          background: linear-gradient(38.14deg, #C9AF92 47.15%, #E5D6C3 89.33%);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          background-clip: text;
+          text-fill-color: transparent;
+          text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25); }
+        .login__container__content__form h3 {
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 19px;
+          text-align: center;
+          /* VIP gold gradient */
+          background: linear-gradient(38.14deg, #C9AF92 47.15%, #E5D6C3 89.33%);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          background-clip: text;
+          text-fill-color: transparent;
+          text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25); }
+        .login__container__content__form h5 {
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 16px;
+          text-align: center;
+          color: #FFFFFF;
+          text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+          margin: 15px 0; }
+        .login__container__content__form h4 {
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 19px;
+          text-align: center;
+          color: #FFFFFF;
+          text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+          margin-bottom: 15px; }
+        .login__container__content__form .thank-you-bg {
+          max-width: 400px;
+          margin-left: -45px; }
+        .login__container__content__form .input-group {
+          background: rgba(255, 255, 255, 0.5);
+          border-radius: 20px;
+          margin-bottom: 20px; }
+          .login__container__content__form .input-group .input-group-text {
+            background-color: transparent;
+            border: none; }
+            .login__container__content__form .input-group .input-group-text img {
+              width: 25px; }
+          .login__container__content__form .input-group .form-control {
+            background-color: transparent;
+            border: none;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 16px;
+            color: #FFFFFF;
+            height: 40px;
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px; }
+            .login__container__content__form .input-group .form-control::placeholder {
+              font-weight: 400;
+              font-size: 14px;
+              line-height: 16px;
+              color: #FFFFFF; }
+            .login__container__content__form .input-group .form-control:focus {
+              box-shadow: none; }
+            .login__container__content__form .input-group .form-control:-webkit-autofill, .login__container__content__form .input-group .form-control:-webkit-autofill:hover, .login__container__content__form .input-group .form-control:-webkit-autofill:focus, .login__container__content__form .input-group .form-control:-webkit-autofill:active {
+              -webkit-box-shadow: 0 0 0 30px white inset !important; }
+        .login__container__content__form .remember-password {
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 14px;
+          display: flex;
+          align-items: center;
+          color: #FFFFFF;
+          display: flex;
+          place-content: space-between;
+          place-items: center;
+          margin-bottom: 30px; }
+          .login__container__content__form .remember-password .form-check {
+            display: flex;
+            place-content: flex-start;
+            place-items: center;
+            gap: 10px;
+            margin-bottom: 0; }
+            .login__container__content__form .remember-password .form-check .form-check-input {
+              border-radius: 50%;
+              width: 18px;
+              height: 18px;
+              margin-top: 0; }
+          .login__container__content__form .remember-password a {
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14px;
+            display: flex;
+            align-items: center;
+            color: #FFFFFF; }
+        .login__container__content__form .login-btn {
+          margin-bottom: 15px; }
+          .login__container__content__form .login-btn .btn {
+            border-color: transparent;
+            background: rgba(89, 126, 247, 0.5);
+            border-radius: 20px;
+            height: 40px;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 21px;
+            text-align: center;
+            color: #FFFFFF;
+            width: 100%;
+            text-transform: uppercase;
+            display: flex;
+            place-content: center;
+            place-items: center; }
+            .login__container__content__form .login-btn .btn:hover {
+              background: #597ef7; }
+            .login__container__content__form .login-btn .btn.deposit_now {
+              background-color: #597EF7; }
+        .login__container__content__form .dont-have-an-account {
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 16px;
+          color: #FFFFFF;
+          text-align: left;
+          display: flex;
+          place-content: space-between;
+          place-items: flex-start; }
+          .login__container__content__form .dont-have-an-account > a {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 16px;
+            text-align: right;
+            color: #FFFFFF; }
+        .login__container__content__form .customer-service {
+          margin-top: 80px;
+          display: flex;
+          place-items: center;
+          place-content: center;
+          gap: 15px;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 16px;
+          text-align: center;
+          color: #FFFFFF; }
+          .login__container__content__form .customer-service img {
+            width: 28px; }

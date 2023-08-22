@@ -1,0 +1,11 @@
+<nav class="mobile-navbar navbar fixed-top navbar-light nav-child">
+  <div class="container-fluid content @@if (!context.back_url && !context.help_url) {justify-content-center}">
+    @@if (!!context.back_url) {
+      <a id="back_url" class="@@if (!!context.use_back_url) {use_back_url}" href="@@back_url">
+        <img src="assets/icons/icon_back.png" alt="" />
+      </a>
+    }
+    <div class="title" data-i18n="@@title"></div>
+    <div></div>
+  </div>
+</nav>

@@ -1,0 +1,117 @@
+.sports-page {
+  background-image: url(../images/sports/bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 0;
+  padding-top: 0;
+  min-height: 800px;
+  margin-top: 115px; }
+  .sports-page__container #carouselSports .carousel-indicators {
+    margin: 0;
+    flex-direction: column;
+    padding: 30px 15px;
+    right: 0;
+    left: auto;
+    top: 0;
+    bottom: 0; }
+    .sports-page__container #carouselSports .carousel-indicators button {
+      width: auto;
+      height: auto;
+      text-indent: initial;
+      margin: 0;
+      position: relative;
+      display: flex;
+      place-content: center;
+      place-items: center;
+      min-width: 185px;
+      min-height: 110px;
+      background-image: url(../images/sports/tab-bg.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+      background-color: transparent;
+      border: none;
+      opacity: 1;
+      font-family: 'Aldo the Apache';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 30px;
+      line-height: 26px;
+      text-align: center;
+      color: #597EF7; }
+      .sports-page__container #carouselSports .carousel-indicators button span {
+        transform: matrix(1, -0.08, 0.02, 1, 0, 0); }
+      .sports-page__container #carouselSports .carousel-indicators button:hover {
+        opacity: 0.8; }
+      .sports-page__container #carouselSports .carousel-indicators button.active {
+        background-image: url(../images/sports/tab-bg-active.png);
+        color: #FFFFFF; }
+  .sports-page__container #carouselSports .carousel-indicators-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0; }
+  .sports-page__container #carouselSports .carousel-inner .carousel-item.saba .cup {
+    max-width: 124px;
+    position: absolute;
+    bottom: 50px;
+    left: 10%; }
+  .sports-page__container #carouselSports .carousel-inner .carousel-item.saba .ball {
+    max-width: 92px;
+    position: absolute;
+    bottom: 0px;
+    right: 10%; }
+  .sports-page__container #carouselSports .carousel-inner .carousel-item.cmd368 .multiple-cup {
+    max-width: 180px;
+    position: absolute;
+    bottom: 50px;
+    right: 10%; }
+  .sports-page__container #carouselSports .carousel-inner .carousel-item.m8bet .multiple-cup {
+    max-width: 180px;
+    position: absolute;
+    bottom: 0px;
+    left: 15%; }
+  .sports-page__container #carouselSports .carousel-inner .carousel-item.m8bet .ball {
+    max-width: 92px;
+    position: absolute;
+    bottom: 0px;
+    right: 10%; }
+  .sports-page__container #carouselSports .carousel-inner .carousel-item .sports-item {
+    place-items: center;
+    padding: 0;
+    position: relative;
+    margin: 0 auto; }
+    .sports-page__container #carouselSports .carousel-inner .carousel-item .sports-item__content__title {
+      font-family: 'Aldo the Apache';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 120px;
+      line-height: 110px;
+      color: #597EF7;
+      margin-top: 30px; }
+    .sports-page__container #carouselSports .carousel-inner .carousel-item .sports-item__content__description {
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 22px;
+      color: #3651A8; }
+    .sports-page__container #carouselSports .carousel-inner .carousel-item .sports-item__content__action {
+      margin-top: 50px; }
+      .sports-page__container #carouselSports .carousel-inner .carousel-item .sports-item__content__action a {
+        background-image: url(../images/sports/play-now-btn.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 210px;
+        height: 70px;
+        display: flex;
+        place-content: center;
+        place-items: center;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 20px;
+        text-align: center;
+        color: #FFFFFF; }
+        .sports-page__container #carouselSports .carousel-inner .carousel-item .sports-item__content__action a:hover {
+          opacity: 0.8; }

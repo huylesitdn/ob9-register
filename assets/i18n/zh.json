@@ -1,0 +1,106 @@
+{
+  "languages": {
+    "malaysia": "马来西亚",
+    "singapore": "新加坡",
+    "vietnam": "越南",
+    "international": "国际"
+  },
+  "login": "登入",
+  "register": "注册",
+  "top_menu": {
+    "Homepage": "网站首页",
+    "Support_Live_Chat": "在线客服",
+    "Welcome_username8080": "欢迎您, <span>username8080</span>",
+    "Total_Balance": "总资产:",
+    "Deposit": "存款",
+    "Withdraw": "提款",
+    "Rebate": "返水",
+    "Forgot": "忘记密码？",
+    "": "",
+    "": ""
+  },
+  "home": "首页",
+  "wallet": "钱包",
+  "promotion": "优惠",
+  "sponsors": "赞助",
+  "my_account": "我的",
+  "universal_page": {
+    "Malaysia": "马来西亚",
+    "Singapore": "新加坡",
+    "Thailand": "泰国",
+    "Vietnam": "越南",
+    "Indonesia": "印尼",
+    "International": "国际",
+    "PLAY_NOW": "马上开始"
+  },
+  "navbar": {
+    "Home": "首页",
+    "SPORTS": "体育赛事",
+    "LIVE_CASINO": "真人娱乐",
+    "SLOTS": "老虎机",
+    "FISHING": "捕鱼",
+    "E_SPORTS": "电子竞技",
+    "LOTTERY": "彩票",
+    "Customer_Service": "客服",
+    "Promotion": "优惠",
+    "Sponsor": "赞助",
+    "VIP": "VIP",
+    "Malaysia": "马来西亚",
+    "SPORTS_DROPROWN": {
+      "title1":"SABA 体育",
+      "description1":"全民互动体育直播赛事",
+      "title2":"CMD368 体育",
+      "description2":"多元化的万场投注赛事",
+      "title3":"M8BET 体育",
+      "description3":"全亚洲口碑最佳的品牌",
+      "SPORTS_EVENT_title": "体育赛事",
+      "SPORTS_EVENT_desciption": "最高返水",
+      "":"",
+      "":"",
+      "":"",
+      "":""
+    },
+    "FIRSHING_DROPROWN": {
+      "title1":"捕鱼天王",
+      "description1":"这片海洋被您承包了",
+      "title2":"捕鱼大战",
+      "description2":"全新捕鱼游戏 享受视觉盛宴",
+      "":""
+    },
+    "LOTTERY_DROPROWN": {
+      "title1":"彩票",
+      "description1":"旗舰彩种 应有尽有",
+      "":""
+    },
+    "": ""
+  },
+  "footer": {
+    "description": "欧宝拥有欧洲马耳他MGA和菲律宾政府 （PAGCOR） 颁发的合法牌照。注册于英属维尔京群岛，是受国际协会认可的合法公司。<br/>进行注册并娱乐前，请确保您满18周岁！",
+    "certification1": "马耳他牌照（MGA）认证",
+    "certification2": "英属维尔京群岛(BVI)认证",
+    "certification3": "菲律宾（PAGCOR）监督牌照",
+    "Help_Center": "帮助中心",
+    "Gaming_Responsible": "Gaming Responsible",
+    "Privacy_Protection": "Privacy Protection",
+    "Terms_Conditions": "Terms & Conditions",
+    "Sponsor": "赞助",
+    "About_Us": "关于我们",
+    "Contact_Us": "联系我们",
+    "Referral_Programme": "好友推荐",
+    "copyright": "版权所有 © 2021-2022 欧宝 保留所有权",
+    "": ""
+  },
+  "register_page": {
+    "banner": "assets/images/register/zh-frame.png",
+    "username": "Username*",
+    "new_password": "New Password*",
+    "comfirm_password": "Confirm Password*",
+    "next": "NEXT",
+    "step_1_description_1": "By clicking the <a href=\"/\">REGISTER</a> button, I hereby acknowledge  that I am above 18 years old and have read and accepted nyou <a href=\"/\">Terms & Conditions</a>",
+    "step_1_description_2": "Already have account? <a href=\"/\">LOGIN</a>",
+    "": "",
+    "": "" 
+  },
+  "": "",
+  "": ""
+}

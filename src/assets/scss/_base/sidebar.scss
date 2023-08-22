@@ -1,0 +1,170 @@
+#mySidenav {
+
+  &.sidenav {
+    // height: 100%;
+    width: 100%;
+    position: fixed;
+    // z-index: 0;
+    z-index: 1035;
+    top: 0;
+    bottom: 0;
+    left: -500%;
+    overflow-x: hidden;
+    transition: 0.5s;
+    display: flex;
+    max-width: var(--max-with-mobile);
+
+    .left-nav {
+      width: 75%;
+      background-color: #fff;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      place-content: space-between;
+      max-width: 300px;
+      min-width: 300px;
+      overflow: auto;
+
+      &__top {
+        &__info {
+          background-image: url(../images/menu-bg.png);
+          background-repeat: no-repeat;
+          background-size: cover;
+          padding: 20px 15px;
+          display: flex;
+          place-content: center;
+          place-items: center;
+          gap: 15px;
+          color: #fff;
+
+          &__user-info {
+            color: #fff;
+          }
+
+          &__avatar {
+            max-width: 80px;
+          }
+
+          h3 {
+            font-style: normal;
+            font-size: 20px;
+            line-height: 14px;
+            border-bottom: 1px solid #FFFFFF;
+            padding-bottom: 10px;
+            margin-bottom: 10px;
+            padding-top: 5px;
+            font-weight: 300;
+          }
+
+          p {
+            font-size: 12px;
+            line-height: 14px;
+            margin-bottom: 5px;
+          }
+
+          div {
+            font-style: normal;
+            font-size: 18px;
+            line-height: 14px;
+          }
+        }
+
+        &__nav {
+          padding: 15px;
+          list-style: none;
+
+          &__item {
+            a {
+              position: relative;
+              display: flex;
+              place-items: center;
+              gap: 15px;
+              text-decoration: none;
+
+              div {
+                // max-width: 25px;
+                text-align: center;
+                width: 30px;
+
+                img {
+                  max-width: 25px;
+                  max-height: 25px;
+                  // width: 100%;
+                }
+              }
+
+              span {
+                width: 100%;
+                border-bottom: 1px solid #7F7F7F;
+                padding: 15px 0;
+                font-style: normal;
+                font-size: 14px;
+                line-height: 14px;
+                color: #000000;
+              }
+
+              .badge {
+                position: absolute;
+                right: 0;
+              }
+            }
+          }
+        }
+      }
+
+      &__bottom {
+        &__follow-us {
+          text-align: center;
+
+          div {
+            padding: 15px;
+
+            img {
+              max-width: 30px;
+              max-height: 30px;
+              margin: 0 10px;
+            }
+          }
+
+          span {
+            font-style: normal;
+            font-size: 14px;
+            line-height: 14px;
+            color: #000000;
+          }
+        }
+
+        &__logout {
+          border-top: 1px solid #7F7F7F;
+          text-align: center;
+          padding: 15px;
+          font-style: normal;
+          font-size: 14px;
+          line-height: 14px;
+
+          a {
+            color: #000000;
+            text-decoration: none;
+          }
+
+          img {
+            margin-right: 15px;
+            max-width: 20px;
+          }
+        }
+      }
+    }
+
+    .backdrop {
+      transition: 1s;
+      background: rgba(0, 0, 0, 0.3);
+      height: 100%;
+      // width: 25%;
+      width: inherit;
+    }
+
+    &.active {
+      left: 0;
+    }
+  }
+}

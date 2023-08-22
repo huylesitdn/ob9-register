@@ -1,0 +1,209 @@
+.cryptocurrency-introduction {
+  background-color: #f2f2f2;
+  padding-bottom: 100px; }
+  .cryptocurrency-introduction .nav-child .title {
+    font-size: 15px !important; }
+  .cryptocurrency-introduction__content__warning {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FF0000;
+    padding: 15px; }
+  .cryptocurrency-introduction__content__items {
+    position: relative;
+    background-color: #fff;
+    padding: 40px 15px 15px 15px;
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: justify; }
+    .cryptocurrency-introduction__content__items__title {
+      display: flex;
+      place-content: center;
+      place-items: center;
+      margin-bottom: 15px; }
+      .cryptocurrency-introduction__content__items__title span {
+        font-family: 'Aldo the Apache';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+        color: #597EF7;
+        position: relative;
+        display: flex;
+        place-content: center;
+        place-items: center;
+        min-width: 250px;
+        margin-bottom: 20px; }
+        .cryptocurrency-introduction__content__items__title span::after {
+          position: absolute;
+          width: 90px;
+          height: 15px;
+          left: -100px;
+          content: "";
+          background-image: url(../images/home/games_title1.png);
+          background-size: contain;
+          background-repeat: no-repeat; }
+        .cryptocurrency-introduction__content__items__title span::before {
+          position: absolute;
+          width: 90px;
+          height: 15px;
+          right: -100px;
+          content: "";
+          background-image: url(../images/home/games_title2.png);
+          background-size: contain;
+          background-repeat: no-repeat; }
+      .cryptocurrency-introduction__content__items__title.long span::after {
+        left: -110px; }
+      .cryptocurrency-introduction__content__items__title.long span::before {
+        right: -110px; }
+    .cryptocurrency-introduction__content__items__subtitle {
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 16px;
+      text-align: justify;
+      color: #666;
+      margin-bottom: 5px; }
+    .cryptocurrency-introduction__content__items__subtitle1 {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 16px;
+      text-align: justify;
+      color: #999;
+      margin-bottom: 5px; }
+    .cryptocurrency-introduction__content__items__description {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 16px;
+      text-align: justify;
+      color: #000000;
+      margin-bottom: 15px; }
+    .cryptocurrency-introduction__content__items__table {
+      border: 1px solid #fff;
+      border-bottom: none; }
+      .cryptocurrency-introduction__content__items__table .table {
+        margin-bottom: 0;
+        border-collapse: collapse;
+        overflow: hidden;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        color: #000000; }
+        .cryptocurrency-introduction__content__items__table .table > :not(:first-child) {
+          border-top: 1px solid #fff; }
+        .cryptocurrency-introduction__content__items__table .table thead {
+          border-color: #fff; }
+          .cryptocurrency-introduction__content__items__table .table thead tr th {
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 14px;
+            color: #000000;
+            height: 50px;
+            background: #E5ECFE;
+            text-align: center;
+            vertical-align: middle; }
+        .cryptocurrency-introduction__content__items__table .table tbody tr {
+          border-color: #fff; }
+          .cryptocurrency-introduction__content__items__table .table tbody tr th {
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 14px;
+            height: 50px;
+            vertical-align: middle;
+            text-align: center;
+            background: #F9FBFE; }
+          .cryptocurrency-introduction__content__items__table .table tbody tr td {
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14px;
+            text-align: center;
+            height: 50px;
+            vertical-align: middle;
+            text-align: center;
+            background: #F9FBFE; }
+          .cryptocurrency-introduction__content__items__table .table tbody tr:nth-of-type(odd) > * {
+            --bs-table-accent-bg: #fff; }
+    .cryptocurrency-introduction__content__items__item1 {
+      margin: 15px -8px 0 -8px; }
+      .cryptocurrency-introduction__content__items__item1__content {
+        padding-left: 8px;
+        padding-right: 8px; }
+        .cryptocurrency-introduction__content__items__item1__content > div {
+          background: #FFFFFF;
+          border: 1px solid #EEEEEE;
+          box-sizing: border-box;
+          box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15);
+          border-radius: 10px;
+          padding: 20px 8px;
+          height: 100%;
+          text-align: center; }
+          .cryptocurrency-introduction__content__items__item1__content > div .title {
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 16px;
+            text-align: center;
+            color: #000;
+            margin: 10px 0 15px;
+            display: flex;
+            place-items: center;
+            place-content: flex-start; }
+          .cryptocurrency-introduction__content__items__item1__content > div .description {
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14px;
+            text-align: justify;
+            color: #666; }
+    .cryptocurrency-introduction__content__items__item2 > div[class*="col-"] {
+      padding-left: 8px;
+      padding-right: 8px; }
+    .cryptocurrency-introduction__content__items__item2__content {
+      border: 1px solid #EEEEEE;
+      box-sizing: border-box;
+      box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15);
+      border-radius: 10px;
+      background: #FFFFFF;
+      place-items: center;
+      margin-bottom: 15px;
+      margin-left: 0;
+      margin-right: 0; }
+      .cryptocurrency-introduction__content__items__item2__content .popular-icon {
+        max-width: 100px;
+        margin: auto; }
+      .cryptocurrency-introduction__content__items__item2__content > div:last-child {
+        padding: 15px 10px 15px 0;
+        height: 100%; }
+        .cryptocurrency-introduction__content__items__item2__content > div:last-child .title {
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 16px;
+          color: #000;
+          margin-bottom: 15px; }
+        .cryptocurrency-introduction__content__items__item2__content > div:last-child .description {
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 16px;
+          text-align: justify;
+          color: #666; }
+          .cryptocurrency-introduction__content__items__item2__content > div:last-child .description ul {
+            padding-left: 15px; }
+            .cryptocurrency-introduction__content__items__item2__content > div:last-child .description ul li {
+              padding-bottom: 5px;
+              margin-bottom: 15px;
+              font-weight: 400;
+              font-size: 14px !important;
+              line-height: 16px !important; }
+              .cryptocurrency-introduction__content__items__item2__content > div:last-child .description ul li:last-child {
+                padding-bottom: 0; }
+    .cryptocurrency-introduction__content__items ul {
+      margin-bottom: 0; }
+      .cryptocurrency-introduction__content__items ul li {
+        padding-bottom: 15px;
+        font-weight: 400;
+        font-size: 14px !important;
+        line-height: 16px !important;
+        color: #666 !important;
+        margin-bottom: 5px !important; }
+        .cryptocurrency-introduction__content__items ul li:last-child {
+          padding-bottom: 0; }

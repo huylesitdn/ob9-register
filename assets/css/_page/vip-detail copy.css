@@ -1,0 +1,235 @@
+.vip-detail-page .vip-detail-page__content {
+  background: #EFF7FF;
+  position: relative;
+  padding: 20px; }
+  .vip-detail-page .vip-detail-page__content__vip0 {
+    position: absolute;
+    left: 20px;
+    top: 0;
+    max-width: 120px; }
+  .vip-detail-page .vip-detail-page__content__check-vip-detail {
+    position: absolute;
+    right: 0;
+    top: 30px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    background: #597EF7;
+    border-radius: 20px 0px 0px 20px;
+    padding: 10px 15px; }
+    .vip-detail-page .vip-detail-page__content__check-vip-detail:hover {
+      opacity: 0.8; }
+  .vip-detail-page .vip-detail-page__content__accumulated {
+    place-content: center;
+    padding-top: 35px; }
+    .vip-detail-page .vip-detail-page__content__accumulated__item {
+      filter: drop-shadow(0px 3px 4px rgba(134, 204, 255, 0.25));
+      background: linear-gradient(180deg, #E4F2FF 0%, #FFFFFF 100%);
+      border-radius: 0px 0px 10px 10px;
+      border-top: 2px solid #597EF7;
+      padding: 15px;
+      display: flex;
+      place-content: flex-start;
+      place-items: center;
+      gap: 15px;
+      min-height: 88px; }
+      .vip-detail-page .vip-detail-page__content__accumulated__item__img img {
+        max-width: 40px; }
+      .vip-detail-page .vip-detail-page__content__accumulated__item__text__currency {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+        color: #333333;
+        margin-bottom: 2px; }
+      .vip-detail-page .vip-detail-page__content__accumulated__item__text__description {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #333333; }
+  .vip-detail-page .vip-detail-page__content__vip-timeline {
+    display: flex;
+    place-content: space-between;
+    place-items: center;
+    margin-top: 30px; }
+    .vip-detail-page .vip-detail-page__content__vip-timeline span {
+      width: 100%;
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 14px;
+      text-align: center;
+      color: #8590A6;
+      text-transform: uppercase;
+      position: relative; }
+      .vip-detail-page .vip-detail-page__content__vip-timeline span::before {
+        content: "";
+        position: absolute;
+        bottom: -18px;
+        left: 0;
+        height: 6px;
+        width: 100%;
+        background: #8590A6;
+        box-shadow: 0px 1px 4px rgba(189, 193, 208, 0.25); }
+      .vip-detail-page .vip-detail-page__content__vip-timeline span::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        display: flex;
+        place-content: center;
+        place-items: center;
+        margin: auto;
+        bottom: -24px;
+        width: 18px;
+        height: 18px;
+        background: #fff;
+        border: 4px solid #8590A6;
+        border-radius: 50%;
+        z-index: 1; }
+      .vip-detail-page .vip-detail-page__content__vip-timeline span:first-child::before {
+        left: 50%; }
+      .vip-detail-page .vip-detail-page__content__vip-timeline span:last-child::before {
+        left: -50%; }
+      .vip-detail-page .vip-detail-page__content__vip-timeline span.active {
+        color: #F98F0F; }
+        .vip-detail-page .vip-detail-page__content__vip-timeline span.active::after {
+          border-color: #F98F0F; }
+  .vip-detail-page .vip-detail-page__content__next-level {
+    margin-top: 50px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0px 3px 4px rgba(134, 204, 255, 0.25);
+    position: relative;
+    padding: 20px; }
+    .vip-detail-page .vip-detail-page__content__next-level::before {
+      content: "";
+      position: absolute;
+      top: -20px;
+      left: 27px;
+      width: 22px;
+      height: 35px;
+      background-image: url(../images/vip/Union.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center; }
+    .vip-detail-page .vip-detail-page__content__next-level .title {
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 19px;
+      color: #F3820F;
+      margin-bottom: 15px; }
+    .vip-detail-page .vip-detail-page__content__next-level .currency {
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 14px;
+      color: #333333;
+      margin-bottom: 15px; }
+    .vip-detail-page .vip-detail-page__content__next-level .description {
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 14px;
+      color: #8590A6; }
+  .vip-detail-page .vip-detail-page__content__vip-0-privilege {
+    margin-top: 30px; }
+    .vip-detail-page .vip-detail-page__content__vip-0-privilege .title {
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 21px;
+      color: #333333;
+      margin-top: 50px; }
+    .vip-detail-page .vip-detail-page__content__vip-0-privilege .content {
+      margin: 15px 0;
+      text-align: center; }
+      .vip-detail-page .vip-detail-page__content__vip-0-privilege .content > div {
+        min-height: 190px;
+        display: flex;
+        place-content: center;
+        place-items: center;
+        flex-direction: column;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+        color: #333333;
+        box-shadow: 0px 3px 4px rgba(134, 204, 255, 0.25); }
+        .vip-detail-page .vip-detail-page__content__vip-0-privilege .content > div > div {
+          min-height: 35px; }
+        .vip-detail-page .vip-detail-page__content__vip-0-privilege .content > div img {
+          max-width: 40px;
+          margin-bottom: 5px; }
+        .vip-detail-page .vip-detail-page__content__vip-0-privilege .content > div:first-child {
+          border-radius: 10px 0px 0px 10px; }
+        .vip-detail-page .vip-detail-page__content__vip-0-privilege .content > div:last-child {
+          border-radius: 0px 10px 10px 0px; }
+        .vip-detail-page .vip-detail-page__content__vip-0-privilege .content > div:nth-child(odd) {
+          background: #FFFFFF; }
+        .vip-detail-page .vip-detail-page__content__vip-0-privilege .content > div:nth-child(even) {
+          background: linear-gradient(193.77deg, #E8F2FD 9.84%, #F6FAFF 97.9%); }
+  .vip-detail-page .vip-detail-page__content__VIP-Cash-Rebate .title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #333333;
+    margin-top: 50px; }
+  .vip-detail-page .vip-detail-page__content__VIP-Cash-Rebate .description {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #8590A6;
+    margin-top: 20px; }
+  .vip-detail-page .vip-detail-page__content__VIP-Cash-Rebate .btn {
+    width: 400px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    height: 50px;
+    display: flex;
+    place-content: center;
+    place-items: center;
+    margin: 50px auto 10px; }
+  .vip-detail-page .vip-detail-page__content__VIP-Cash-Rebate .table {
+    background: #EBEBEB;
+    margin-top: 15px;
+    border-radius: 10px 10px 0px 0px;
+    overflow: hidden; }
+    .vip-detail-page .vip-detail-page__content__VIP-Cash-Rebate .table > :not(:first-child) {
+      border-top: 1px solid #EBEBEB; }
+    .vip-detail-page .vip-detail-page__content__VIP-Cash-Rebate .table thead tr th {
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 14px;
+      text-align: center;
+      color: #000000;
+      vertical-align: middle;
+      border: 1px solid #EBEBEB;
+      background: #F4F6F9;
+      height: 50px;
+      text-transform: uppercase; }
+      .vip-detail-page .vip-detail-page__content__VIP-Cash-Rebate .table thead tr th:first-child {
+        border-top-left-radius: 10px;
+        text-transform: initial; }
+      .vip-detail-page .vip-detail-page__content__VIP-Cash-Rebate .table thead tr th:last-child {
+        border-top-right-radius: 10px; }
+    .vip-detail-page .vip-detail-page__content__VIP-Cash-Rebate .table tbody tr th {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 16px;
+      color: #333333;
+      background-color: #fff;
+      height: 40px;
+      vertical-align: middle;
+      border: 1px solid #EBEBEB;
+      text-align: center; }
+    .vip-detail-page .vip-detail-page__content__VIP-Cash-Rebate .table tbody tr td {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 16px;
+      color: #333333;
+      background-color: #fff;
+      border: 1px solid #EBEBEB;
+      height: 40px;
+      vertical-align: middle;
+      text-align: center; }

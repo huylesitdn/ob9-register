@@ -1,0 +1,124 @@
+.my-wallet-page__content__title {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 26px;
+  color: #383B43;
+  text-transform: uppercase;
+  margin-bottom: 15px; }
+
+.my-wallet-page__content__card {
+  background: #FFFFFF;
+  border: 1px solid #EBEBEB;
+  box-sizing: border-box;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 50px; }
+  .my-wallet-page__content__card__title {
+    padding: 15px;
+    border-bottom: 1px solid #EBEBEB;
+    background: #F2F5F8; }
+    .my-wallet-page__content__card__title span {
+      border-left: 2px solid #4B5E6F;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 16px;
+      color: #383B43;
+      padding-left: 15px; }
+  .my-wallet-page__content__card__balance {
+    padding: 20px; }
+    .my-wallet-page__content__card__balance__item {
+      background: #FFFFFF;
+      border: 1px solid #EBEBEB;
+      box-sizing: border-box;
+      border-radius: 10px;
+      padding: 15px;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 16px;
+      color: #383B43;
+      height: 100%; }
+      .my-wallet-page__content__card__balance__item.left {
+        display: flex;
+        place-content: flex-start;
+        place-items: center;
+        gap: 20px; }
+        .my-wallet-page__content__card__balance__item.left img {
+          max-width: 20px;
+          max-height: 20px; }
+        .my-wallet-page__content__card__balance__item.left .currency {
+          font-weight: 600;
+          font-size: 24px;
+          line-height: 28px;
+          color: #383B43; }
+      .my-wallet-page__content__card__balance__item.right {
+        display: flex;
+        place-content: space-between;
+        place-items: center; }
+        .my-wallet-page__content__card__balance__item.right a {
+          display: flex;
+          place-content: center;
+          place-items: center;
+          flex-direction: column;
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 16px;
+          text-align: center;
+          margin-top: -10px;
+          color: #383B43; }
+          .my-wallet-page__content__card__balance__item.right a img {
+            max-width: 55px; }
+  .my-wallet-page__content__card__Recent_Transaction {
+    padding: 15px; }
+    .my-wallet-page__content__card__Recent_Transaction .table {
+      background: #fff;
+      margin-top: 15px;
+      border-radius: 10px 10px 0px 0px;
+      overflow: hidden; }
+      .my-wallet-page__content__card__Recent_Transaction .table > :not(:first-child) {
+        border-top: 1px solid #EBEBEB; }
+      .my-wallet-page__content__card__Recent_Transaction .table thead tr th {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 14px;
+        text-align: center;
+        color: #4B5E6F;
+        vertical-align: middle;
+        border: none;
+        height: 50px;
+        background: #E9EDF8; }
+        .my-wallet-page__content__card__Recent_Transaction .table thead tr th:first-child {
+          border-top-left-radius: 10px;
+          border-bottom-left-radius: 10px; }
+        .my-wallet-page__content__card__Recent_Transaction .table thead tr th:last-child {
+          border-top-right-radius: 10px;
+          border-bottom-right-radius: 10px; }
+      .my-wallet-page__content__card__Recent_Transaction .table tbody {
+        border-top: none !important; }
+        .my-wallet-page__content__card__Recent_Transaction .table tbody tr th {
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 16px;
+          color: #333333;
+          background-color: #fff;
+          height: 40px;
+          vertical-align: middle;
+          border: none;
+          text-align: center; }
+        .my-wallet-page__content__card__Recent_Transaction .table tbody tr td {
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 14px;
+          text-align: center;
+          color: #000000;
+          background-color: #fff;
+          border: none;
+          height: 70px;
+          text-align: center;
+          vertical-align: middle; }
+          .my-wallet-page__content__card__Recent_Transaction .table tbody tr td img {
+            max-width: 30px;
+            margin-right: 5px; }
+          .my-wallet-page__content__card__Recent_Transaction .table tbody tr td.success {
+            color: #0FA54B; }
+          .my-wallet-page__content__card__Recent_Transaction .table tbody tr td.failed {
+            color: #FF0000; }

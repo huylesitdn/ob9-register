@@ -1,0 +1,77 @@
+<div id="liveAlertPlaceholder"></div>
+
+<div class="my-navbar">
+  <nav class="my-navbar__top navbar fixed-top navbar-expand-lg">
+    <div class="my-navbar__top__container container">
+      <span class="navbar-text pe-3">
+        GMT+8 2022-02-18 11:49:21
+      </span>
+      <ul class="navbar-nav me-auto nav-left">
+        <li class="nav-item">
+          <a class="nav-link" href="/" data-i18n="top_menu.Homepage"></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="javascript:void(0)">
+            <div class="vr"></div>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="javascript:void(0)" data-i18n="top_menu.Support_Live_Chat"></a>
+        </li>
+      </ul>
+      <ul class="navbar-nav ms-auto nav-right">
+        <li class="nav-item nav-info welcome">
+          <a class="nav-link pe-0" aria-current="page" href="/vip-detail.html">
+            <span data-i18n="top_menu.Welcome_username8080"></span>
+            <img src="assets/icons/vip-0.svg" />
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="javascript:void(0)">
+            <div class="vr"></div>
+          </a>
+        </li>
+        <li class="nav-item nav-info">
+          <a class="nav-link ps-0" aria-current="page" href="/my-wallet.html">
+            <img class="toggleBalance" src="assets/icons/eye.png" />
+            <span data-i18n="top_menu.Total_Balance"></span>
+            <span id="balanceCurrency" class="currency">MYR 5888.20</span>
+            <img class="refresh-balance" src="assets/icons/refresh.svg" />
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/deposit.html" data-i18n="top_menu.Deposit"></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/withdrawal.html" data-i18n="top_menu.Withdraw"></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/transaction-history-rebate.html" data-i18n="top_menu.Rebate"></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="javascript:void(0)">
+            <div class="vr"></div>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/inbox.html">
+            <img src="assets/icons/ring.png" />
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/universal.html">
+            <img src="assets/icons/logout.png" />
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  @@include('./navbar-content.html', {active: '@@active'})
+
+
+  <!-- SELECT LANGUAGE MODAL -->
+  @@include('./select-language-modal.html')
+  <!-- SELECT LANGUAGE MODAL -->
+  
+</div>

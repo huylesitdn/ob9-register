@@ -1,0 +1,281 @@
+.withdrawal-page__content {
+  padding: 30px; }
+  .withdrawal-page__content__title {
+    margin-bottom: 15px;
+    display: flex;
+    place-content: space-between;
+    place-items: flex-end;
+    border-bottom: 1px solid #EBEBEB;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #383B43; }
+    .withdrawal-page__content__title a {
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 16px;
+      color: #383B43; }
+      .withdrawal-page__content__title a img {
+        max-width: 14px; }
+    .withdrawal-page__content__title .title {
+      font-weight: 600;
+      font-size: 22px;
+      line-height: 26px;
+      color: #383B43;
+      text-transform: uppercase;
+      margin-right: 5px; }
+    .withdrawal-page__content__title .subtitle {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 16px;
+      color: #94A6B7; }
+  .withdrawal-page__content__main-wallet__item {
+    background: #FFFFFF;
+    border: 1px solid #A5A9B3;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 20px 15px;
+    display: flex;
+    place-content: flex-start;
+    place-items: center;
+    gap: 10px; }
+    .withdrawal-page__content__main-wallet__item__img img {
+      max-width: 40px; }
+    .withdrawal-page__content__main-wallet__item__title {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 16px;
+      color: #4B5E6F;
+      margin-bottom: 5px; }
+    .withdrawal-page__content__main-wallet__item__currency {
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 28px;
+      color: #333333; }
+      .withdrawal-page__content__main-wallet__item__currency img {
+        max-width: 20px; }
+  .withdrawal-page__content__bank-account {
+    margin-top: 50px; }
+    .withdrawal-page__content__bank-account__label {
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 16px;
+      color: #383B43;
+      margin-bottom: 15px; }
+    .withdrawal-page__content__bank-account__container .select-bank__item {
+      margin-bottom: 0; }
+      .withdrawal-page__content__bank-account__container .select-bank__item:nth-child(3) img {
+        max-width: 60px !important; }
+    .withdrawal-page__content__bank-account__container .select-bank__item__label, .withdrawal-page__content__bank-account__container__item {
+      background: #FFFFFF;
+      border: 1px solid #EBEBEB;
+      box-sizing: border-box;
+      border-radius: 10px;
+      display: flex;
+      place-content: center;
+      place-items: center;
+      flex-direction: column;
+      gap: 10px;
+      min-height: 120px;
+      transition: .3s; }
+      .withdrawal-page__content__bank-account__container .select-bank__item__label .select-bank__item__label__img, .withdrawal-page__content__bank-account__container__item .select-bank__item__label__img {
+        height: 30px; }
+      .withdrawal-page__content__bank-account__container .select-bank__item__label__img.add img, .withdrawal-page__content__bank-account__container__item__img.add img {
+        max-width: 16px; }
+      .withdrawal-page__content__bank-account__container .select-bank__item__label__text, .withdrawal-page__content__bank-account__container__item__text {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 14px;
+        text-align: center; }
+      .withdrawal-page__content__bank-account__container .select-bank__item__label:hover, .withdrawal-page__content__bank-account__container__item:hover {
+        border-color: #3678FE; }
+  .withdrawal-page__content__description {
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+    color: #8590A6;
+    margin-top: 20px; }
+  .withdrawal-page__content__input {
+    margin-top: 50px; }
+    .withdrawal-page__content__input .input-group-text {
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 14px;
+      color: #000000;
+      background: transparent;
+      border: none; }
+      .withdrawal-page__content__input .input-group-text.left {
+        padding-left: 0;
+        padding-right: 20px; }
+      .withdrawal-page__content__input .input-group-text.right {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 14px;
+        color: #000000;
+        padding-right: 0;
+        padding-left: 20px; }
+        .withdrawal-page__content__input .input-group-text.right img {
+          max-width: 16px;
+          margin-right: 5px; }
+    .withdrawal-page__content__input .form-control {
+      border: 1px solid #A5A9B3;
+      box-sizing: border-box;
+      border-radius: 10px !important;
+      min-height: 40px; }
+      .withdrawal-page__content__input .form-control::placeholder {
+        font-size: 12px;
+        line-height: 14px;
+        color: #A5A9B3; }
+  .withdrawal-page__content__submit {
+    margin-top: 70px; }
+    .withdrawal-page__content__submit .btn {
+      width: 60%;
+      min-height: 50px;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 16px;
+      text-align: center;
+      color: #FFFFFF; }
+
+#changePasswordModal .modal-content,
+#verifyEmailModal .modal-content,
+#manageBankAccountModal .modal-content,
+#addBankModal .modal-content,
+#addBankExistingUserModal .modal-content {
+  max-width: 700px;
+  margin: auto; }
+  #changePasswordModal .modal-content .add-bank-modal,
+  #verifyEmailModal .modal-content .add-bank-modal,
+  #manageBankAccountModal .modal-content .add-bank-modal,
+  #addBankModal .modal-content .add-bank-modal,
+  #addBankExistingUserModal .modal-content .add-bank-modal {
+    padding-top: 0; }
+    #changePasswordModal .modal-content .add-bank-modal .row,
+    #verifyEmailModal .modal-content .add-bank-modal .row,
+    #manageBankAccountModal .modal-content .add-bank-modal .row,
+    #addBankModal .modal-content .add-bank-modal .row,
+    #addBankExistingUserModal .modal-content .add-bank-modal .row {
+      margin-bottom: 40px; }
+      #changePasswordModal .modal-content .add-bank-modal .row .form-label,
+      #verifyEmailModal .modal-content .add-bank-modal .row .form-label,
+      #manageBankAccountModal .modal-content .add-bank-modal .row .form-label,
+      #addBankModal .modal-content .add-bank-modal .row .form-label,
+      #addBankExistingUserModal .modal-content .add-bank-modal .row .form-label {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        color: #000000;
+        margin-top: 15px; }
+      #changePasswordModal .modal-content .add-bank-modal .row .form-select,
+      #changePasswordModal .modal-content .add-bank-modal .row .form-control,
+      #verifyEmailModal .modal-content .add-bank-modal .row .form-select,
+      #verifyEmailModal .modal-content .add-bank-modal .row .form-control,
+      #manageBankAccountModal .modal-content .add-bank-modal .row .form-select,
+      #manageBankAccountModal .modal-content .add-bank-modal .row .form-control,
+      #addBankModal .modal-content .add-bank-modal .row .form-select,
+      #addBankModal .modal-content .add-bank-modal .row .form-control,
+      #addBankExistingUserModal .modal-content .add-bank-modal .row .form-select,
+      #addBankExistingUserModal .modal-content .add-bank-modal .row .form-control {
+        font-weight: 700;
+        font-size: 16px;
+        color: #A5A9B3;
+        min-height: 50px;
+        border: 1px solid #A5A9B3;
+        box-sizing: border-box;
+        border-radius: 10px; }
+        #changePasswordModal .modal-content .add-bank-modal .row .form-select::placeholder,
+        #changePasswordModal .modal-content .add-bank-modal .row .form-control::placeholder,
+        #verifyEmailModal .modal-content .add-bank-modal .row .form-select::placeholder,
+        #verifyEmailModal .modal-content .add-bank-modal .row .form-control::placeholder,
+        #manageBankAccountModal .modal-content .add-bank-modal .row .form-select::placeholder,
+        #manageBankAccountModal .modal-content .add-bank-modal .row .form-control::placeholder,
+        #addBankModal .modal-content .add-bank-modal .row .form-select::placeholder,
+        #addBankModal .modal-content .add-bank-modal .row .form-control::placeholder,
+        #addBankExistingUserModal .modal-content .add-bank-modal .row .form-select::placeholder,
+        #addBankExistingUserModal .modal-content .add-bank-modal .row .form-control::placeholder {
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 14px;
+          color: #A5A9B3; }
+      #changePasswordModal .modal-content .add-bank-modal .row .form-text,
+      #verifyEmailModal .modal-content .add-bank-modal .row .form-text,
+      #manageBankAccountModal .modal-content .add-bank-modal .row .form-text,
+      #addBankModal .modal-content .add-bank-modal .row .form-text,
+      #addBankExistingUserModal .modal-content .add-bank-modal .row .form-text {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 14px;
+        color: #A5A9B3; }
+      #changePasswordModal .modal-content .add-bank-modal .row .form-select,
+      #verifyEmailModal .modal-content .add-bank-modal .row .form-select,
+      #manageBankAccountModal .modal-content .add-bank-modal .row .form-select,
+      #addBankModal .modal-content .add-bank-modal .row .form-select,
+      #addBankExistingUserModal .modal-content .add-bank-modal .row .form-select {
+        font-weight: 400;
+        font-size: 16px;
+        color: #A5A9B3; }
+      #changePasswordModal .modal-content .add-bank-modal .row .input-group,
+      #verifyEmailModal .modal-content .add-bank-modal .row .input-group,
+      #manageBankAccountModal .modal-content .add-bank-modal .row .input-group,
+      #addBankModal .modal-content .add-bank-modal .row .input-group,
+      #addBankExistingUserModal .modal-content .add-bank-modal .row .input-group {
+        background: #FFFFFF;
+        border: 1px solid #A5A9B3;
+        box-sizing: border-box;
+        border-radius: 10px; }
+        #changePasswordModal .modal-content .add-bank-modal .row .input-group .form-control,
+        #verifyEmailModal .modal-content .add-bank-modal .row .input-group .form-control,
+        #manageBankAccountModal .modal-content .add-bank-modal .row .input-group .form-control,
+        #addBankModal .modal-content .add-bank-modal .row .input-group .form-control,
+        #addBankExistingUserModal .modal-content .add-bank-modal .row .input-group .form-control {
+          border: none; }
+        #changePasswordModal .modal-content .add-bank-modal .row .input-group .btn,
+        #verifyEmailModal .modal-content .add-bank-modal .row .input-group .btn,
+        #manageBankAccountModal .modal-content .add-bank-modal .row .input-group .btn,
+        #addBankModal .modal-content .add-bank-modal .row .input-group .btn,
+        #addBankExistingUserModal .modal-content .add-bank-modal .row .input-group .btn {
+          min-height: 30px;
+          height: 30px;
+          margin-top: 10px;
+          background: #4E7FFF;
+          border-radius: 5px;
+          margin-right: 10px;
+          display: flex;
+          place-content: center;
+          place-items: center; }
+    #changePasswordModal .modal-content .add-bank-modal .__submit,
+    #verifyEmailModal .modal-content .add-bank-modal .__submit,
+    #manageBankAccountModal .modal-content .add-bank-modal .__submit,
+    #addBankModal .modal-content .add-bank-modal .__submit,
+    #addBankExistingUserModal .modal-content .add-bank-modal .__submit {
+      margin-top: 20px; }
+      #changePasswordModal .modal-content .add-bank-modal .__submit .btn,
+      #verifyEmailModal .modal-content .add-bank-modal .__submit .btn,
+      #manageBankAccountModal .modal-content .add-bank-modal .__submit .btn,
+      #addBankModal .modal-content .add-bank-modal .__submit .btn,
+      #addBankExistingUserModal .modal-content .add-bank-modal .__submit .btn {
+        width: 100%;
+        min-height: 50px;
+        background: #597EF7;
+        border-radius: 10px;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 16px;
+        text-align: center;
+        color: #FFFFFF;
+        display: flex;
+        place-content: center;
+        place-items: center; }
+    #changePasswordModal .modal-content .add-bank-modal .__help,
+    #verifyEmailModal .modal-content .add-bank-modal .__help,
+    #manageBankAccountModal .modal-content .add-bank-modal .__help,
+    #addBankModal .modal-content .add-bank-modal .__help,
+    #addBankExistingUserModal .modal-content .add-bank-modal .__help {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 16px;
+      text-align: center;
+      color: #000000;
+      margin-top: 10px; }

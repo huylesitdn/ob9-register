@@ -1,0 +1,325 @@
+.vip-privilege-details-page .vip-privilege-details-page__content {
+  background: #F2F4F8;
+  position: relative;
+  padding: 20px;
+  overflow: hidden; }
+  .vip-privilege-details-page .vip-privilege-details-page__content__banner {
+    margin: -20px -20px 0 -20px; }
+    .vip-privilege-details-page .vip-privilege-details-page__content__banner img {
+      width: 100%; }
+  .vip-privilege-details-page .vip-privilege-details-page__content__vip-terms__title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #333333;
+    margin-top: 80px;
+    padding: 3px 15px;
+    border-left: 6px solid #333333; }
+  .vip-privilege-details-page .vip-privilege-details-page__content__vip-terms .vip-terms {
+    padding: 15px 0; }
+    .vip-privilege-details-page .vip-privilege-details-page__content__vip-terms .vip-terms__head {
+      padding: 15px;
+      display: flex;
+      place-content: center;
+      border-bottom: 1px solid #F2F2F2; }
+      .vip-privilege-details-page .vip-privilege-details-page__content__vip-terms .vip-terms__head span {
+        position: relative;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+        text-transform: capitalize;
+        color: #000000; }
+        .vip-privilege-details-page .vip-privilege-details-page__content__vip-terms .vip-terms__head span::after {
+          position: absolute;
+          content: "";
+          width: 3px;
+          left: -15px;
+          top: 0;
+          bottom: 0;
+          background: #597EF7; }
+    .vip-privilege-details-page .vip-privilege-details-page__content__vip-terms .vip-terms__description {
+      font-weight: 300;
+      font-size: 10px;
+      line-height: 12px;
+      text-align: center;
+      color: #000000; }
+    .vip-privilege-details-page .vip-privilege-details-page__content__vip-terms .vip-terms__items {
+      padding: 30px 15px; }
+      .vip-privilege-details-page .vip-privilege-details-page__content__vip-terms .vip-terms__items__content {
+        margin-bottom: 30px;
+        position: relative;
+        padding-left: 30px; }
+        .vip-privilege-details-page .vip-privilege-details-page__content__vip-terms .vip-terms__items__content::after {
+          content: "1";
+          position: absolute;
+          left: 0;
+          top: -5px;
+          width: 24px;
+          height: 24px;
+          border-radius: 50%;
+          background: #597EF7;
+          font-weight: 300;
+          font-size: 14px;
+          line-height: 16px;
+          text-align: center;
+          text-transform: uppercase;
+          color: #FFFFFF;
+          display: flex;
+          place-content: center;
+          place-items: center; }
+        .vip-privilege-details-page .vip-privilege-details-page__content__vip-terms .vip-terms__items__content:nth-child(2)::after {
+          content: "2"; }
+        .vip-privilege-details-page .vip-privilege-details-page__content__vip-terms .vip-terms__items__content:nth-child(3)::after {
+          content: "3"; }
+        .vip-privilege-details-page .vip-privilege-details-page__content__vip-terms .vip-terms__items__content:nth-child(4)::after {
+          content: "4"; }
+        .vip-privilege-details-page .vip-privilege-details-page__content__vip-terms .vip-terms__items__content:nth-child(5)::after {
+          content: "5"; }
+        .vip-privilege-details-page .vip-privilege-details-page__content__vip-terms .vip-terms__items__content:nth-child(6)::after {
+          content: "6"; }
+        .vip-privilege-details-page .vip-privilege-details-page__content__vip-terms .vip-terms__items__content:nth-child(7)::after {
+          content: "7"; }
+        .vip-privilege-details-page .vip-privilege-details-page__content__vip-terms .vip-terms__items__content:nth-child(8)::after {
+          content: "8"; }
+        .vip-privilege-details-page .vip-privilege-details-page__content__vip-terms .vip-terms__items__content__title {
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 16px;
+          color: #000000;
+          margin-bottom: 15px; }
+        .vip-privilege-details-page .vip-privilege-details-page__content__vip-terms .vip-terms__items__content__description {
+          font-weight: 300;
+          font-size: 14px;
+          line-height: 16px;
+          text-align: justify;
+          color: #98A5B3; }
+  .vip-privilege-details-page .vip-privilege-details-page__content__vip-info-tab .nav {
+    border: none;
+    place-content: space-between;
+    margin: 30px -5px 30px -5px; }
+    .vip-privilege-details-page .vip-privilege-details-page__content__vip-info-tab .nav .nav-item {
+      padding: 0 5px; }
+      .vip-privilege-details-page .vip-privilege-details-page__content__vip-info-tab .nav .nav-item .nav-link {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #000000;
+        min-width: 180px;
+        height: 50px;
+        background: #FFFFFF;
+        border-radius: 50px;
+        margin-bottom: 10px;
+        padding: 0;
+        display: flex;
+        place-items: center;
+        place-content: center;
+        gap: 8px;
+        text-transform: uppercase; }
+        .vip-privilege-details-page .vip-privilege-details-page__content__vip-info-tab .nav .nav-item .nav-link img {
+          max-height: 42px; }
+        .vip-privilege-details-page .vip-privilege-details-page__content__vip-info-tab .nav .nav-item .nav-link:hover, .vip-privilege-details-page .vip-privilege-details-page__content__vip-info-tab .nav .nav-item .nav-link.active {
+          border-color: transparent;
+          background: #9EB5FF;
+          color: #FFFFFF; }
+        @media only screen and (max-width: 1500px) {
+          .vip-privilege-details-page .vip-privilege-details-page__content__vip-info-tab .nav .nav-item .nav-link {
+            min-width: 160px; } }
+        @media only screen and (max-width: 1250px) {
+          .vip-privilege-details-page .vip-privilege-details-page__content__vip-info-tab .nav .nav-item .nav-link {
+            min-width: 140px; } }
+        @media only screen and (max-width: 1100px) {
+          .vip-privilege-details-page .vip-privilege-details-page__content__vip-info-tab .nav .nav-item .nav-link {
+            min-width: 120px; } }
+  .vip-privilege-details-page .vip-privilege-details-page__content__vip-info-tab .tab-content .tab-pane .upgrade-bonus__title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #333333;
+    margin-top: 50px;
+    padding: 3px 15px;
+    border-left: 6px solid #333333; }
+  .vip-privilege-details-page .vip-privilege-details-page__content__vip-info-tab .tab-content .tab-pane .upgrade-bonus__container {
+    margin: 15px -8px 30px -8px; }
+    .vip-privilege-details-page .vip-privilege-details-page__content__vip-info-tab .tab-content .tab-pane .upgrade-bonus__container__item {
+      padding-left: 8px;
+      padding-right: 8px; }
+      .vip-privilege-details-page .vip-privilege-details-page__content__vip-info-tab .tab-content .tab-pane .upgrade-bonus__container__item__content {
+        background: #FFFFFF;
+        border-radius: 10px;
+        text-align: center;
+        padding: 30px; }
+        .vip-privilege-details-page .vip-privilege-details-page__content__vip-info-tab .tab-content .tab-pane .upgrade-bonus__container__item__content__img img {
+          max-width: 100px; }
+        .vip-privilege-details-page .vip-privilege-details-page__content__vip-info-tab .tab-content .tab-pane .upgrade-bonus__container__item__content__text {
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 19px;
+          text-align: center;
+          color: #666666;
+          margin-top: -15px; }
+          .vip-privilege-details-page .vip-privilege-details-page__content__vip-info-tab .tab-content .tab-pane .upgrade-bonus__container__item__content__text__currency {
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 23px;
+            text-align: center;
+            color: #5652AB;
+            margin-top: 5px; }
+          .vip-privilege-details-page .vip-privilege-details-page__content__vip-info-tab .tab-content .tab-pane .upgrade-bonus__container__item__content__text__description {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 16px;
+            text-align: center;
+            color: #999999;
+            margin-top: 15px; }
+  .vip-privilege-details-page .vip-privilege-details-page__content__vip-info-tab .tab-content .tab-pane .accumulated {
+    margin-left: -5px;
+    margin-right: -5px; }
+    .vip-privilege-details-page .vip-privilege-details-page__content__vip-info-tab .tab-content .tab-pane .accumulated__img {
+      padding-left: 5px;
+      padding-right: 5px; }
+      .vip-privilege-details-page .vip-privilege-details-page__content__vip-info-tab .tab-content .tab-pane .accumulated__img img {
+        width: 140px; }
+    .vip-privilege-details-page .vip-privilege-details-page__content__vip-info-tab .tab-content .tab-pane .accumulated__item {
+      padding-left: 5px;
+      padding-right: 5px; }
+      .vip-privilege-details-page .vip-privilege-details-page__content__vip-info-tab .tab-content .tab-pane .accumulated__item__content {
+        background: #FFFFFF;
+        border-radius: 10px;
+        padding: 5px;
+        display: flex;
+        height: 100%;
+        place-content: center;
+        place-items: center;
+        gap: 10px; }
+        .vip-privilege-details-page .vip-privilege-details-page__content__vip-info-tab .tab-content .tab-pane .accumulated__item__content__img img {
+          max-width: 80px; }
+        .vip-privilege-details-page .vip-privilege-details-page__content__vip-info-tab .tab-content .tab-pane .accumulated__item__content__text {
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 14px;
+          color: #666666; }
+          .vip-privilege-details-page .vip-privilege-details-page__content__vip-info-tab .tab-content .tab-pane .accumulated__item__content__text__currency {
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 23px;
+            color: #5652AB;
+            margin-top: 5px; }
+  .vip-privilege-details-page .vip-privilege-details-page__content__vip-crash .nav {
+    border: none;
+    place-content: center;
+    gap: 20px;
+    margin-top: 100px;
+    margin-bottom: 15px; }
+    .vip-privilege-details-page .vip-privilege-details-page__content__vip-crash .nav .nav-item {
+      padding: 0; }
+      .vip-privilege-details-page .vip-privilege-details-page__content__vip-crash .nav .nav-item .nav-link {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        color: #7484A2;
+        text-transform: initial;
+        min-width: 180px;
+        height: 50px;
+        background: #FFFFFF;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 60px;
+        margin-bottom: 10px;
+        padding: 0;
+        display: flex;
+        place-items: center;
+        place-content: center; }
+        .vip-privilege-details-page .vip-privilege-details-page__content__vip-crash .nav .nav-item .nav-link img {
+          max-height: 40px; }
+        .vip-privilege-details-page .vip-privilege-details-page__content__vip-crash .nav .nav-item .nav-link:hover, .vip-privilege-details-page .vip-privilege-details-page__content__vip-crash .nav .nav-item .nav-link.active {
+          border-color: transparent;
+          background: linear-gradient(175.78deg, #8EA9FF -93.07%, #678BFF -9.41%, #557BF7 165.99%);
+          color: #FFFFFF; }
+  .vip-privilege-details-page .vip-privilege-details-page__content__vip-crash .tab-content .tab-pane .View_Cash_Rebate_rules {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration-line: underline;
+    color: #4080FF; }
+  .vip-privilege-details-page .vip-privilege-details-page__content__vip-crash .tab-content .tab-pane .vip-cash-rebate-content__title {
+    background: linear-gradient(90deg, #88A8F7 0%, #A49AF2 100%);
+    border: 1px solid #EBEBEB;
+    border-radius: 10px 10px 0px 0px;
+    padding: 15px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF; }
+  .vip-privilege-details-page .vip-privilege-details-page__content__vip-crash .tab-content .tab-pane .vip-cash-rebate-content .table {
+    background: #EBEBEB; }
+    .vip-privilege-details-page .vip-privilege-details-page__content__vip-crash .tab-content .tab-pane .vip-cash-rebate-content .table > :not(:first-child) {
+      border-top: 1px solid #EBEBEB; }
+    .vip-privilege-details-page .vip-privilege-details-page__content__vip-crash .tab-content .tab-pane .vip-cash-rebate-content .table thead tr th {
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 14px;
+      text-align: center;
+      color: #597EF7;
+      vertical-align: middle;
+      border: 1px solid #EBEBEB;
+      background: #fff;
+      height: 50px;
+      text-transform: uppercase; }
+      .vip-privilege-details-page .vip-privilege-details-page__content__vip-crash .tab-content .tab-pane .vip-cash-rebate-content .table thead tr th:first-child {
+        text-transform: initial; }
+      .vip-privilege-details-page .vip-privilege-details-page__content__vip-crash .tab-content .tab-pane .vip-cash-rebate-content .table thead tr th.active {
+        background: #597EF7;
+        color: #fff;
+        border-top-color: #597EF7;
+        border-bottom-color: #597EF7; }
+    .vip-privilege-details-page .vip-privilege-details-page__content__vip-crash .tab-content .tab-pane .vip-cash-rebate-content .table tbody tr th {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 16px;
+      color: #333333;
+      background-color: #fff;
+      height: 40px;
+      vertical-align: middle;
+      border: 1px solid #EBEBEB;
+      text-align: center; }
+    .vip-privilege-details-page .vip-privilege-details-page__content__vip-crash .tab-content .tab-pane .vip-cash-rebate-content .table tbody tr td {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 16px;
+      color: #333333;
+      background-color: #fff;
+      border: 1px solid #EBEBEB;
+      height: 40px;
+      vertical-align: middle;
+      text-align: center; }
+      .vip-privilege-details-page .vip-privilege-details-page__content__vip-crash .tab-content .tab-pane .vip-cash-rebate-content .table tbody tr td.active {
+        background: #597EF7;
+        color: #fff;
+        border-top-color: #597EF7;
+        border-bottom-color: #597EF7; }
+
+#cashRebateRulesModal .modal-content {
+  border-radius: 20px;
+  border: none; }
+  #cashRebateRulesModal .modal-content .modal-header {
+    background: linear-gradient(90deg, #88A8F7 0%, #A49AF2 100%);
+    text-align: center; }
+    #cashRebateRulesModal .modal-content .modal-header h5 {
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 28px;
+      text-align: center;
+      color: #FFFFFF; }
+    #cashRebateRulesModal .modal-content .modal-header .btn-close {
+      background: transparent url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23FFF'%3e%3cpath d='M.293.293a1 1 0 011.414 0L8 6.586 14.293.293a1 1 0 111.414 1.414L9.414 8l6.293 6.293a1 1 0 01-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 01-1.414-1.414L6.586 8 .293 1.707a1 1 0 010-1.414z'/%3e%3c/svg%3e") center/1em auto no-repeat; }
+  #cashRebateRulesModal .modal-content .modal-body {
+    padding: 35px 40px; }
+    #cashRebateRulesModal .modal-content .modal-body ul {
+      list-style: decimal; }
+      #cashRebateRulesModal .modal-content .modal-body ul li {
+        margin-bottom: 15px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: #000000; }

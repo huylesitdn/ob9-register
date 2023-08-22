@@ -1,0 +1,265 @@
+.deposit-page__content {
+  padding: 30px; }
+  .deposit-page__content__title {
+    margin-bottom: 15px;
+    display: flex;
+    place-content: space-between;
+    place-items: flex-end;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #383B43; }
+    .deposit-page__content__title a {
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 16px;
+      color: #383B43; }
+      .deposit-page__content__title a img {
+        max-width: 14px; }
+    .deposit-page__content__title .title {
+      font-weight: 600;
+      font-size: 22px;
+      line-height: 26px;
+      color: #383B43;
+      text-transform: uppercase;
+      margin-right: 5px; }
+    .deposit-page__content__title .subtitle {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 16px;
+      color: #94A6B7; }
+  .deposit-page__content__tab .nav {
+    border-bottom: 1px solid #EBEBEB; }
+    .deposit-page__content__tab .nav .nav-item .nav-link {
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 16px;
+      text-align: center;
+      color: #8590A6;
+      border-radius: 0;
+      border: 1px solid #EBEBEB;
+      border-bottom: none;
+      border-left: none;
+      padding: 16px 10px;
+      min-width: 150px; }
+      .deposit-page__content__tab .nav .nav-item .nav-link.active {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+        color: #383B43;
+        border-bottom: 2px solid #4F7FFA; }
+    .deposit-page__content__tab .nav .nav-item:first-child .nav-link {
+      border-left: 1px solid #EBEBEB; }
+  .deposit-page__content__tab .tab-content {
+    padding: 30px 0 0; }
+    .deposit-page__content__tab .tab-content .crypto-bottom__item {
+      background: #FFFFFF;
+      border: 1px solid #E9EDF8;
+      box-sizing: border-box;
+      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+      border-radius: 10px;
+      overflow: hidden;
+      padding: 15px;
+      height: 100%; }
+      .deposit-page__content__tab .tab-content .crypto-bottom__item .subtitle {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 16px;
+        color: #333333;
+        display: flex;
+        place-content: space-between;
+        place-items: center;
+        margin-bottom: 10px; }
+      .deposit-page__content__tab .tab-content .crypto-bottom__item .description {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #94A6B7; }
+      .deposit-page__content__tab .tab-content .crypto-bottom__item .step {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        color: #333333;
+        background: #ECF2F8;
+        margin-top: 30px;
+        margin-top: 20px;
+        display: flex;
+        place-content: space-between;
+        place-items: center;
+        border-radius: 5px; }
+        .deposit-page__content__tab .tab-content .crypto-bottom__item .step span {
+          padding: 10px 5px;
+          position: relative;
+          min-height: 38px;
+          display: flex;
+          place-items: center; }
+          .deposit-page__content__tab .tab-content .crypto-bottom__item .step span::before {
+            content: "";
+            height: 38px;
+            width: 38px;
+            background: transparent;
+            border-left: 5px solid #fff;
+            border-top: 5px solid #fff;
+            position: absolute;
+            top: 0;
+            right: -15px;
+            transform: rotate(135deg); }
+      .deposit-page__content__tab .tab-content .crypto-bottom__item .title {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 16px;
+        color: #333333;
+        margin-bottom: 15px; }
+      .deposit-page__content__tab .tab-content .crypto-bottom__item .icon {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px;
+        color: #000000;
+        margin-top: 30px;
+        display: flex;
+        place-content: space-between;
+        place-items: center; }
+        .deposit-page__content__tab .tab-content .crypto-bottom__item .icon > div {
+          text-align: center; }
+          .deposit-page__content__tab .tab-content .crypto-bottom__item .icon > div img {
+            max-width: 40px;
+            margin-bottom: 5px; }
+    .deposit-page__content__tab .tab-content .deposit-complete {
+      padding: 50px 0; }
+      .deposit-page__content__tab .tab-content .deposit-complete .btn {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 16px;
+        text-align: center;
+        color: #FFFFFF;
+        width: 100%;
+        height: 50px;
+        margin-bottom: 15px; }
+      .deposit-page__content__tab .tab-content .deposit-complete div {
+        font-weight: 300;
+        font-size: 10px;
+        line-height: 12px;
+        text-align: center;
+        color: #000000; }
+    .deposit-page__content__tab .tab-content .deposit-qr {
+      padding: 15px 0;
+      text-align: center; }
+      .deposit-page__content__tab .tab-content .deposit-qr .description {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        color: #8590A6;
+        text-align: left;
+        margin-top: 15px; }
+      .deposit-page__content__tab .tab-content .deposit-qr__title {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+        color: #000000;
+        padding-bottom: 15px; }
+      .deposit-page__content__tab .tab-content .deposit-qr > .btn {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 14px;
+        text-align: center;
+        color: #A5A9B4;
+        border: 1px solid #EEEEEE;
+        box-sizing: border-box;
+        border-radius: 10px;
+        padding: 15px;
+        margin-top: 15px; }
+      .deposit-page__content__tab .tab-content .deposit-qr__copy {
+        display: flex;
+        place-content: space-between;
+        place-items: center;
+        padding-top: 15px;
+        text-align: left;
+        margin-top: 15px; }
+        .deposit-page__content__tab .tab-content .deposit-qr__copy__item__title {
+          font-weight: 300;
+          font-size: 12px;
+          line-height: 14px;
+          color: #597EF7;
+          margin-bottom: 5px; }
+        .deposit-page__content__tab .tab-content .deposit-qr__copy__item__code {
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 14px;
+          color: #000000; }
+    .deposit-page__content__tab .tab-content .deposit-items {
+      margin-bottom: 40px; }
+      .deposit-page__content__tab .tab-content .deposit-items__title {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px;
+        color: #383B43;
+        margin-bottom: 5px; }
+        .deposit-page__content__tab .tab-content .deposit-items__title.Attention {
+          border-bottom: 2px solid #EBEBEB;
+          padding-bottom: 5px;
+          margin-bottom: 15px; }
+      .deposit-page__content__tab .tab-content .deposit-items__content {
+        font-weight: 400;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px; }
+        .deposit-page__content__tab .tab-content .deposit-items__content h3 {
+          font-weight: 600;
+          font-size: 24px;
+          line-height: 14px;
+          color: #000000; }
+        .deposit-page__content__tab .tab-content .deposit-items__content ul {
+          padding-right: 15px;
+          padding-left: 15px;
+          list-style: decimal; }
+          .deposit-page__content__tab .tab-content .deposit-items__content ul li {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 16px;
+            color: #000000;
+            padding-bottom: 10px; }
+            .deposit-page__content__tab .tab-content .deposit-items__content ul li::marker {
+              padding-right: 5px; }
+
+.select-promotion > div {
+  padding-left: 50px;
+  padding-right: 50px; }
+
+.select-promotion__items {
+  background: #FFFFFF;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  margin-bottom: 40px;
+  display: block;
+  cursor: pointer; }
+  .select-promotion__items__img {
+    max-height: 180px;
+    overflow: hidden; }
+    .select-promotion__items__img img {
+      object-fit: cover;
+      width: 100%; }
+  .select-promotion__items__content {
+    display: flex;
+    place-content: space-between;
+    place-items: center;
+    padding: 15px;
+    text-align: left;
+    font-size: 14px;
+    line-height: 16px; }
+    .select-promotion__items__content__text {
+      width: 100%; }
+    .select-promotion__items__content__input {
+      width: 30px; }
+      .select-promotion__items__content__input .checkmark {
+        width: 30px;
+        height: 30px;
+        background-image: url(../images/wallet/deposit/check-none.png);
+        background-size: 30px;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: block; }
+      .select-promotion__items__content__input input:checked ~ .checkmark {
+        background-image: url(../images/wallet/deposit/checked.png); }

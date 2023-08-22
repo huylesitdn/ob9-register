@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="">
+  @@include('../components/base/header.html', {title: 'Home'})
+  <body>
+    
+    <!-- Content -->
+    <section class="main register-page">
+      <!-- @@include('../components/base/navbar.html', {active: 1}) -->
+      @@include('../components/base/navbar-without-login.html', {active: 1})
+
+      <div class="container mt-5">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-md-4 col-12 order-2 order-md-1">
+            <div class="register-steps">
+              <ul class="nav nav-tabs nav-fill" id="my-step" role="tablist">
+                <li class="nav-item line" role="presentation">
+                  <button class="nav-link active" id="step-1-tab" data-bs-toggle="tab" data-bs-target="#step-1" type="button" role="tab" aria-controls="step-1" aria-selected="true">1</button>
+                </li>
+                <li class="nav-item line" role="presentation">
+                  <button class="nav-link" id="step-2-tab" data-bs-toggle="tab" data-bs-target="#step-2" type="button" role="tab" aria-controls="step-2" aria-selected="false">2</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="step-3-tab" data-bs-toggle="tab" data-bs-target="#step-3" type="button" role="tab" aria-controls="step-3" aria-selected="false">
+                    <img src="assets/images/register/check.png"/>
+                  </button>
+                </li>
+              </ul>
+              <div class="tab-content" id="my-step-content">
+                <div class="tab-pane fade show active" id="step-1" role="tabpanel" aria-labelledby="step-1-tab">
+                  <form autofocus="off" autocomplete="off">
+                    <div class="mb-4">
+                      <input type="text" class="form-control" id="username" data-i18n="register_page.username" data-i18n-attr="placeholder" />
+                    </div>
+                    <div class="mb-4">
+                      <input type="password" class="form-control" id="password" data-i18n="register_page.new_password" data-i18n-attr="placeholder" />
+                    </div>
+                    <div class="mb-4">
+                      <input type="password" class="form-control" id="new_password" data-i18n="register_page.comfirm_password" data-i18n-attr="placeholder" />
+                    </div>
+                    <p data-i18n="register_page.step_1_description_1"></p>
+                    <p data-i18n="register_page.step_1_description_2"></p>
+
+                    <button type="button" class="btn btn-primary btn-lg w-100 mt-3" data-i18n="register_page.next"></button>
+                  </form>
+                  
+                </div>
+                <div class="tab-pane fade" id="step-2" role="tabpanel" aria-labelledby="step-2-tab">
+                  step 2
+                </div>
+                <div class="tab-pane fade" id="step-3" role="tabpanel" aria-labelledby="step-3-tab">
+                  step 3
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-8 col-12 order-1 order-md-2">
+            <img 
+              class="w-100"
+              data-i18n="register_page.banner"
+              data-i18n-attr="src"
+            />
+          </div>
+        </div>
+      </div>
+
+    </section>
+    @@include('../components/base/navbar-bottom.html', {active: 0})
+    
+    @@include('../components/base/footer.html')
+  </body>
+</html>

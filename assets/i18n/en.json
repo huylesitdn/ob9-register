@@ -1,0 +1,107 @@
+{
+  "languages": {
+    "malaysia": "Malaysia",
+    "singapore": "Singapore",
+    "vietnam": "Vietnam",
+    "international": "International"
+  },
+  "login": "Login",
+  "register": "Register",
+  "top_menu": {
+    "Homepage": "Homepage",
+    "Support_Live_Chat": "Support Live Chat",
+    "Welcome_username8080": "Welcome, <span>username8080</span>",
+    "Total_Balance": "Total Balance:",
+    "Deposit": "Deposit",
+    "Withdraw": "Withdraw",
+    "Rebate": "Rebate",
+    "Forgot": "Forgot?",
+    "": "",
+    "": ""
+  },
+  "home": "Home",
+  "wallet": "Wallet",
+  "promotion": "Promotion",
+  "sponsors": "Sponsors",
+  "my_account": "My Account",
+  "universal_page": {
+    "Malaysia": "Malaysia",
+    "Singapore": "Singapore",
+    "Thailand": "Thailand",
+    "Vietnam": "Vietnam",
+    "Indonesia": "Indonesia",
+    "International": "International",
+    "PLAY_NOW": "PLAY NOW"
+  },
+  "navbar": {
+    "Home": "Home",
+    "SPORTS": "SPORTS",
+    "LIVE_CASINO": "LIVE CASINO",
+    "SLOTS": "SLOTS",
+    "FISHING": "FISHING",
+    "E_SPORTS": "E-SPORTS",
+    "LOTTERY": "LOTTERY",
+    "Customer_Service": "Customer<br/>Service",
+    "Promotion": "Promotion",
+    "Sponsor": "Sponsor",
+    "VIP": "VIP",
+    "Malaysia": "Malaysia",
+    "SPORTS_DROPROWN": {
+      "title1":"SABA SPORTS",
+      "description1":"Diversified match betting events",
+      "title2":"CMD368",
+      "description2":"The best brand in Asia",
+      "title3":"M8BET",
+      "description3":"Hottest sports action is here",
+      "SPORTS_EVENT_title": "SPORTS EVENT",
+      "SPORTS_EVENT_desciption": "Highest Return ",
+      "":"",
+      "":"",
+      "":"",
+      "":""
+    },
+    "FIRSHING_DROPROWN": {
+      "title1":"FISHING GOD",
+      "description1":"Make every shot counts!<br/>Whole new fishing game experience here!",
+      "title2":"FISHING WAR",
+      "description2":"Make the best shot and<br/>conquer the ocean!",
+      "":""
+    },
+    "LOTTERY_DROPROWN": {
+      "title1":"LOTTERY GAME",
+      "description1":"We have all types of Lottery Games <br/>at your disposal",
+      "":""
+    },
+    "": ""
+  },
+  "footer": {
+    "description": "OB possessed legal licenses issued by the European’s Malta MGA and The Philippines’ PAGCOR.<br/>We are a legalized company recognized globally and registered in the British Virgin Islands. Please make sure you are at least 18 years old before registering with us.",
+    "certification1": "Polo He License (MGA) Certification",
+    "certification2": "British Virgin Islands (BVI) certification",
+    "certification3": "Philippine PAGCOR Regulatory<br/>Responsibilities",
+    "Help_Center": "Help Center",
+    "Gaming_Responsible": "Gaming Responsible",
+    "Privacy_Protection": "Privacy Protection",
+    "Terms_Conditions": "Terms & Conditions",
+    "Sponsor": "Sponsor",
+    "About_Us": "About Us",
+    "Contact_Us": "Contact Us",
+    "Referral_Programme": "Referral Programme",
+    "copyright": "© 2021-2022 OB Entertainment. All rights reserved.",
+    "": ""
+  },
+  "register_page": {
+    "banner": "assets/images/register/en-frame.png",
+    "username": "Username*",
+    "new_password": "New Password*",
+    "comfirm_password": "Confirm Password*",
+    "next": "NEXT",
+    "step_1_description_1": "By clicking the <a href=\"/\">REGISTER</a> button, I hereby acknowledge  that I am above 18 years old and have read and accepted nyou <a href=\"/\">Terms & Conditions</a>",
+    "step_1_description_2": "Already have account? <a href=\"/\">LOGIN</a>",
+    "": "",
+    "": "",
+    "": "" 
+  },
+  "": "",
+  "": ""
+}

@@ -1,0 +1,39 @@
+<nav class="mobile-navbar navbar fixed-bottom navbar-light">
+  <div class="container-fluid content">
+    <a href="/" class="nav-item @@if (context.active === 0) {active}">
+      <div class="img" >
+        <img src="assets/icons/footer-home.png" alt="" />
+        <img class="active" src="assets/icons/footer-home-active.png" alt="" />
+      </div>
+      <div class="text" data-i18n="home"></div>
+    </a>
+    <a href="/wallet" class="nav-item @@if (context.active === 1) {active}">
+      <div class="img">
+        <img src="assets/icons/footer-wallet.png" alt="" />
+        <img class="active" src="assets/icons/footer-wallet-active.png" alt="" />
+      </div>
+      <div class="text" data-i18n="wallet"></div>
+    </a>
+    <a href="/promotion.html" class="nav-item @@if (context.active === 2) {active}">
+      <div class="img">
+        <img src="assets/icons/footer-promotion.png" alt="" />
+        <img class="active" src="assets/icons/footer-promotion-active.png" alt="" />
+      </div>
+      <div class="text" data-i18n="promotion"></div>
+    </a>
+    <a href="/sponsors" class="nav-item @@if (context.active === 3) {active}">
+      <div class="img">
+        <img src="assets/icons/footer-sponsors.png" alt="" />
+        <img class="active" src="assets/icons/footer-sponsors-active.png" alt="" />
+      </div>
+      <div class="text" data-i18n="sponsors"></div>
+    </a>
+    <a href="/my-account.html" class="nav-item @@if (context.active === 4) {active}">
+      <div class="img">
+        <img src="assets/icons/footer-my-account.png" alt="" />
+        <img class="active" src="assets/icons/footer-my-account-active.png" alt="" />
+      </div>
+      <div class="text" data-i18n="my_account"></div>
+    </a>
+  </div>
+</nav>

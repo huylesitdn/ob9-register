@@ -1,0 +1,70 @@
+.register-page {
+  margin-top: 50px;
+  background-image: url("../images/register/BG.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 60vh; }
+  .register-page__top-banner img {
+    width: 100%; }
+    @media only screen and (max-width: 576px) {
+      .register-page__top-banner img {
+        min-height: 200px;
+        object-fit: cover; } }
+  .register-page #my-step {
+    border-bottom: 0;
+    margin-bottom: 50px; }
+    .register-page #my-step .nav-item {
+      flex: 0 1 auto;
+      margin: auto; }
+      .register-page #my-step .nav-item.line {
+        position: relative; }
+        .register-page #my-step .nav-item.line::after {
+          content: "";
+          position: absolute;
+          height: 2px;
+          width: 50px;
+          background-color: #dee7ee;
+          left: 170%;
+          top: 0;
+          bottom: 0;
+          margin: auto; }
+      .register-page #my-step .nav-item .nav-link {
+        width: 30px;
+        height: 30px;
+        background: #d8e2e9;
+        color: #fff;
+        padding: 0;
+        display: flex;
+        place-content: center;
+        place-items: center;
+        font-size: 18px;
+        font-weight: bold;
+        border-radius: 6px;
+        border: none; }
+  .register-page #my-step-content {
+    min-height: 400px; }
+    .register-page #my-step-content .form-control {
+      background-color: #d8e2e9;
+      height: 50px;
+      border: none;
+      border-radius: 10px;
+      padding: 5px 15px; }
+      .register-page #my-step-content .form-control::-webkit-input-placeholder {
+        /* Edge */
+        color: #8296a9;
+        font-weight: 300; }
+      .register-page #my-step-content .form-control:-ms-input-placeholder {
+        /* Internet Explorer 10-11 */
+        color: #8296a9;
+        font-weight: 300; }
+      .register-page #my-step-content .form-control::placeholder {
+        color: #8296a9;
+        font-weight: 300; }
+    .register-page #my-step-content .btn-primary {
+      border: none;
+      background-color: #538ce1;
+      border-bottom: 5px solid #527fd7;
+      border-radius: 10px;
+      padding-top: 12px;
+      min-height: 55px; }

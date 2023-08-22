@@ -1,0 +1,142 @@
+.slot-page {
+  background-image: url(../images/slots/bg.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  padding-top: 0;
+  margin-top: 120px;
+  background-size: contain; }
+  .slot-page__top-container {
+    background-image: url(../images/slots/banner-img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; }
+    .slot-page__top-container__content {
+      min-height: 620px;
+      display: flex;
+      place-content: center;
+      place-items: center;
+      flex-direction: column;
+      gap: 40px; }
+      .slot-page__top-container__content__title img {
+        max-width: 640px; }
+      .slot-page__top-container__content__count img {
+        max-width: 620px; }
+  .slot-page__content {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin-top: -130px;
+    min-height: 100vh;
+    padding: 0; }
+    .slot-page__content__search {
+      display: flex;
+      place-content: flex-end;
+      padding: 0 40px; }
+      .slot-page__content__search .input-group {
+        width: 300px;
+        height: 40px;
+        background: #FFFFFF;
+        border: 0.5px solid #878EA6;
+        box-sizing: border-box;
+        border-radius: 10px;
+        overflow: hidden; }
+        .slot-page__content__search .input-group .form-control {
+          height: 100%;
+          border: none;
+          border-radius: 0; }
+        .slot-page__content__search .input-group .input-group-text {
+          background-color: transparent;
+          border: none;
+          border-radius: 0; }
+          .slot-page__content__search .input-group .input-group-text img {
+            width: 20px; }
+    .slot-page__content__tab {
+      margin-top: -10px; }
+      .slot-page__content__tab .nav-tabs {
+        border-bottom: 1px solid #878EA6;
+        padding: 0 40px;
+        gap: 30px; }
+        .slot-page__content__tab .nav-tabs .nav-item .nav-link {
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 19px;
+          text-align: center;
+          color: #4B5E6F;
+          margin-bottom: 0;
+          border: none;
+          border-bottom: 4px solid transparent;
+          padding: 0;
+          padding-bottom: 10px; }
+          .slot-page__content__tab .nav-tabs .nav-item .nav-link:hover, .slot-page__content__tab .nav-tabs .nav-item .nav-link.active {
+            border-bottom-color: #4E7FFF; }
+      .slot-page__content__tab .tab-content {
+        padding: 40px; }
+        .slot-page__content__tab .tab-content .slots-paginations {
+          text-align: center; }
+          .slot-page__content__tab .tab-content .slots-paginations__item {
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 16px;
+            text-align: center;
+            color: #000000;
+            border: 1px solid #878EA6;
+            box-sizing: border-box;
+            border-radius: 6px;
+            width: 30px;
+            min-width: 30px;
+            height: 30px;
+            padding: 0;
+            margin: 0 2px; }
+            .slot-page__content__tab .tab-content .slots-paginations__item img {
+              height: 15px; }
+        .slot-page__content__tab .tab-content .slots-items {
+          margin-bottom: 25px;
+          margin-left: -8px;
+          margin-right: -8px; }
+          .slot-page__content__tab .tab-content .slots-items__container {
+            padding-left: 8px;
+            padding-right: 8px; }
+            .slot-page__content__tab .tab-content .slots-items__container__content {
+              background: #FFFFFF;
+              border: 0.5px solid #878EA6;
+              box-sizing: border-box;
+              border-radius: 10px;
+              overflow: hidden; }
+              .slot-page__content__tab .tab-content .slots-items__container__content__img {
+                height: 120px;
+                width: 100%;
+                object-fit: cover; }
+              .slot-page__content__tab .tab-content .slots-items__container__content__text {
+                display: flex;
+                place-content: space-between;
+                place-items: center;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 16px;
+                color: #000000;
+                padding: 10px 8px; }
+                .slot-page__content__tab .tab-content .slots-items__container__content__text img {
+                  width: 20px; }
+    .slot-page__content__tags {
+      padding: 30px 40px;
+      display: flex;
+      place-content: space-between;
+      place-items: center; }
+      .slot-page__content__tags__item {
+        width: 122px;
+        height: 42px;
+        background-image: url(../images/slots/btn.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        transition: 0.3s;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+        color: #878EA6; }
+        .slot-page__content__tags__item:hover, .slot-page__content__tags__item.active {
+          background-image: url(../images/slots/btn-active.png);
+          color: #FFFFFF; }
+        .slot-page__content__tags__item:focus {
+          box-shadow: none; }

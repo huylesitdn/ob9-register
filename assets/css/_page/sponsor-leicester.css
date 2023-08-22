@@ -1,0 +1,215 @@
+#sponsorsPage.sponsor-leicester {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-top: 0;
+  font-weight: 300; }
+  #sponsorsPage.sponsor-leicester .scroll-container > section {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    background-image: url(../images/sponsors/leicester/bg@2x.6529a43185e604ebc8d7f2b755909460.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; }
+    #sponsorsPage.sponsor-leicester .scroll-container > section .sponsor-leicester-item {
+      min-height: 810px;
+      border-radius: 47px;
+      overflow: hidden;
+      background: url(../images/sponsors/leicester/tv-frame@2x.6c17c2340938d926159c9dc00b44b575.png) no-repeat;
+      background-size: 100% 100%;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      place-content: space-between;
+      place-items: center; }
+      #sponsorsPage.sponsor-leicester .scroll-container > section .sponsor-leicester-item__title {
+        height: 55px;
+        font-style: normal;
+        font-size: 42px;
+        font-weight: 500;
+        line-height: 51px;
+        text-align: center;
+        color: #fff;
+        text-shadow: 0px 2px 10px rgba(52, 81, 160, 0.29);
+        margin-top: 13.2px; }
+      #sponsorsPage.sponsor-leicester .scroll-container > section .sponsor-leicester-item__content {
+        position: relative;
+        margin: 70px; }
+        #sponsorsPage.sponsor-leicester .scroll-container > section .sponsor-leicester-item__content.ss1 {
+          background: url(../images/sponsors/leicester/bg_video.97cb3522e3b2e71bd74dc466a2ae598a.png) no-repeat center 60px; }
+        #sponsorsPage.sponsor-leicester .scroll-container > section .sponsor-leicester-item__content__video {
+          text-align: center; }
+          #sponsorsPage.sponsor-leicester .scroll-container > section .sponsor-leicester-item__content__video video {
+            object-fit: fill;
+            max-width: 768px;
+            min-height: 512px; }
+        #sponsorsPage.sponsor-leicester .scroll-container > section .sponsor-leicester-item__content__description {
+          display: block;
+          text-align: justify;
+          font-style: normal;
+          font-size: 21.06px;
+          line-height: 36px;
+          color: #164194;
+          text-indent: 37px;
+          margin-top: 35px; }
+        #sponsorsPage.sponsor-leicester .scroll-container > section .sponsor-leicester-item__content.ss2 .left {
+          float: left;
+          width: 470px;
+          padding-top: 10px; }
+          #sponsorsPage.sponsor-leicester .scroll-container > section .sponsor-leicester-item__content.ss2 .left > img {
+            width: 435px;
+            height: 172px;
+            display: block; }
+          #sponsorsPage.sponsor-leicester .scroll-container > section .sponsor-leicester-item__content.ss2 .left .infoTitle {
+            width: 380px;
+            margin-top: 29px;
+            font-style: normal;
+            font-size: 48px;
+            line-height: 60px;
+            letter-spacing: 4px;
+            color: #164194; }
+        #sponsorsPage.sponsor-leicester .scroll-container > section .sponsor-leicester-item__content.ss2 .right-img {
+          float: right;
+          width: 654px;
+          height: 628px;
+          position: relative;
+          top: -35px; }
+        #sponsorsPage.sponsor-leicester .scroll-container > section .sponsor-leicester-item__content.ss2 .infoDetails {
+          position: absolute;
+          bottom: 20px;
+          font-style: normal;
+          font-size: 18px;
+          line-height: 34px;
+          text-align: justify;
+          color: #164194;
+          text-indent: 35px; }
+          #sponsorsPage.sponsor-leicester .scroll-container > section .sponsor-leicester-item__content.ss2 .infoDetails .infosubTitle {
+            font-weight: 900; }
+        #sponsorsPage.sponsor-leicester .scroll-container > section .sponsor-leicester-item__content.ss3 .description {
+          font-style: normal;
+          font-size: 18px;
+          line-height: 34px;
+          text-align: justify;
+          color: #164194; }
+        #sponsorsPage.sponsor-leicester .scroll-container > section .sponsor-leicester-item__content.ss4 {
+          padding: 70px;
+          width: 100%;
+          margin: 0; }
+          #sponsorsPage.sponsor-leicester .scroll-container > section .sponsor-leicester-item__content.ss4 .img-item {
+            text-align: center;
+            max-width: 320px;
+            position: relative; }
+            #sponsorsPage.sponsor-leicester .scroll-container > section .sponsor-leicester-item__content.ss4 .img-item .des {
+              position: absolute;
+              bottom: 0;
+              left: 0;
+              width: 100%;
+              padding: 15px 30px;
+              color: #164194;
+              text-align: justify;
+              height: 250px; }
+        #sponsorsPage.sponsor-leicester .scroll-container > section .sponsor-leicester-item__content.ss5 {
+          padding: 70px;
+          width: 100%;
+          margin: 0; }
+          #sponsorsPage.sponsor-leicester .scroll-container > section .sponsor-leicester-item__content.ss5 .img-item {
+            text-align: center;
+            position: relative; }
+            #sponsorsPage.sponsor-leicester .scroll-container > section .sponsor-leicester-item__content.ss5 .img-item:before {
+              position: absolute;
+              content: "";
+              top: -10px;
+              bottom: -10px;
+              left: 0;
+              width: 15px;
+              background: #cedefd; }
+            #sponsorsPage.sponsor-leicester .scroll-container > section .sponsor-leicester-item__content.ss5 .img-item .sub {
+              position: absolute;
+              left: 15px;
+              right: 10px;
+              bottom: 0;
+              min-height: 60px;
+              background: -webkit-gradient(linear, left top, left bottom, color-stop(-37.81%, rgba(61, 98, 169, 0.0001)), to(#183977));
+              background: -webkit-linear-gradient(top, rgba(61, 98, 169, 0.0001) -37.81%, #183977 100%);
+              background: linear-gradient(180deg, rgba(61, 98, 169, 0.0001) -37.81%, #183977 100%);
+              padding: 10px 15px;
+              font-size: 16px;
+              text-indent: 32px;
+              color: #fff;
+              line-height: 22px; }
+          #sponsorsPage.sponsor-leicester .scroll-container > section .sponsor-leicester-item__content.ss5 .lastBottomTxt {
+            font-style: normal;
+            font-size: 18px;
+            line-height: 34px;
+            text-align: justify;
+            color: #164194;
+            margin-top: 54px;
+            text-indent: 37px;
+            display: block; }
+    #sponsorsPage.sponsor-leicester .scroll-container > section .top-img {
+      width: 100%;
+      height: 100%; }
+      #sponsorsPage.sponsor-leicester .scroll-container > section .top-img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; }
+
+.dots.dots-right {
+  right: 50px; }
+  .dots.dots-right li a {
+    width: 24px;
+    height: 24px;
+    padding: 0;
+    margin: 20px 0; }
+    .dots.dots-right li a:before {
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      background-color: #fff; }
+    .dots.dots-right li a.active:before {
+      width: 24px;
+      height: 24px;
+      left: 0;
+      background-image: url(../images/sponsors/leicester/nav-ball@2x.6380660305c8a0b2957da16f35904d0f.png);
+      background-repeat: no-repeat;
+      background-size: cover; }
+
+html[lang="en"] .sponsor-leicester-item__title[data-i18n="sponsors_page.lei.ss1.title"] {
+  font-size: 24px !important; }
+
+html[lang="en"] .sponsor-leicester-item__title[data-i18n="sponsors_page.lei.ss5.title"] {
+  font-size: 35px !important; }
+
+html[lang="en"] .infoTitle[data-i18n="sponsors_page.lei.ss2.info_title"] {
+  font-size: 35px !important;
+  line-height: 40px !important;
+  width: 100% !important;
+  margin-top: 50px !important; }
+
+html[lang="en"] .sponsor-leicester-item__content.ss2 .infoDetails {
+  bottom: -20px !important; }

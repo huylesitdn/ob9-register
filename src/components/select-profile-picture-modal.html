@@ -1,0 +1,124 @@
+
+<!-- Modal -->
+<div class="modal fade modal-custom" id="selectProfilePictureModal" tabindex="-1" aria-labelledby="selectProfilePictureModalLabel" aria-hidden="true">
+  <div class="modal-dialog  modal-md modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="selectPromotionModalLabel" data-i18n="CHANGE_PROFILE_PICTURE"></h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+
+      <div class="modal-body select-profile-picture-modal">
+        <div id="profileSelectCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="assets/images/profile/1.png" />
+            </div>
+            <div class="carousel-item">
+              <img src="assets/images/profile/2.png" />
+            </div>
+            <div class="carousel-item">
+              <img src="assets/images/profile/3.png" />
+            </div>
+            <div class="carousel-item">
+              <img src="assets/images/profile/4.png" />
+            </div>
+            <div class="carousel-item">
+              <img src="assets/images/profile/5.png" />
+            </div>
+            <div class="carousel-item">
+              <img src="assets/images/profile/6.png" />
+            </div>
+            <div class="carousel-item">
+              <img src="assets/images/profile/7.png" />
+            </div>
+            <div class="carousel-item">
+              <img src="assets/images/profile/8.png" />
+            </div>
+          </div>
+          <div class="preview-text" data-i18n="Profile_Picture_Preview"></div>
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#profileSelectCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">
+              <img src="assets/images/profile/1.svg" />
+            </button>
+            <button type="button" data-bs-target="#profileSelectCarousel" data-bs-slide-to="1" aria-label="Slide 2">
+              <img src="assets/images/profile/2.svg" />
+            </button>
+            <button type="button" data-bs-target="#profileSelectCarousel" data-bs-slide-to="2" aria-label="Slide 3">
+              <img src="assets/images/profile/3.svg" />
+            </button>
+            <button type="button" data-bs-target="#profileSelectCarousel" data-bs-slide-to="3" aria-label="Slide 4">
+              <img src="assets/images/profile/4.svg" />
+            </button>
+            <button type="button" data-bs-target="#profileSelectCarousel" data-bs-slide-to="4" aria-label="Slide 5">
+              <img src="assets/images/profile/5.svg" />
+            </button>
+            <button type="button" data-bs-target="#profileSelectCarousel" data-bs-slide-to="5" aria-label="Slide 6">
+              <img src="assets/images/profile/6.svg" />
+            </button>
+            <button type="button" data-bs-target="#profileSelectCarousel" data-bs-slide-to="6" aria-label="Slide 7">
+              <img src="assets/images/profile/7.svg" />
+            </button>
+            <button type="button" data-bs-target="#profileSelectCarousel" data-bs-slide-to="7" aria-label="Slide 8">
+              <img src="assets/images/profile/8.svg" />
+            </button>
+            <label class="btn-custom">
+              <img src="assets/icons/upload-camera.svg" />
+              <input type="file" class="d-none" />
+            </label>
+          </div>
+        </div>
+        <!-- <div class="select-profile-picture-modal__items">
+          <label class="select-profile-picture-modal__items__item">
+            <input type="radio" name="select-profile-picture-modal-radio" class="d-none" data-src="assets/images/profile/1.png"/>
+            <img src="assets/images/profile/1.png" />
+            <span class="checkmark"></span>
+          </label>
+          <label class="select-profile-picture-modal__items__item">
+            <input type="radio" name="select-profile-picture-modal-radio" class="d-none" data-src="assets/images/profile/2.png"/>
+            <img src="assets/images/profile/2.png" />
+            <span class="checkmark"></span>
+          </label>
+          <label class="select-profile-picture-modal__items__item">
+            <input type="radio" name="select-profile-picture-modal-radio" class="d-none" data-src="assets/images/profile/3.png"/>
+            <img src="assets/images/profile/3.png" />
+            <span class="checkmark"></span>
+          </label>
+          <label class="select-profile-picture-modal__items__item">
+            <input type="radio" name="select-profile-picture-modal-radio" class="d-none" data-src="assets/images/profile/4.png"/>
+            <img src="assets/images/profile/4.png" />
+            <span class="checkmark"></span>
+          </label>
+          <label class="select-profile-picture-modal__items__item">
+            <input type="radio" name="select-profile-picture-modal-radio" checked class="d-none" data-src="assets/images/profile/5.png"/>
+            <img src="assets/images/profile/5.png" />
+            <span class="checkmark"></span>
+          </label>
+          <label class="select-profile-picture-modal__items__item">
+            <input type="radio" name="select-profile-picture-modal-radio" class="d-none" data-src="assets/images/profile/6.png"/>
+            <img src="assets/images/profile/6.png" />
+            <span class="checkmark"></span>
+          </label>
+          <label class="select-profile-picture-modal__items__item">
+            <input type="radio" name="select-profile-picture-modal-radio" class="d-none" data-src="assets/images/profile/7.png"/>
+            <img src="assets/images/profile/7.png" />
+            <span class="checkmark"></span>
+          </label>
+          <label class="select-profile-picture-modal__items__item">
+            <input type="radio" name="select-profile-picture-modal-radio" class="d-none" data-src="assets/images/profile/8.png"/>
+            <img src="assets/images/profile/8.png" />
+            <span class="checkmark"></span>
+          </label>
+        </div> -->
+        <div class="action">
+          <!-- <label class="btn btn-select">
+            <span data-i18n="profile.Please_select_from_album">Please select from album</span>
+            <input type="file" class="d-none" />
+          </label> -->
+          <button class="btn btn-primary" data-i18n="CONFIRM" data-bs-dismiss="modal"></button>
+          <button class="btn btn-outline-primary" data-i18n="Cancel" data-bs-dismiss="modal"></button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

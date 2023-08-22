@@ -1,0 +1,153 @@
+.manage-bank-account-page__content {
+  padding: 30px; }
+  .manage-bank-account-page__content__title {
+    margin-bottom: 15px;
+    display: flex;
+    place-content: space-between;
+    place-items: flex-end;
+    border-bottom: 1px solid #EBEBEB;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #383B43; }
+    .manage-bank-account-page__content__title a {
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 16px;
+      color: #383B43; }
+      .manage-bank-account-page__content__title a img {
+        max-width: 14px; }
+    .manage-bank-account-page__content__title .title {
+      font-weight: 600;
+      font-size: 22px;
+      line-height: 26px;
+      color: #383B43;
+      text-transform: uppercase;
+      margin-right: 5px; }
+    .manage-bank-account-page__content__title .subtitle {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 16px;
+      color: #94A6B7; }
+  .manage-bank-account-page__content__empty {
+    text-align: center;
+    place-content: center; }
+    .manage-bank-account-page__content__empty__img {
+      margin-bottom: 30px; }
+      .manage-bank-account-page__content__empty__img img {
+        max-width: 200px; }
+    .manage-bank-account-page__content__empty__btn .btn {
+      width: 100%;
+      background: #FFFFFF;
+      border: 1px solid #EBEBEB;
+      box-sizing: border-box;
+      border-radius: 20px;
+      min-height: 100px;
+      display: flex;
+      place-content: center;
+      place-items: center;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+      text-align: center;
+      color: #597EF7; }
+  .manage-bank-account-page__content__bank-account {
+    margin-top: 50px; }
+    .manage-bank-account-page__content__bank-account__label {
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 16px;
+      color: #383B43;
+      margin-bottom: 15px; }
+    .manage-bank-account-page__content__bank-account__container .select-bank__item {
+      margin-bottom: 0; }
+      .manage-bank-account-page__content__bank-account__container .select-bank__item:nth-child(3) img {
+        max-width: 60px !important; }
+    .manage-bank-account-page__content__bank-account__container .select-bank__item__label, .manage-bank-account-page__content__bank-account__container__item {
+      background: #FFFFFF;
+      border: 1px solid #EBEBEB;
+      box-sizing: border-box;
+      border-radius: 10px;
+      display: flex;
+      place-content: center;
+      place-items: center;
+      flex-direction: column;
+      gap: 10px;
+      min-height: 120px;
+      transition: .3s; }
+      .manage-bank-account-page__content__bank-account__container .select-bank__item__label .select-bank__item__label__img, .manage-bank-account-page__content__bank-account__container__item .select-bank__item__label__img {
+        height: 30px; }
+      .manage-bank-account-page__content__bank-account__container .select-bank__item__label__img.add img, .manage-bank-account-page__content__bank-account__container__item__img.add img {
+        max-width: 16px; }
+      .manage-bank-account-page__content__bank-account__container .select-bank__item__label__text, .manage-bank-account-page__content__bank-account__container__item__text {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 14px;
+        text-align: center; }
+      .manage-bank-account-page__content__bank-account__container .select-bank__item__label:hover, .manage-bank-account-page__content__bank-account__container__item:hover {
+        border-color: #3678FE; }
+  .manage-bank-account-page__content .select-bank-manage .select-bank__item .checkmark:before {
+    content: "";
+    width: 16px;
+    height: 16px;
+    border: 1px solid #A5A9B3;
+    background: #FFFFFF;
+    position: absolute;
+    bottom: -30px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    z-index: 9;
+    border-radius: 50px; }
+  .manage-bank-account-page__content .select-bank-manage .select-bank__item .select-bank__item__label__checkbox:checked ~ .checkmark::before {
+    background: #597EF7;
+    border-color: #3678FE; }
+  .manage-bank-account-page__content .select-bank-manage .select-bank__item .select-bank__item__label__checkbox:checked ~ .checkmark::after {
+    content: "";
+    width: 8px;
+    height: 6px;
+    position: absolute;
+    bottom: -24px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    z-index: 9;
+    border-top: 1px solid #fff;
+    border-right: 1px solid #fff;
+    transform: rotate(130deg);
+    /* Safari */
+    -webkit-transform: rotate(130deg);
+    /* Firefox */
+    -moz-transform: rotate(130deg);
+    /* IE */
+    -ms-transform: rotate(130deg);
+    /* Opera */
+    -o-transform: rotate(130deg); }
+  .manage-bank-account-page__content .manage {
+    text-align: right;
+    margin-top: 20px; }
+    .manage-bank-account-page__content .manage img {
+      max-width: 20px; }
+    .manage-bank-account-page__content .manage span {
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 14px;
+      color: #597EF7; }
+  .manage-bank-account-page__content .action {
+    display: flex;
+    place-content: flex-start;
+    place-items: center;
+    gap: 20px;
+    margin-top: 60px; }
+    .manage-bank-account-page__content .action .btn {
+      height: 35px;
+      min-width: 150px;
+      display: flex;
+      place-content: center;
+      place-items: center;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 20px;
+      text-align: center; }

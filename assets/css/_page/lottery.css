@@ -1,0 +1,115 @@
+.lottery-page {
+  background-image: url(../images/lottery/top-bg.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  padding-top: 0;
+  margin-top: 115px;
+  background-size: auto 620px; }
+  .lottery-page__top-container__content {
+    min-height: 620px;
+    display: flex;
+    place-content: center;
+    place-items: flex-start;
+    flex-direction: column;
+    gap: 40px; }
+    .lottery-page__top-container__content__title img {
+      max-width: 670px; }
+    .lottery-page__top-container__content__count img {
+      max-width: 620px; }
+  .lottery-page__action {
+    display: flex;
+    place-items: center;
+    place-content: center;
+    padding: 30px 0;
+    gap: 30px; }
+    .lottery-page__action .btn {
+      width: 205px;
+      height: 70px;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 20px;
+      text-align: center;
+      border: none;
+      background-color: transparent; }
+      .lottery-page__action .btn-primary {
+        background-image: url(../images/lottery/bet-now-btn.png);
+        background-repeat: no-repeat;
+        background-size: contain; }
+      .lottery-page__action .btn-outline-primary {
+        background-image: url(../images/lottery/result-btn.png);
+        background-repeat: no-repeat;
+        background-size: contain; }
+      .lottery-page__action .btn:hover {
+        opacity: 0.8; }
+  .lottery-page__content {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin-top: -80px;
+    min-height: 100vh;
+    padding: 0; }
+    .lottery-page__content__tab {
+      margin-top: -10px; }
+      .lottery-page__content__tab .nav-tabs {
+        padding: 15px 15px 0;
+        gap: 40px;
+        background: #E9E9E9;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        place-items: center; }
+        .lottery-page__content__tab .nav-tabs .nav-item .nav-link {
+          margin-bottom: 0;
+          border: none;
+          border-bottom: 4px solid transparent;
+          padding: 0;
+          padding-bottom: 10px;
+          min-height: 70px; }
+          .lottery-page__content__tab .nav-tabs .nav-item .nav-link img {
+            max-height: 41px;
+            max-width: 105px; }
+          .lottery-page__content__tab .nav-tabs .nav-item .nav-link:hover, .lottery-page__content__tab .nav-tabs .nav-item .nav-link.active {
+            border-bottom-color: #4E7FFF;
+            background: transparent; }
+          .lottery-page__content__tab .nav-tabs .nav-item .nav-link#log-3-tab img {
+            max-height: 45px; }
+          .lottery-page__content__tab .nav-tabs .nav-item .nav-link#log-4-tab img {
+            max-height: 51px; }
+      .lottery-page__content__tab .tab-content {
+        padding: 30px 15px; }
+        .lottery-page__content__tab .tab-content .lottery-item__title {
+          padding: 15px;
+          background: linear-gradient(90deg, #8EA9FF 0%, #678BFF 32.29%, #557BF7 100%);
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 18px;
+          text-transform: uppercase;
+          color: #FFFFFF; }
+          .lottery-page__content__tab .tab-content .lottery-item__title span {
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 18px; }
+        .lottery-page__content__tab .tab-content .lottery-item__content {
+          display: flex;
+          place-content: space-around;
+          place-items: center;
+          padding: 50px 100px; }
+          .lottery-page__content__tab .tab-content .lottery-item__content__item {
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 30px;
+            text-align: center;
+            color: #000000; }
+            .lottery-page__content__tab .tab-content .lottery-item__content__item span {
+              font-weight: 400;
+              font-size: 24px;
+              line-height: 30px;
+              text-align: center;
+              color: #000000;
+              display: block; }
+            .lottery-page__content__tab .tab-content .lottery-item__content__item p {
+              font-weight: 700;
+              font-size: 36px;
+              line-height: 50px;
+              text-align: center;
+              color: #4E7FFF;
+              margin-bottom: 0; }

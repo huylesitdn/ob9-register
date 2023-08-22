@@ -1,0 +1,466 @@
+.world-cup-page__top-banner img {
+  width: 100%; }
+  @media only screen and (max-width: 576px) {
+    .world-cup-page__top-banner img {
+      min-height: 200px;
+      object-fit: cover; } }
+
+.world-cup-page__container__tab .tab-content {
+  padding-top: 30px; }
+
+.world-cup-page__container__tab .nav-tabs {
+  border-bottom: none; }
+  @media only screen and (max-width: 620px) {
+    .world-cup-page__container__tab .nav-tabs .nav-item {
+      flex: 1 1; } }
+  .world-cup-page__container__tab .nav-tabs .nav-item .nav-link {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    border-top: 2px solid #a7c5ff;
+    border-bottom: 2px solid #a7c5ff;
+    border-left: 1px solid #a7c5ff;
+    border-right: 1px solid #a7c5ff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#dbe6ff));
+    background: -webkit-linear-gradient(top, #ffffff, #dbe6ff);
+    background: linear-gradient(to bottom, #ffffff, #dbe6ff);
+    -webkit-box-shadow: inset 0 -4px 8px 0 #fff;
+    box-shadow: inset 0 -4px 8px 0 #fff;
+    text-shadow: none;
+    min-height: 60px;
+    border-radius: 0;
+    font-size: 18px;
+    height: 100%; }
+    .world-cup-page__container__tab .nav-tabs .nav-item .nav-link.active {
+      color: #fff;
+      text-shadow: none;
+      background: -webkit-gradient(linear, left top, left bottom, from(#83a7ff), to(#276ff6));
+      background: -webkit-linear-gradient(top, #83a7ff, #276ff6);
+      background: linear-gradient(to bottom, #83a7ff, #276ff6);
+      border: 2px solid #719cfd;
+      -webkit-box-shadow: 0 10px 20px 0 rgba(57, 122, 248, 0.2), inset 0 -3px 10px 0 rgba(204, 224, 255, 0.3);
+      box-shadow: 0 10px 20px 0 rgba(57, 122, 248, 0.2), inset 0 -3px 10px 0 rgba(204, 224, 255, 0.3); }
+    @media only screen and (max-width: 768px) {
+      .world-cup-page__container__tab .nav-tabs .nav-item .nav-link {
+        font-size: 16px;
+        min-height: 50px; } }
+    @media only screen and (max-width: 620px) {
+      .world-cup-page__container__tab .nav-tabs .nav-item .nav-link {
+        font-size: 14px;
+        font-weight: 20px;
+        padding-left: 6px;
+        padding-right: 6px; } }
+  .world-cup-page__container__tab .nav-tabs .nav-item:first-child .nav-link {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-left: 2px solid #a7c5ff; }
+  .world-cup-page__container__tab .nav-tabs .nav-item:last-child .nav-link {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-right: 2px solid #a7c5ff; }
+
+.world-cup-page__container__block_content {
+  border-radius: 15px;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../images/world-cup/en/box-bg.png);
+  background-position: top;
+  font-size: 14px;
+  line-height: 25px; }
+  .world-cup-page__container__block_content p {
+    margin-bottom: 10px;
+    line-height: 20px;
+    font-size: 14px; }
+    .world-cup-page__container__block_content p:last-child {
+      margin-bottom: 0; }
+  .world-cup-page__container__block_content.event-detail {
+    background-image: none;
+    position: relative;
+    padding-bottom: 50px;
+    padding-top: 20px; }
+    .world-cup-page__container__block_content.event-detail::before {
+      display: block;
+      content: "";
+      width: 100%;
+      height: 50px;
+      background-position: 0 0;
+      background-repeat: no-repeat;
+      background-size: 100%;
+      background-image: url(../images/world-cup/en/common-border-top.f3155c653ae076c1c651baab081c12eb.webp); }
+      @media only screen and (max-width: 1200px) {
+        .world-cup-page__container__block_content.event-detail::before {
+          height: 40px; } }
+      @media only screen and (max-width: 992px) {
+        .world-cup-page__container__block_content.event-detail::before {
+          height: 30px; } }
+      @media only screen and (max-width: 768px) {
+        .world-cup-page__container__block_content.event-detail::before {
+          height: 25px; } }
+      @media only screen and (max-width: 640px) {
+        .world-cup-page__container__block_content.event-detail::before {
+          height: 20px; } }
+      @media only screen and (max-width: 550px) {
+        .world-cup-page__container__block_content.event-detail::before {
+          height: 15px; } }
+    .world-cup-page__container__block_content.event-detail::after {
+      position: absolute;
+      left: 0;
+      content: "";
+      width: 100%;
+      height: 50px;
+      background-position: 0 0;
+      background-repeat: no-repeat;
+      background-size: 100%;
+      background-image: url(../images/world-cup/en/common-border-bottom.86132a89c2cafb679ad4578bbbb8655a.webp); }
+    .world-cup-page__container__block_content.event-detail .event-detail-content {
+      background-size: 100%;
+      background-repeat: repeat-y;
+      background-image: url(../images/world-cup/en/common-border-middle.88ffae16aba74af2bbc9473fc6f103b6.webp);
+      padding: 0 30px 30px; }
+      @media only screen and (max-width: 768px) {
+        .world-cup-page__container__block_content.event-detail .event-detail-content {
+          padding: 0 15px 15px;
+          padding-top: 30px; } }
+      .world-cup-page__container__block_content.event-detail .event-detail-content__header {
+        text-align: center; }
+        .world-cup-page__container__block_content.event-detail .event-detail-content__header img {
+          max-width: 350px;
+          margin: 20px auto 50px; }
+      .world-cup-page__container__block_content.event-detail .event-detail-content__item {
+        display: flex;
+        place-content: flex-start;
+        place-items: center;
+        font-size: 18px;
+        line-height: 26px;
+        gap: 15px;
+        margin-bottom: 5px; }
+        .world-cup-page__container__block_content.event-detail .event-detail-content__item__title {
+          color: #ba1643;
+          font-weight: 600; }
+        @media only screen and (max-width: 576px) {
+          .world-cup-page__container__block_content.event-detail .event-detail-content__item {
+            font-size: 14px;
+            list-style: 18px; } }
+      .world-cup-page__container__block_content.event-detail .event-detail-content__description {
+        list-style: numeric;
+        margin-top: 50px; }
+        .world-cup-page__container__block_content.event-detail .event-detail-content__description li {
+          font-size: 18px;
+          line-height: 26px;
+          margin-bottom: 10px; }
+          @media only screen and (max-width: 576px) {
+            .world-cup-page__container__block_content.event-detail .event-detail-content__description li {
+              font-size: 14px;
+              list-style: 18px; } }
+      .world-cup-page__container__block_content.event-detail .event-detail-content__table {
+        margin-top: 50px; }
+        .world-cup-page__container__block_content.event-detail .event-detail-content__table .table {
+          border-top-left-radius: 12px;
+          border-top-right-radius: 12px;
+          overflow: hidden; }
+          .world-cup-page__container__block_content.event-detail .event-detail-content__table .table > :not(caption) > * > * {
+            padding-top: 10px;
+            padding-bottom: 10px; }
+          .world-cup-page__container__block_content.event-detail .event-detail-content__table .table thead tr th {
+            background-image: url(../images/world-cup/en/PINK_BAR.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            color: #fff;
+            border: 1px solid #ffcfdb !important;
+            font-size: 18px; }
+            @media only screen and (max-width: 576px) {
+              .world-cup-page__container__block_content.event-detail .event-detail-content__table .table thead tr th {
+                font-size: 14px;
+                list-style: 18px; } }
+          .world-cup-page__container__block_content.event-detail .event-detail-content__table .table tbody {
+            border-top: none !important; }
+            .world-cup-page__container__block_content.event-detail .event-detail-content__table .table tbody tr {
+              border-color: #ffcfdb; }
+              .world-cup-page__container__block_content.event-detail .event-detail-content__table .table tbody tr td {
+                border-bottom: none; }
+    .world-cup-page__container__block_content.event-detail .header {
+      font-size: 25px;
+      font-weight: 600;
+      text-transform: uppercase;
+      text-align: center;
+      margin-top: -8px;
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 22px;
+      display: flex;
+      place-content: center;
+      place-items: center; }
+      .world-cup-page__container__block_content.event-detail .header span {
+        background: #fff;
+        padding: 0 20px; }
+      @media only screen and (max-width: 576px) {
+        .world-cup-page__container__block_content.event-detail .header {
+          top: 16px;
+          font-size: 18px; } }
+  .world-cup-page__container__block_content__title {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../images/world-cup/en/PINK_LongBAR.png);
+    background-position: center;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    padding: 3px 15px;
+    display: inline-block; }
+  .world-cup-page__container__block_content__table {
+    margin-top: 15px; }
+    .world-cup-page__container__block_content__table .table-footer {
+      text-align: right;
+      padding-top: 10px;
+      border-top: 2px solid #999;
+      display: flex;
+      place-content: flex-end;
+      place-items: center;
+      gap: 5px;
+      font-weight: 600;
+      color: initial; }
+    .world-cup-page__container__block_content__table .table {
+      margin-bottom: 0; }
+      .world-cup-page__container__block_content__table .table > :not(caption) > * > * {
+        padding-top: 10px;
+        padding-bottom: 10px; }
+      .world-cup-page__container__block_content__table .table thead tr th {
+        background-image: url(../images/world-cup/en/PINK_BAR.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        color: #fff;
+        border-right: 3px solid #f2f2f4;
+        font-size: 18px;
+        vertical-align: middle; }
+        .world-cup-page__container__block_content__table .table thead tr th:last-child {
+          border-right: none; }
+      .world-cup-page__container__block_content__table .table tbody {
+        border-top: none !important; }
+        .world-cup-page__container__block_content__table .table tbody tr td {
+          border-bottom: none;
+          vertical-align: middle; }
+
+.world-cup-page__container .play-now {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../images/world-cup/en/bg_loading_bonus.jpg);
+  background-position: center;
+  position: relative;
+  border: 3px solid #cf3c66;
+  border-radius: 8px;
+  min-height: 500px; }
+  @media only screen and (max-width: 768px) {
+    .world-cup-page__container .play-now {
+      min-height: 300px; } }
+  @media only screen and (max-width: 576px) {
+    .world-cup-page__container .play-now {
+      min-height: 250px; } }
+  @media only screen and (max-width: 426px) {
+    .world-cup-page__container .play-now {
+      min-height: 200px; } }
+  .world-cup-page__container .play-now > div {
+    background-color: rgba(0, 0, 0, 0.7);
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0; }
+  .world-cup-page__container .play-now__ticker_remaining {
+    position: absolute;
+    left: 30px;
+    top: 15px;
+    background-image: url(../images/world-cup/en/BAR_Ticket_Remaining.png);
+    min-width: 290px;
+    min-height: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    place-items: center;
+    place-content: space-around; }
+    .world-cup-page__container .play-now__ticker_remaining .text {
+      font-size: 20px;
+      font-weight: 400; }
+    .world-cup-page__container .play-now__ticker_remaining .number {
+      padding-right: 25px;
+      font-size: 20px;
+      font-weight: 600;
+      color: #fff; }
+    @media only screen and (max-width: 768px) {
+      .world-cup-page__container .play-now__ticker_remaining {
+        display: none; } }
+  .world-cup-page__container .play-now__world-cup-logo {
+    width: 100px;
+    right: 30px;
+    top: 15px;
+    position: absolute; }
+    @media only screen and (max-width: 768px) {
+      .world-cup-page__container .play-now__world-cup-logo {
+        display: none; } }
+  .world-cup-page__container .play-now__tap-to-play {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    place-content: center;
+    place-items: center;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase; }
+    @media only screen and (max-width: 426px) {
+      .world-cup-page__container .play-now__tap-to-play {
+        font-size: 18px; } }
+    .world-cup-page__container .play-now__tap-to-play img {
+      max-width: 90px; }
+      .world-cup-page__container .play-now__tap-to-play img:hover {
+        opacity: 0.8; }
+      @media only screen and (max-width: 426px) {
+        .world-cup-page__container .play-now__tap-to-play img {
+          max-width: 50px; } }
+
+.world-cup-page__container__how-to-play-img {
+  width: 100%;
+  border: 3px solid #cf3c66;
+  border-radius: 15px; }
+
+.world-cup-page__container__how-to-play-btn {
+  margin: auto;
+  margin-top: 15px;
+  background-image: url(../images/world-cup/en/Bontton.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent !important;
+  border: none;
+  border-radius: 8px;
+  min-height: 50px;
+  min-width: 200px;
+  text-transform: uppercase; }
+  .world-cup-page__container__how-to-play-btn:hover {
+    opacity: 0.7; }
+  .world-cup-page__container__how-to-play-btn:active, .world-cup-page__container__how-to-play-btn:focus {
+    box-shadow: none !important; }
+
+.world-cup-page #howToPlayModal .modal-dialog .modal-content {
+  background: transparent;
+  box-shadow: none;
+  border: none; }
+  .world-cup-page #howToPlayModal .modal-dialog .modal-content .modal-content-all {
+    background-image: url(../images/world-cup/how-to-play-bg.png);
+    background-size: initial;
+    background-repeat: repeat-y;
+    background-position: top;
+    border: 2px solid #b4b4b4;
+    border-radius: 15px; }
+    @media only screen and (max-width: 768px) {
+      .world-cup-page #howToPlayModal .modal-dialog .modal-content .modal-content-all {
+        background-image: url(../images/world-cup/how-to-play-mobile-bg.png); } }
+  .world-cup-page #howToPlayModal .modal-dialog .modal-content .modal-footer {
+    border-top: none;
+    place-content: center;
+    padding: 0; }
+    .world-cup-page #howToPlayModal .modal-dialog .modal-content .modal-footer .btn {
+      padding: 0; }
+      .world-cup-page #howToPlayModal .modal-dialog .modal-content .modal-footer .btn img {
+        max-width: 50px; }
+      .world-cup-page #howToPlayModal .modal-dialog .modal-content .modal-footer .btn:active, .world-cup-page #howToPlayModal .modal-dialog .modal-content .modal-footer .btn:focus {
+        box-shadow: none; }
+  .world-cup-page #howToPlayModal .modal-dialog .modal-content .modal-header {
+    border-bottom: none;
+    padding: 0;
+    place-content: center; }
+    .world-cup-page #howToPlayModal .modal-dialog .modal-content .modal-header__title {
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-image: url(../images/world-cup/bar-bg.png);
+      background-position: center;
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 20px;
+      font-weight: 600;
+      color: #fff;
+      padding: 3px 40px;
+      height: 35px;
+      display: flex;
+      place-content: center;
+      place-items: center; }
+  .world-cup-page #howToPlayModal .modal-dialog .modal-content .modal-body {
+    padding: 0 15px 15px;
+    text-align: center; }
+    .world-cup-page #howToPlayModal .modal-dialog .modal-content .modal-body .steps {
+      padding: 30px 30px 0; }
+      @media only screen and (max-width: 576px) {
+        .world-cup-page #howToPlayModal .modal-dialog .modal-content .modal-body .steps {
+          padding: 15px 15px 0; } }
+      .world-cup-page #howToPlayModal .modal-dialog .modal-content .modal-body .steps > div {
+        margin-bottom: 20px; }
+      .world-cup-page #howToPlayModal .modal-dialog .modal-content .modal-body .steps__item {
+        border: 2px solid #e24b72;
+        background-color: #727272;
+        border-radius: 15px;
+        height: 100%;
+        padding: 0 15px 15px; }
+        .world-cup-page #howToPlayModal .modal-dialog .modal-content .modal-body .steps__item__title {
+          background-size: contain;
+          background-repeat: no-repeat;
+          background-image: url(../images/world-cup/bar-child-bg.png);
+          background-position: center;
+          text-align: center;
+          text-transform: uppercase;
+          font-size: 16px;
+          font-weight: 600;
+          color: #fff;
+          padding: 3px 15px;
+          min-height: 25px;
+          display: flex;
+          place-content: center;
+          place-items: center; }
+        .world-cup-page #howToPlayModal .modal-dialog .modal-content .modal-body .steps__item__img {
+          height: 100px;
+          padding: 10px; }
+        .world-cup-page #howToPlayModal .modal-dialog .modal-content .modal-body .steps__item__description {
+          font-size: 14px;
+          font-weight: 400;
+          color: #fff;
+          min-height: 50px;
+          display: flex;
+          place-content: center;
+          place-items: center; }
+
+.event-icon {
+  position: fixed;
+  left: 30px;
+  bottom: 50px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  place-content: center;
+  place-items: flex-end;
+  gap: 10px; }
+  @media only screen and (max-width: 576px) {
+    .event-icon {
+      left: 20px;
+      bottom: 30px; } }
+  .event-icon img {
+    max-width: 120px; }
+    @media only screen and (max-width: 576px) {
+      .event-icon img {
+        max-width: 90px; } }
+  .event-icon .btn-close {
+    position: initial !important;
+    padding: 5px; }
+    .event-icon .btn-close:focus, .event-icon .btn-close:active {
+      box-shadow: none !important; }
