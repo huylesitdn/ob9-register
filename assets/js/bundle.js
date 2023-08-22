@@ -263,6 +263,36 @@ $('.forget-password-page .btn-next').on('click', function (e) {
 });
 
 
+/** REGISTER PAGE */
+const COMPLETED_STEP_CLASS = 'step-completed'
+$('#my-step button[data-bs-toggle="tab"]').on('shown.bs.tab', function (event) {
+  const current_step = $(event.target).data('step');
+  $('#my-step button[data-bs-toggle="tab"]').each(function (index, item) {
+    const item_step = $(item).data('step');
+    if(current_step >= item_step) {
+      $(item).addClass(COMPLETED_STEP_CLASS);
+    } else {
+      if($(item).hasClass(COMPLETED_STEP_CLASS)) {
+        $(item).removeClass(COMPLETED_STEP_CLASS);
+      }
+    }
+  })
+});
+
+$('#my-step-content .goToStep').on('click', function (event) {
+  const gotostep = $(event.target).data('gotostep');
+  if(!!gotostep) {
+    const step_elm = $(`#my-step button[data-step="${gotostep}"]`);
+    if (step_elm && step_elm.length > 0) {
+      const step = new bootstrap.Tab(step_elm);
+      step.show()
+    }
+  }
+})
+
+/** REGISTER PAGE */
+
+
 function renderAfterHaveTranslator () {
   //
   changeFlagAndCountryName();

@@ -5,6 +5,9 @@
   background-position: center;
   background-size: cover;
   min-height: 60vh;
+  font-family: 'CodecPro', 'Roboto', sans-serif;
+  // font-style: normal;
+  // font-weight: 400;
 
   &__top-banner {
     img {
@@ -31,10 +34,10 @@
         &::after {
           content: "";
           position: absolute;
-          height: 2px;
-          width: 50px;
+          height: 1px;
+          width: 40px;
           background-color: #dee7ee;
-          left: 170%;
+          left: 200%;
           top: 0;
           bottom: 0;
           margin: auto;
@@ -54,6 +57,11 @@
         font-weight: bold;
         border-radius: 6px;
         border: none;
+
+        &.step-completed,
+        &.active {
+          background: #528de1;
+        }
       }
     }
   }
@@ -67,6 +75,7 @@
       border: none;
       border-radius: 10px;
       padding: 5px 15px;
+      font-size: 15px;
 
       &::-webkit-input-placeholder {
         /* Edge */

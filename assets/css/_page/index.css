@@ -888,7 +888,8 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  min-height: 60vh; }
+  min-height: 60vh;
+  font-family: 'CodecPro', 'Roboto', sans-serif; }
   .register-page__top-banner img {
     width: 100%; }
     @media only screen and (max-width: 576px) {
@@ -906,10 +907,10 @@
         .register-page #my-step .nav-item.line::after {
           content: "";
           position: absolute;
-          height: 2px;
-          width: 50px;
+          height: 1px;
+          width: 40px;
           background-color: #dee7ee;
-          left: 170%;
+          left: 200%;
           top: 0;
           bottom: 0;
           margin: auto; }
@@ -926,6 +927,8 @@
         font-weight: bold;
         border-radius: 6px;
         border: none; }
+        .register-page #my-step .nav-item .nav-link.step-completed, .register-page #my-step .nav-item .nav-link.active {
+          background: #528de1; }
   .register-page #my-step-content {
     min-height: 400px; }
     .register-page #my-step-content .form-control {
@@ -933,7 +936,8 @@
       height: 50px;
       border: none;
       border-radius: 10px;
-      padding: 5px 15px; }
+      padding: 5px 15px;
+      font-size: 15px; }
       .register-page #my-step-content .form-control::-webkit-input-placeholder {
         /* Edge */
         color: #8296a9;

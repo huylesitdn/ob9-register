@@ -6,6 +6,11 @@
   font-weight: 400;
   src: local('Aldo the Apache'), url('../fonts/AldotheApache.woff') format('woff');
 }
+@font-face {
+  font-family: 'CodecPro';
+  font-weight: 400;
+  src: local('CodecPro'), url('../fonts/CodecPro-News.ttf') format('ttf');
+}
 
 
 @import "./_base/index.scss";
