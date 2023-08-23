@@ -8,6 +8,21 @@
     min-height: auto;
   }
 
+  .banner {
+    @media only screen and (max-width: 767px) {
+      display: none;
+    }
+
+  }
+
+  .banner-mobile {
+    display: none;
+
+    @media only screen and (max-width: 767px) {
+      display: initial;
+    }
+  }
+
   .step-title {
     background-color: #548de0;
     display: none;

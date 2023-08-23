@@ -91,7 +91,8 @@
     "": ""
   },
   "register_page": {
-    "banner": "assets/images/register/en-frame.png",
+    "banner": "assets/images/register/banners/desktop/Banner_PC_EN_MYR.png",
+    "banner_mobile": "assets/images/register/banners/mobile/Banner_Moblie_EN_MYR.png",
     "username": "Username *",
     "new_password": "New Password *",
     "fullname": "Fullname *",

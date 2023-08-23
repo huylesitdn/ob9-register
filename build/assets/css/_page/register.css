@@ -6,6 +6,14 @@
     .register-page {
       padding-top: 10px;
       min-height: auto; } }
+  @media only screen and (max-width: 767px) {
+    .register-page .banner {
+      display: none; } }
+  .register-page .banner-mobile {
+    display: none; }
+    @media only screen and (max-width: 767px) {
+      .register-page .banner-mobile {
+        display: initial; } }
   .register-page .step-title {
     background-color: #548de0;
     display: none;

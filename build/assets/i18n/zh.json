@@ -91,7 +91,8 @@
     "": ""
   },
   "register_page": {
-    "banner": "assets/images/register/zh-frame.png",
+    "banner": "assets/images/register/banners/desktop/Banner_PC_CN_MYR.png",
+    "banner_mobile": "assets/images/register/banners/mobile/Banner_Moblie_CN_MYR.png",
     "username": "用户名 *",
     "new_password": "新密码 *",
     "comfirm_password": "确认密码 *",
