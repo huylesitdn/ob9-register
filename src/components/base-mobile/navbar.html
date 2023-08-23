@@ -1,12 +1,18 @@
 <nav class="navbar fixed-top navbar-light">
   <div class="container-fluid content justify-content-center">
-    <!-- <button class="btn" id="navMenu">
+    <button class="btn" id="navMenu">
       <img src="assets/icons/menu.png" alt="" />
-    </button> -->
+    </button>
     <img class="content__logo" src="assets/images/logo.png" alt="" />
-    <!-- <a href="/customer-service.html" class="content__customer_service">
+    <a href="/customer-service.html" class="content__customer_service">
       <img src="assets/icons/customer-service-blue.png" alt="" />
       <span data-i18n="customer_service">Customer Service</span>
-    </a> -->
+    </a>
   </div>
 </nav>
+@@if (!!context.without_login) {
+  @@include('./sidebar-without-login.html')
+}
+@@if (!context.without_login) {
+  @@include('./sidebar.html')
+}
