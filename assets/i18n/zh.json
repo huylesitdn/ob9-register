@@ -99,6 +99,8 @@
     "email": "電郵位置 *",
     "telephone": "電話號碼 *",
     "next": "下一個 ",
+    "back": "后退",
+    "register": "登记",
     "step_1_description_1": "通過單擊“註冊”按鈕，我特此確認我已年滿 18 歲並且已閱讀並接受 您的條款和條件",
     "step_1_description_2": "已有賬戶？登錄",
     "success": "assets/images/register/zh-success.png",

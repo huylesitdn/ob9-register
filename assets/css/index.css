@@ -1426,10 +1426,13 @@ span.input-group-text[data-i18n="To"] {
       .register-page #my-step-content .form-control::placeholder {
         color: #8296a9;
         font-weight: 300; }
-    .register-page #my-step-content .btn-primary {
+    .register-page #my-step-content .btn {
       border: none;
-      background-color: #538ce1;
-      border-bottom: 5px solid #527fd7;
       border-radius: 10px;
-      padding-top: 12px;
       min-height: 55px; }
+      .register-page #my-step-content .btn-default {
+        border: 1px solid #ddd; }
+      .register-page #my-step-content .btn-primary {
+        padding-top: 12px;
+        background-color: #538ce1;
+        border-bottom: 5px solid #527fd7; }

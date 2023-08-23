@@ -32,17 +32,226 @@
     <!-- Content -->
     <section class="main register-page">
       <nav class="navbar fixed-top navbar-light">
-  <div class="container-fluid content justify-content-center">
-    <!-- <button class="btn" id="navMenu">
+  <div class="container-fluid content">
+    <button class="btn" id="navMenu">
       <img src="assets/icons/menu.png" alt="" />
-    </button> -->
+    </button>
     <img class="content__logo" src="assets/images/logo.png" alt="" />
-    <!-- <a href="/customer-service.html" class="content__customer_service">
+    <a href="/customer-service.html" class="content__customer_service">
       <img src="assets/icons/customer-service-blue.png" alt="" />
       <span data-i18n="customer_service">Customer Service</span>
-    </a> -->
+    </a>
   </div>
 </nav>
+
+
+  <div id="mySidenav" class="sidenav">
+  <div class="left-nav">
+    <div class="left-nav__top">
+      <div class="left-nav__top__info">
+        <div class="left-nav__top__info__avatar">
+          <img src="assets/icons/user-avatar.png" />
+        </div>
+        <a href="/my-account.html" class="left-nav__top__info__user-info">
+          <div><img src="assets/icons/vip0.png" style="width: 30px" /></div>
+          <h3>username8080</h3>
+          <p><span data-i18n="total_balance">Total Balance</span></p>
+          <div>MYR 5888.20 <img src="assets/icons/refresh.png" style="width: 20px" /></div>
+        </a>
+      </div>
+      <ul class="left-nav__top__nav">
+        <li class="left-nav__top__nav__item">
+          <a href="/" class="left-nav__top__nav__item__link">
+            <div>
+              <img src="assets/icons/menu/home.png" />
+            </div>
+            <span data-i18n="menu.home">Home</span>
+          </a>
+        </li>
+        <li class="left-nav__top__nav__item">
+          <a href="/my-account.html" class="left-nav__top__nav__item__link">
+            <div>
+              <img src="assets/icons/menu/my-account.png" />
+            </div>
+            <span data-i18n="menu.my_account">My Account</span>
+          </a>
+        </li>
+        <li class="left-nav__top__nav__item">
+          <a href="/vip/" class="left-nav__top__nav__item__link">
+            <div>
+              <img src="assets/icons/menu/vip.png" />
+            </div>
+            <span data-i18n="menu.vip" class="text-uppercase">Vip</span>
+          </a>
+        </li>
+        <li class="left-nav__top__nav__item">
+          <a href="/promotion.html" class="left-nav__top__nav__item__link">
+            <div>
+              <img src="assets/icons/menu/promotion.png" />
+            </div>
+            <span data-i18n="Promotion">Promotion</span>
+          </a>
+        </li>
+        <li class="left-nav__top__nav__item">
+          <a href="/sponsors/" class="left-nav__top__nav__item__link">
+            <div>
+              <img src="assets/icons/menu/sponsor.png" />
+            </div>
+            <span data-i18n="menu.sponsor">Sponsor</span>
+          </a>
+        </li>
+        <!-- <li class="left-nav__top__nav__item">
+          <a href="#" class="left-nav__top__nav__item__link">
+            <div>
+              <img src="assets/icons/menu/faq.png" />
+            </div>
+            <span data-i18n="menu.faq">FAQ</span>
+          </a>
+        </li> -->
+        <li class="left-nav__top__nav__item">
+          <a href="/help/" class="left-nav__top__nav__item__link">
+            <div>
+              <img src="assets/icons/menu/help-center.png" />
+            </div>
+            <span data-i18n="menu.Help_Center">Help Center</span>
+          </a>
+        </li>
+        <li class="left-nav__top__nav__item">
+          <a href="/about-us.html" class="left-nav__top__nav__item__link">
+            <div>
+              <img src="assets/icons/menu/about.png" />
+            </div>
+            <span data-i18n="menu.about_us">About Us</span>
+          </a>
+        </li>
+        <li class="left-nav__top__nav__item">
+          <a href="/contact-us.html" class="left-nav__top__nav__item__link">
+            <div>
+              <img src="assets/icons/menu/contact.png" />
+            </div>
+            <span data-i18n="menu.contact_us">Contact Us</span>
+          </a>
+        </li>
+        <li class="left-nav__top__nav__item">
+          <a href="/inbox/" class="left-nav__top__nav__item__link">
+            <div>
+              <img src="assets/icons/menu/info.png" />
+            </div>
+            <span data-i18n="inbox"></span>
+            <div class="badge rounded-pill bg-danger text-white">99+</div>
+          </a>
+        </li>
+        <li class="left-nav__top__nav__item">
+          <a href="/live-match.html" class="left-nav__top__nav__item__link">
+            <div>
+              <img src="assets/images/live-match/live-match.png" />
+            </div>
+            <span class="nav-live-match">
+              <span data-i18n="live_match_page.Live_match"></span>
+            </span>
+          </a>
+        </li>
+        <li class="left-nav__top__nav__item">
+          <a href="#" data-bs-toggle="modal" data-bs-target="#selectLanguage">
+            <div>
+              <img src="assets/icons/menu/language.png" />
+            </div>
+            <span data-i18n="menu.region_language">Region & Language</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="left-nav__bottom">
+      <div class="left-nav__bottom__follow-us">
+        <span data-i18n="menu.follow_us">Follow Us:</span>
+        <div>
+          <a href="https://web.facebook.com/ob9entertainment" target="_blank"><img src="assets/icons/menu/follow/facebook.png" /></a>
+          <a href="https://www.instagram.com/ob9entertainment/" target="_blank"><img src="assets/icons/menu/follow/instagram.png" /></a>
+          <a href="https://twitter.com/OB9ENTERTAINME1" target="_blank"><img src="assets/icons/menu/follow/twiter.png" /></a>
+          <a href="https://www.youtube.com/channel/UCJl6SBeStFyGy5COdQA1nog" target="_blank"><img src="assets/icons/menu/follow/youtube.png" /></a>
+        </div>
+      </div>
+      <div class="left-nav__bottom__logout">
+        <a href="/universal.html">
+          <img src="assets/icons/menu/logout.png" />
+          <span data-i18n="menu.logout">LOG OUT</span>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="backdrop"></div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="selectLanguage" tabindex="-1" aria-labelledby="selectLanguageLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="selectLanguageLabel" data-i18n="Choose_Region">Choose Region & Language</h5>
+      </div>
+      <div class="modal-body">
+
+        <div class="row mb-4" role="button">
+          <div class="col-4 text-center">
+            <img src="assets/images/language/1.png" />
+            <div class="title" data-i18n="universal_page.Malaysia"></div>
+          </div>
+          <div class="col-8 subtitle justify-content-start gap-2">
+            <span class="choose-language" data-language="EN" data-region="Malaysia">English</span> |
+            <span class="choose-language" data-language="ZH" data-region="Malaysia">中文</span> |
+            <span class="choose-language" data-language="" data-region="Malaysia">Bahasa Malaysia</span>
+          </div>
+        </div>
+
+        <div class="row mb-4" role="button">
+          <div class="col-4 text-center">
+            <img src="assets/images/language/2.png" />
+            <div class="title" data-i18n="universal_page.Singapore"></div>
+          </div>
+          <div class="col-8 subtitle justify-content-start gap-2">
+            <span class="choose-language" data-language="EN" data-region="Singapore">English</span> |
+            <span class="choose-language" data-language="ZH" data-region="Singapore">中文</span>
+          </div>
+        </div>
+
+        <div class="row mb-4" role="button">
+          <div class="col-4 text-center">
+            <img src="assets/images/language/3.png" />
+            <div class="title" data-i18n="universal_page.Thailand"></div>
+          </div>
+          <div class="col-8 subtitle justify-content-start gap-2">
+            <span class="choose-language" data-language="" data-region="Thailand">ไทย</span> |
+            <span class="choose-language" data-language="EN" data-region="Thailand">English</span>
+          </div>
+        </div>
+
+        <div class="row mb-4" role="button">
+          <div class="col-4 text-center">
+            <img src="assets/images/language/4.png" />
+            <div class="title" data-i18n="universal_page.Vietnam"></div>
+          </div>
+          <div class="col-8 subtitle justify-content-start gap-2">
+            <span class="choose-language" data-language="" data-region="Vietnam">Tiếng Việt</span> |
+            <span class="choose-language" data-language="EN" data-region="Vietnam">English</span>
+          </div>
+        </div>
+
+        <div class="row mb-2" role="button">
+          <div class="col-4 text-center">
+            <img src="assets/images/language/5.png" />
+            <div class="title" data-i18n="universal_page.Indonesia"></div>
+          </div>
+          <div class="col-8 subtitle justify-content-start gap-2">
+            <span class="choose-language" data-language="" data-region="Indonesia">Bahasa Indonesia</span> |
+            <span class="choose-language" data-language="EN" data-region="Indonesia">English</span>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+
 
 
       <div class="step-title"></div>
@@ -107,7 +316,8 @@
                 <p class="text-muted" data-i18n="register_page.step_1_description_2"></p>
               </div>
 
-              <button type="button" class="btn btn-primary w-100 mt-3 goToStep" data-gotostep="3" data-i18n="register_page.next"></button>
+              <button type="button" class="btn btn-primary w-100 mt-3 goToStep" data-gotostep="3" data-i18n="register_page.register"></button>
+              <button type="button" class="btn btn-default btn-outline-secondary w-100 mt-3 goToStep" data-gotostep="1" data-i18n="register_page.back"></button>
             </form>
           </div>
           <div class="tab-pane fade" id="step-3" role="tabpanel" aria-labelledby="step-3-tab">

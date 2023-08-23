@@ -116,13 +116,20 @@
       }
     }
 
-    .btn-primary {
+    .btn {
       border: none;
-      background-color: #538ce1;
-      border-bottom: 5px solid #527fd7;
       border-radius: 10px;
-      padding-top: 12px;
       min-height: 55px;
+
+      &-default {
+        border: 1px solid #ddd;
+      }
+
+      &-primary {
+        padding-top: 12px;
+        background-color: #538ce1;
+        border-bottom: 5px solid #527fd7;
+      }
     }
   }
 }
