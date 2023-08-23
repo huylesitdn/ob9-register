@@ -1,0 +1,28 @@
+<nav class="navbar fixed-top navbar-light nav-child">
+  <div class="container-fluid content @@if (!context.back_url && !context.help_url) {justify-content-center}">
+    @@if (!!context.back_url) {
+      <a id="back_url" class="@@if (!!context.use_back_url) {use_back_url}" href="@@back_url">
+        @@if (!!context.icon_back_white) {
+          <img src="assets/icons/icon_back_white.png" alt="" />
+        }
+        @@if (!context.icon_back_white) {
+          <img src="assets/icons/icon_back.png" alt="" />
+        }
+      </a>
+    }
+    <!-- <div class="title" data-i18n="@@title">@@title</div> -->
+    <div class="title" data-i18n="@@title"></div>
+    <div class="@@if (!context.help_url) {opacity-0} @@if (!!context.right_expand_icon && !!context.right_expand_icon_url){d-none}">
+      <img src="assets/icons/help.png" alt="" />
+    </div>
+    @@if (!!context.right_expand_icon && !!context.right_expand_icon_url) {
+      @@include('@@right_expand_icon', {right_expand_icon_url: '@@right_expand_icon_url'})
+    }
+  </div>
+  @@if (!!context.nav_expand_url || !!context.nav_expand_active_btn || !!content.nav_expand_active_btn_text) {
+    @@include('@@nav_expand_url', {nav_expand_active_btn: '@@nav_expand_active_btn', nav_expand_active_btn_text: '@@nav_expand_active_btn_text'})
+  }
+  
+</nav>
+
+@@include('./sidebar.html')

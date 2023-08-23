@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+  <meta charset="UTF-8" />
+  
+  
+  <!-- build -->
+  <!-- <base href = "." /> -->
+
+  <!-- server -->
+  <base href = "/" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OB9 - World Cup Event</title>
+  <!-- Bootstrap CSS -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+    crossorigin="anonymous"
+  />
+
+  <link rel="stylesheet" type="text/css" href="assets/library/slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="assets/library/slick/slick-theme.css" />
+
+  <link rel="stylesheet" type="text/css" href="assets/css/index.css" />
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+</head>
+
+  <body>
+    
+    <!-- Content -->
+    <section class="main world-cup-block world-cup-page">
+      
+      <div class="d-none d-lg-block">
+        <div class="my-navbar">
+  <nav class="my-navbar__top navbar fixed-top navbar-expand-lg">
+    <div class="my-navbar__top__container container">
+      <span class="navbar-text pe-3">
+        GMT+8 2022-02-18 11:49:21
+      </span>
+      <ul class="navbar-nav me-auto nav-left">
+        <li class="nav-item">
+          <a class="nav-link" href="/home-without-login.html" data-i18n="top_menu.Homepage"></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="javascript:void(0)">
+            <div class="vr"></div>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="javascript:void(0)" data-i18n="top_menu.Support_Live_Chat"></a>
+        </li>
+      </ul>
+      <form class="nav-login-form">
+        <div class="input-group">
+          <span class="input-group-text">
+            <img src="assets/images/navbar/username.png" />
+          </span>
+          <input type="text" class="form-control" data-i18n="username" data-i18n-attr="placeholder">
+        </div>
+        <div class="input-group">
+          <span class="input-group-text">
+            <img src="assets/images/navbar/password.png" />
+          </span>
+          <input type="password" class="form-control" data-i18n="password" data-i18n-attr="placeholder">
+          <span class="input-group-text">
+            <a href="/forget-password.html" data-i18n="top_menu.Forgot"></a>
+          </span>
+        </div>
+        <a href="/" class="btn btn-success" data-i18n="login"></a>
+        <a href="/register.html" class="btn btn-info" data-i18n="register"></a>
+      </form>
+      <!-- <ul class="navbar-nav ms-auto nav-right">
+        <li class="nav-item nav-info">
+          <a class="nav-link pe-0" aria-current="page" href="javascript:void(0)">
+            <span data-i18n="top_menu.Welcome_username8080"></span>
+            <img src="assets/icons/vip-0.png" />
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="javascript:void(0)">
+            <div class="vr"></div>
+          </a>
+        </li>
+        <li class="nav-item nav-info">
+          <a class="nav-link ps-0" aria-current="page" href="javascript:void(0)">
+            <img src="assets/icons/eye.png" />
+            <span data-i18n="top_menu.Total_Balance"></span>
+            <span class="currency">MYR 5888.20</span>
+            <img src="assets/icons/refresh.png" />
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="javascript:void(0)" data-i18n="top_menu.Deposit"></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="javascript:void(0)" data-i18n="top_menu.Withdraw"></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="javascript:void(0)" data-i18n="top_menu.Rebate"></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="javascript:void(0)">
+            <div class="vr"></div>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="javascript:void(0)">
+            <img src="assets/icons/ring.png" />
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/universal.html">
+            <img src="assets/icons/logout.png" />
+          </a>
+        </li>
+      </ul> -->
+    </div>
+  </nav>
+
+    <!-- SELECT LANGUAGE MODAL -->
+    <!-- Modal -->
+<div class="modal fade modal-custom" id="selectLanguage" tabindex="-1" aria-labelledby="selectLanguageLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="btn-close opacity-0" data-bs-dismiss="modal" aria-label="Close"></button>
+        <h5 class="modal-title" id="selectLanguageLabel" data-i18n="Choose_Region"></h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+
+        <div class="row mb-4" role="button">
+          <div class="col-4 text-center">
+            <img src="assets/images/language/1.png" />
+            <div class="title" data-i18n="universal_page.Malaysia"></div>
+          </div>
+          <div class="col-8 subtitle justify-content-start gap-2">
+            <span class="choose-language" data-language="EN" data-region="Malaysia">English</span> |
+            <span class="choose-language" data-language="ZH" data-region="Malaysia">中文</span> |
+            <span class="choose-language" data-language="" data-region="Malaysia">Bahasa Malaysia</span>
+          </div>
+        </div>
+
+        <div class="row mb-4" role="button">
+          <div class="col-4 text-center">
+            <img src="assets/images/language/2.png" />
+            <div class="title" data-i18n="universal_page.Singapore"></div>
+          </div>
+          <div class="col-8 subtitle justify-content-start gap-2">
+            <span class="choose-language" data-language="EN" data-region="Singapore">English</span> |
+            <span class="choose-language" data-language="ZH" data-region="Singapore">中文</span>
+          </div>
+        </div>
+
+        <div class="row mb-4" role="button">
+          <div class="col-4 text-center">
+            <img src="assets/images/language/3.png" />
+            <div class="title" data-i18n="universal_page.Thailand"></div>
+          </div>
+          <div class="col-8 subtitle justify-content-start gap-2">
+            <span class="choose-language" data-language="" data-region="Thailand">ไทย</span> |
+            <span class="choose-language" data-language="EN" data-region="Thailand">English</span>
+          </div>
+        </div>
+
+        <div class="row mb-4" role="button">
+          <div class="col-4 text-center">
+            <img src="assets/images/language/4.png" />
+            <div class="title" data-i18n="universal_page.Vietnam"></div>
+          </div>
+          <div class="col-8 subtitle justify-content-start gap-2">
+            <span class="choose-language" data-language="" data-region="Vietnam">Tiếng Việt</span> |
+            <span class="choose-language" data-language="EN" data-region="Vietnam">English</span>
+          </div>
+        </div>
+
+        <div class="row mb-2" role="button">
+          <div class="col-4 text-center">
+            <img src="assets/images/language/5.png" />
+            <div class="title" data-i18n="universal_page.Indonesia"></div>
+          </div>
+          <div class="col-8 subtitle justify-content-start gap-2">
+            <span class="choose-language" data-language="" data-region="Indonesia">Bahasa Indonesia</span> |
+            <span class="choose-language" data-language="EN" data-region="Indonesia">English</span>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+    <!-- SELECT LANGUAGE MODAL -->
+
+  <nav class="my-navbar__main navbar fixed-top navbar-expand-lg">
+  <div class="my-navbar__main__container container">
+    <a class="navbar-brand" href="/home-without-login.html">
+      <img src="assets/images/navbar-logo.png" />
+    </a>
+    <ul class="navbar-nav nav-left">
+      <li class="nav-item">
+        <a class="nav-link active" href="/home-without-login.html" data-i18n="navbar.Home"></a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link " href="/sports-without-login.html" data-i18n="navbar.SPORTS"></a>
+        <div class="dropdown-menu mymenu">
+          <div class="row mymenu__container sports">
+            <div class="col mymenu__container__item">
+              <div class="mymenu__container__item__img">
+                <img src="assets/images/navbar/sports-1.png" />
+              </div>
+              <div class="mymenu__container__item__text">
+                <span data-i18n="official_img"></span>
+                <div class="title" data-i18n="navbar.SPORTS_DROPROWN.title1"></div>
+                <div class="description" data-i18n="navbar.SPORTS_DROPROWN.description1"></div>
+                <a class="play-now" href="/login.html">
+                  <span data-i18n="play_now_img"></span>
+                </a>
+              </div>
+            </div>
+            <div class="col mymenu__container__item">
+              <div class="mymenu__container__item__img">
+                <img src="assets/images/navbar/sports-2.png" />
+              </div>
+              <div class="mymenu__container__item__text">
+                <span class="opacity-0" data-i18n="official_img"></span>
+                <div class="title" data-i18n="navbar.SPORTS_DROPROWN.title2"></div>
+                <div class="description" data-i18n="navbar.SPORTS_DROPROWN.description2"></div>
+                <a class="play-now" href="/login.html">
+                  <span data-i18n="play_now_img"></span>
+                </a>
+              </div>
+            </div>
+            <div class="col mymenu__container__item">
+              <div class="mymenu__container__item__img">
+                <img src="assets/images/navbar/sports-3.png" />
+              </div>
+              <div class="mymenu__container__item__text">
+                <span class="opacity-0" data-i18n="official_img"></span>
+                <div class="title" data-i18n="navbar.SPORTS_DROPROWN.title3"></div>
+                <div class="description" data-i18n="navbar.SPORTS_DROPROWN.description3"></div>
+                <a class="play-now" href="/login.html">
+                  <span data-i18n="play_now_img"></span>
+                </a>
+              </div>
+            </div>
+            <div class="col-2 mymenu__container__item SPORTS_EVENT">
+              <div>
+                <div class="title" data-i18n="navbar.SPORTS_DROPROWN.SPORTS_EVENT_title"></div>
+                <div class="description" data-i18n="navbar.SPORTS_DROPROWN.SPORTS_EVENT_desciption"></div>
+                <div class="percent">
+                  <span>1.18</span>
+                  <span>%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link " href="/live-casino-without-login.html" data-i18n="navbar.LIVE_CASINO"></a>
+        <div class="dropdown-menu mymenu">
+          <div class="row mymenu__container live-casino">
+            <div class="col mymenu__container__item">
+              <img src="assets/images/navbar/live-casino-1.png" />
+            </div>
+            <div class="col mymenu__container__item">
+              <img src="assets/images/navbar/live-casino-2.png" />
+            </div>
+            <div class="col mymenu__container__item">
+              <img src="assets/images/navbar/live-casino-3.png" />
+            </div>
+            <div class="col mymenu__container__item">
+              <img src="assets/images/navbar/live-casino-4.png" />
+            </div>
+            <div class="col-1"></div>
+            <div class="col-12"></div>
+            <div class="col-1"></div>
+            <div class="col mymenu__container__item second-col">
+              <img src="assets/images/navbar/live-casino-5.png" />
+            </div>
+            <div class="col mymenu__container__item second-col">
+              <img src="assets/images/navbar/live-casino-6.png" />
+            </div>
+            <div class="col mymenu__container__item second-col">
+              <img src="assets/images/navbar/live-casino-7.png" />
+            </div>
+            <div class="col mymenu__container__item second-col">
+              <img src="assets/images/navbar/live-casino-8.png" />
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link " href="/slots-without-login.html" data-i18n="navbar.SLOTS"></a>
+        <div class="dropdown-menu mymenu">
+          <div class="row mymenu__container live-casino">
+            <div class="col mymenu__container__item">
+              <img src="assets/images/navbar/slots-1.png" />
+            </div>
+            <div class="col mymenu__container__item">
+              <img src="assets/images/navbar/slots-2.png" />
+            </div>
+            <div class="col mymenu__container__item">
+              <img src="assets/images/navbar/slots-3.png" />
+            </div>
+            <div class="col mymenu__container__item">
+              <img src="assets/images/navbar/slots-4.png" />
+            </div>
+            <div class="col-1"></div>
+            <div class="col-12"></div>
+            <div class="col-1"></div>
+            <div class="col mymenu__container__item second-col">
+              <img src="assets/images/navbar/slots-5.png" />
+            </div>
+            <div class="col mymenu__container__item second-col">
+              <img src="assets/images/navbar/slots-6.png" />
+            </div>
+            <div class="col mymenu__container__item second-col">
+              <img src="assets/images/navbar/slots-7.png" />
+            </div>
+            <div class="col mymenu__container__item second-col">
+              <img src="assets/images/navbar/slots-8.png" />
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link " href="/fishing-without-login.html" data-i18n="navbar.FISHING"></a>
+        <div class="dropdown-menu mymenu">
+          <div class="row mymenu__container container m-auto fishing">
+            <div class="col mymenu__container__item">
+              <div class="mymenu__container__item__img">
+                <img src="assets/images/navbar/fishing-1.png" />
+              </div>
+              <div class="mymenu__container__item__text">
+                <span data-i18n="fishing_hight_return_img"></span>
+                <span data-i18n="official_img"></span>
+                <div class="title" data-i18n="navbar.FIRSHING_DROPROWN.title1"></div>
+                <div class="description" data-i18n="navbar.FIRSHING_DROPROWN.description1"></div>
+                <a class="play-now" href="/login.html">
+                  <span data-i18n="play_now_img"></span>
+                </a>
+              </div>
+            </div>
+            <div class="col mymenu__container__item">
+              <div class="mymenu__container__item__img">
+                <img src="assets/images/navbar/fishing-2.png" />
+              </div>
+              <div class="mymenu__container__item__text">
+                <span class="opacity-0" data-i18n="official_img"></span>
+                <div class="title" data-i18n="navbar.FIRSHING_DROPROWN.title2"></div>
+                <div class="description" data-i18n="navbar.FIRSHING_DROPROWN.description2"></div>
+                <a class="play-now" href="/login.html">
+                  <span data-i18n="play_now_img"></span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link " href="/e-sports-without-login.html" data-i18n="navbar.E_SPORTS"></a>
+        <div class="dropdown-menu mymenu">
+          <div class="row mymenu__container e-sports">
+            <div class="col mymenu__container__item">
+              <img src="assets/images/navbar/e-sports-1.png" />
+            </div>
+            <div class="col mymenu__container__item">
+              <img src="assets/images/navbar/e-sports-2.png" />
+            </div>
+            <div class="col mymenu__container__item">
+              <img src="assets/images/navbar/e-sports-3.png" />
+            </div>
+            <div class="col mymenu__container__item">
+              <img src="assets/images/navbar/e-sports-4.png" />
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link " href="/lottery-without-login.html" data-i18n="navbar.LOTTERY"></a>
+        <div class="dropdown-menu mymenu">
+          <div class="row mymenu__container container lottery">
+            <div class="col-7 mymenu__container__item">
+              <div class="mymenu__container__item__img">
+                <img src="assets/images/navbar/lottery-1.png" />
+              </div>
+              <div class="mymenu__container__item__text">
+                <div class="title" data-i18n="navbar.LOTTERY_DROPROWN.title1"></div>
+                <div class="description" data-i18n="navbar.LOTTERY_DROPROWN.description1"></div>
+                <a class="play-now" href="/login.html">
+                  <span data-i18n="play_now_img"></span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+    <ul class="navbar-nav nav-right ms-auto">
+      <li class="nav-item">
+        <a class="nav-link active" href="javascript:void(0)">
+          <div class="nav-link-img">
+            <img src="assets/icons/navbar/cutomer-service.svg" />
+          </div>
+          <div data-i18n="navbar.Customer_Service"></div>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/promotion-without-login.html">
+          <div class="nav-link-img">
+            <img src="assets/icons/navbar/promotion.svg" />
+          </div>
+          <div data-i18n="navbar.Promotion"></div>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/sponsor-juventus-without-login.html">
+          <div class="nav-link-img">
+            <img src="assets/icons/navbar/sponsor.svg" />
+          </div>
+          <div data-i18n="navbar.Sponsor"></div>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/vip-privilege-details-without-login.html">
+          <div class="nav-link-img">
+            <img src="assets/icons/navbar/vip.svg" />
+          </div>
+          <div data-i18n="navbar.VIP"></div>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#selectLanguage">
+          <div class="nav-link-img">
+            <img id="flagLanguage" src="assets/icons/navbar/language.png" />
+          </div>
+          <div id="countryNameLanguage" data-i18n="navbar.Malaysia"></div>
+        </a>
+      </li>
+    </ul>
+  </div>
+</nav>
+</div>
+      </div>
+      <div class="d-block d-lg-none">
+        <nav class="mobile-navbar navbar fixed-top navbar-light nav-child">
+  <div class="container-fluid content ">
+    
+      <a id="back_url" class="" href="/">
+        <img src="assets/icons/icon_back.png" alt="" />
+      </a>
+    
+    <div class="title" data-i18n="world_up_page.header"></div>
+    <div></div>
+  </div>
+</nav>
+      </div>
+
+      <!-- content -->
+      <div class="world-cup-page__top-banner d-none d-lg-block" data-i18n="world_up_page.top_banner"></div>
+      <div class="world-cup-page__top-banner d-block d-lg-none" data-i18n="world_up_page.top_banner_mobile"></div>
+
+      <div class="world-cup-block__content">
+        <div class="container world-cup-page__container">
+
+          <div class="block-content" data-i18n="world_up_page.PREDICTION_banner"></div>
+          
+          <div class="block-content">
+            <div class="world-cup-page__container__block_content event-detail">
+              <div class="header" data-i18n="world_up_page.Term_Conditions"></div>
+              <div class="event-detail-content">
+                <div class="row">
+                  <div class="col-lg-6 col-12 mb-4">
+                    <a href="#">
+                      <div data-i18n="world_up_page.Term_Conditions__top_img1"></div>
+                    </a>
+                  </div>
+                  <div class="col-lg-6 col-12 mb-4">
+                    <a href="#" data-i18n="world_up_page.Term_Conditions__top_img2"></a>
+                  </div>
+                </div>
+                <div class="event-detail-content__header" data-i18n="world_up_page.PREDICTION__Term_Conditions__title"></div>
+                <div class="event-detail-content__item">
+                  <div class="event-detail-content__item__title" data-i18n="world_up_page.PREDICTION__Term_Conditions__item__title1"></div>
+                  <div class="event-detail-content__item__content" data-i18n="world_up_page.PREDICTION__Term_Conditions__item__content1"></div>
+                </div>
+                <div class="event-detail-content__item">
+                  <div class="event-detail-content__item__title" data-i18n="world_up_page.PREDICTION__Term_Conditions__item__title2"></div>
+                  <div class="event-detail-content__item__content" data-i18n="world_up_page.PREDICTION__Term_Conditions__item__content2"></div>
+                </div>
+                <div class="event-detail-content__item">
+                  <!-- <div class="event-detail-content__item__title" data-i18n="world_up_page.PREDICTION__Term_Conditions__item__title3"></div> -->
+                  <div class="event-detail-content__item__content" data-i18n="world_up_page.PREDICTION__Term_Conditions__item__content3"></div>
+                </div>
+
+                <div class="world-cup-page__container__block_content__table event-detail-content__table table-responsive text-center">
+                  <table class="table table-bordered">
+                    <thead>
+                      <tr>
+                        <th data-i18n="world_up_page.DAILY_DEPOSIT"></th>
+                        <th data-i18n="world_up_page.EVENT_TYPE"></th>
+                        <th data-i18n="world_up_page.PREDICT_WINNING"></th>
+                        <th data-i18n="world_up_page.PREDICT_PRIZE"></th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td rowspan="2">>MYR500</td>
+                        <td rowspan="2">
+                          <span data-i18n="world_up_page.PREDICT"></span> 3 <span data-i18n="world_up_page.MATCH"></span>
+                        </td>
+                        <td>
+                          2 <span data-i18n="world_up_page.MATCH"></span>
+                        </td>
+                        <td>MYR38</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          3 <span data-i18n="world_up_page.MATCH"></span>
+                        </td>
+                        <td>MYR88</td>
+                      </tr>
+                      
+                      <tr>
+                        <td rowspan="4">>MYR2000</td>
+                        <td rowspan="4">
+                          <span data-i18n="world_up_page.PREDICT"></span> 5 <span data-i18n="world_up_page.MATCH"></span>
+                        </td>
+                        <td>
+                          2 <span data-i18n="world_up_page.MATCH"></span>
+                        </td>
+                        <td>MYR38</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          3 <span data-i18n="world_up_page.MATCH"></span>
+                        </td>
+                        <td>MYR88</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          4 <span data-i18n="world_up_page.MATCH"></span>
+                        </td>
+                        <td>MYR188</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          5 <span data-i18n="world_up_page.MATCH"></span>
+                        </td>
+                        <td>MYR388</td>
+                      </tr>
+
+                      <tr>
+                        <td rowspan="6">>MYR5000</td>
+                        <td rowspan="6">
+                          <span data-i18n="world_up_page.PREDICT"></span> 7 <span data-i18n="world_up_page.MATCH"></span>
+                        </td>
+                        <td>
+                          2 <span data-i18n="world_up_page.MATCH"></span>
+                        </td>
+                        <td>MYR38</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          3 <span data-i18n="world_up_page.MATCH"></span>
+                        </td>
+                        <td>MYR88</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          4 <span data-i18n="world_up_page.MATCH"></span>
+                        </td>
+                        <td>MYR188</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          5 <span data-i18n="world_up_page.MATCH"></span>
+                        </td>
+                        <td>MYR388</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          6 <span data-i18n="world_up_page.MATCH"></span>
+                        </td>
+                        <td>MYR888</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          7 <span data-i18n="world_up_page.MATCH"></span>
+                        </td>
+                        <td>MYR1,888</td>
+                      </tr>
+
+                    </tbody>
+                  </table>
+                </div>
+
+                <ul class="event-detail-content__description">
+                  <li data-i18n="world_up_page.PREDICTION__Term_Conditions__description1"></li>
+                  <li data-i18n="world_up_page.PREDICTION__Term_Conditions__description2"></li>
+                  <li data-i18n="world_up_page.PREDICTION__Term_Conditions__description3"></li>
+                  <li data-i18n="world_up_page.PREDICTION__Term_Conditions__description4"></li>
+                  <li data-i18n="world_up_page.PREDICTION__Term_Conditions__description5"></li>
+                  <li data-i18n="world_up_page.PREDICTION__Term_Conditions__description6"></li>
+                  <li data-i18n="world_up_page.PREDICTION__Term_Conditions__description7"></li>
+                  <li data-i18n="world_up_page.PREDICTION__Term_Conditions__description8"></li>
+                </ul>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- content -->
+
+      <div class="d-block d-lg-none">
+        <nav class="mobile-navbar navbar fixed-bottom navbar-light">
+  <div class="container-fluid content">
+    <a href="/" class="nav-item ">
+      <div class="img" >
+        <img src="assets/icons/footer-home.png" alt="" />
+        <img class="active" src="assets/icons/footer-home-active.png" alt="" />
+      </div>
+      <div class="text" data-i18n="home"></div>
+    </a>
+    <a href="/wallet" class="nav-item ">
+      <div class="img">
+        <img src="assets/icons/footer-wallet.png" alt="" />
+        <img class="active" src="assets/icons/footer-wallet-active.png" alt="" />
+      </div>
+      <div class="text" data-i18n="wallet"></div>
+    </a>
+    <a href="/promotion.html" class="nav-item ">
+      <div class="img">
+        <img src="assets/icons/footer-promotion.png" alt="" />
+        <img class="active" src="assets/icons/footer-promotion-active.png" alt="" />
+      </div>
+      <div class="text" data-i18n="promotion"></div>
+    </a>
+    <a href="/sponsors" class="nav-item ">
+      <div class="img">
+        <img src="assets/icons/footer-sponsors.png" alt="" />
+        <img class="active" src="assets/icons/footer-sponsors-active.png" alt="" />
+      </div>
+      <div class="text" data-i18n="sponsors"></div>
+    </a>
+    <a href="/my-account.html" class="nav-item ">
+      <div class="img">
+        <img src="assets/icons/footer-my-account.png" alt="" />
+        <img class="active" src="assets/icons/footer-my-account-active.png" alt="" />
+      </div>
+      <div class="text" data-i18n="my_account"></div>
+    </a>
+  </div>
+</nav>
+      </div>
+      
+    </section>
+    
+    <!-- SCRIPT -->
+<!-- JQUERY -->
+<!-- <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"
+></script> -->
+<script
+  src="assets/library/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"
+></script>
+<!-- Translator -->
+<!-- <script
+  src="https://unpkg.com/@andreasremdt/simple-translator@latest/dist/umd/translator.min.js"
+  defer
+></script> -->
+<script src="assets/library/translator.min.js" defer></script>
+<!-- Bootstrap Bundle with Popper -->
+<script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+  crossorigin="anonymous"
+></script>
+
+<script src="assets/library/slick/slick.min.js"></script>
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+<script type="text/javascript" src="assets/library/daterangepicker/daterangepicker.min.js"></script>
+<link rel="stylesheet" type="text/css" href="assets/library/daterangepicker/daterangepicker.css" />
+
+
+<!-- CUSTOM -->
+<script src="assets/js/vendor.js" defer></script>
+<script src="assets/js/bundle.js" defer></script>
+<!-- CUSTOM -->
+
+  </body>
+</html>

@@ -285,7 +285,11 @@ $('#my-step-content .goToStep').on('click', function (event) {
     const step_elm = $(`#my-step button[data-step="${gotostep}"]`);
     if (step_elm && step_elm.length > 0) {
       const step = new bootstrap.Tab(step_elm);
-      step.show()
+      step.show();
+      if (translator) {
+        var step_title = `${translator.translateForKey('register_page.step', _get_language)} ${gotostep} ${translator.translateForKey('register_page.of', _get_language)} 3`
+        $('.step-title').html(step_title)
+      }
     }
   }
 })
@@ -296,6 +300,12 @@ $('#my-step-content .goToStep').on('click', function (event) {
 function renderAfterHaveTranslator () {
   //
   changeFlagAndCountryName();
+
+  if (translator) {
+    var step_title = `${translator.translateForKey('register_page.step', _get_language)} 1 ${translator.translateForKey('register_page.of', _get_language)} 3`
+    $('.step-title').html(step_title)
+  }
+
 }
 
 function changeFlagAndCountryName() {

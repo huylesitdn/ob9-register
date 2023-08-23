@@ -1,0 +1,500 @@
+.navbar {
+  max-width: var(--max-with-mobile); }
+  .navbar.nav-child {
+    background: #FFFFFF;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15);
+    min-height: 50px; }
+    .navbar.nav-child .title {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 21px;
+      text-align: center;
+      color: #000000;
+      text-transform: uppercase; }
+    .navbar.nav-child img {
+      max-width: 30px; }
+  .navbar.fixed-top {
+    background-color: #FFFFFF;
+    padding: 0;
+    left: auto;
+    right: auto;
+    width: 100%; }
+    .navbar.fixed-top .content {
+      display: flex;
+      min-height: 50px; }
+      .navbar.fixed-top .content #navMenu {
+        width: 80px;
+        min-width: auto;
+        padding-left: 0;
+        padding-right: 0;
+        text-align: left; }
+        .navbar.fixed-top .content #navMenu:focus {
+          box-shadow: none; }
+        .navbar.fixed-top .content #navMenu img {
+          width: 20px; }
+      .navbar.fixed-top .content__customer_service {
+        width: 80px;
+        font-style: normal;
+        display: flex;
+        place-content: center;
+        place-items: center;
+        gap: 5px;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 14px;
+        color: #597EF7; }
+        .navbar.fixed-top .content__customer_service img {
+          width: 25px; }
+      .navbar.fixed-top .content__logo {
+        max-width: 140px; }
+  .navbar.fixed-bottom {
+    min-height: 60px;
+    background-color: #FFFFFF;
+    box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.1);
+    left: auto;
+    right: auto;
+    width: 100%; }
+    .navbar.fixed-bottom .content {
+      display: flex;
+      place-content: space-between;
+      place-items: center;
+      text-align: center; }
+      .navbar.fixed-bottom .content .nav-item {
+        min-width: 50px;
+        text-decoration: none; }
+        .navbar.fixed-bottom .content .nav-item .img {
+          min-height: 30px;
+          display: flex;
+          place-content: center;
+          place-items: center;
+          width: 30px;
+          margin: auto; }
+          .navbar.fixed-bottom .content .nav-item .img .active {
+            display: none; }
+        .navbar.fixed-bottom .content .nav-item .text {
+          font-style: normal;
+          font-size: 12px;
+          line-height: 14px;
+          text-align: center;
+          color: rgba(0, 0, 0, 0.5); }
+        .navbar.fixed-bottom .content .nav-item.active .img img {
+          display: none; }
+          .navbar.fixed-bottom .content .nav-item.active .img img.active {
+            display: block; }
+        .navbar.fixed-bottom .content .nav-item.active .text {
+          color: #597EF7; }
+
+.select-bank {
+  margin-left: -8px;
+  margin-right: -8px; }
+  .select-bank__item {
+    margin-bottom: 15px;
+    padding-left: 8px;
+    padding-right: 8px; }
+    .select-bank__item__label {
+      background: #FFFFFF;
+      border: 1px solid #EEEEEE;
+      box-sizing: border-box;
+      border-radius: 10px;
+      min-height: 70px;
+      width: 100%;
+      display: flex;
+      place-content: space-around;
+      place-items: center;
+      flex-direction: column;
+      text-align: center;
+      position: relative;
+      padding: 8px 0; }
+      .select-bank__item__label .checkmark {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        border: 1px solid transparent;
+        border-radius: 10px; }
+      .select-bank__item__label__checkbox {
+        display: none; }
+        .select-bank__item__label__checkbox:checked ~ .checkmark {
+          border-color: #597EF7; }
+          .select-bank__item__label__checkbox:checked ~ .checkmark::before {
+            content: "";
+            width: 18px;
+            height: 19px;
+            background-image: url(../images/wallet/check.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            z-index: 9; }
+      .select-bank__item__label__img img {
+        max-height: 30px;
+        max-width: 30px; }
+      .select-bank__item__label__title {
+        font-size: 12px;
+        line-height: 12px;
+        text-align: center;
+        color: #000000; }
+
+.deposit-amount {
+  margin-left: -8px;
+  margin-right: -8px; }
+  .deposit-amount__select-bank, .deposit-amount__select-promotion {
+    display: flex;
+    place-content: space-between;
+    place-items: center;
+    border-bottom: 2px solid #EEEEEE;
+    padding: 10px 0;
+    margin-bottom: 30px;
+    cursor: pointer; }
+    .deposit-amount__select-bank__input__label, .deposit-amount__select-promotion__input__label {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 14px;
+      color: #000000;
+      padding-bottom: 10px;
+      text-align: left; }
+    .deposit-amount__select-bank__input__placeholder, .deposit-amount__select-promotion__input__placeholder {
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 14px;
+      color: #A5A9B3; }
+  .deposit-amount__summary {
+    margin-top: -15px;
+    margin-bottom: 15px; }
+    .deposit-amount__summary__title {
+      background: #597EF7;
+      border-radius: 10px 10px 0px 0px;
+      padding: 15px;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 14px;
+      text-align: center;
+      color: #FFFFFF; }
+    .deposit-amount__summary__content {
+      background: #FFFFFF;
+      border: 1px solid #A5A9B3;
+      border-top: none;
+      box-sizing: border-box;
+      border-radius: 10px;
+      border-top-left-radius: 0;
+      border-top-right-radius: 0;
+      padding: 15px;
+      text-align: left;
+      font-size: 16px;
+      line-height: 20px;
+      color: #000000; }
+      .deposit-amount__summary__content__sub {
+        background: #EEEEEE;
+        border-radius: 10px;
+        padding: 15px 30px;
+        margin: 10px; }
+  .deposit-amount__action {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+    color: #000000; }
+    .deposit-amount__action .btn {
+      min-height: 50px;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 16px;
+      text-align: center;
+      color: #FFFFFF;
+      text-transform: uppercase; }
+      .deposit-amount__action .btn-choose {
+        min-height: 40px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 14px;
+        text-align: center;
+        color: #000000;
+        margin-bottom: 20px;
+        border: 1px solid #A5A9B3;
+        box-sizing: border-box;
+        border-radius: 10px;
+        display: flex;
+        place-items: center;
+        place-content: center;
+        gap: 5px; }
+        .deposit-amount__action .btn-choose:hover, .deposit-amount__action .btn-choose:active {
+          background-color: #fff; }
+        .deposit-amount__action .btn-choose img {
+          max-width: 24px; }
+  .deposit-amount__input-group {
+    margin-bottom: 15px; }
+    .deposit-amount__input-group .form-control {
+      background: #FFFFFF;
+      border: 1px solid #A5A9B3;
+      box-sizing: border-box;
+      border-radius: 10px !important;
+      min-height: 40px; }
+      .deposit-amount__input-group .form-control::placeholder {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        color: #A5A9B3; }
+    .deposit-amount__input-group .input-group-text {
+      background: #FFFFFF;
+      border: none;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 14px;
+      color: #000000;
+      padding-left: 0; }
+  .deposit-amount__item {
+    margin-bottom: 15px;
+    padding-left: 8px;
+    padding-right: 8px; }
+    .deposit-amount__item__label {
+      background: #FFFFFF;
+      border: 1px solid #EEEEEE;
+      box-sizing: border-box;
+      border-radius: 10px;
+      min-height: 50px;
+      width: 100%;
+      display: flex;
+      place-content: space-around;
+      place-items: center;
+      flex-direction: column;
+      text-align: center;
+      position: relative;
+      padding: 8px 0; }
+      .deposit-amount__item__label .checkmark {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        border: 1px solid transparent;
+        border-radius: 10px; }
+      .deposit-amount__item__label__checkbox {
+        display: none; }
+        .deposit-amount__item__label__checkbox:checked ~ .checkmark {
+          border-color: #597EF7; }
+          .deposit-amount__item__label__checkbox:checked ~ .checkmark::before {
+            content: "";
+            width: 18px;
+            height: 19px;
+            background-image: url(../images/wallet/check.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            z-index: 9; }
+      .deposit-amount__item__label__title {
+        font-size: 12px;
+        line-height: 12px;
+        text-align: center;
+        color: #000000; }
+
+#customerAnnoucementImage .modal-dialog,
+#customerAnnoucement .modal-dialog,
+#newsModal .modal-dialog,
+#selectLanguage .modal-dialog {
+  padding: 0 30px;
+  margin: auto; }
+  #customerAnnoucementImage .modal-dialog .modal-content,
+  #customerAnnoucement .modal-dialog .modal-content,
+  #newsModal .modal-dialog .modal-content,
+  #selectLanguage .modal-dialog .modal-content {
+    border-radius: 0;
+    border: none; }
+    #customerAnnoucementImage .modal-dialog .modal-content .modal-header,
+    #customerAnnoucement .modal-dialog .modal-content .modal-header,
+    #newsModal .modal-dialog .modal-content .modal-header,
+    #selectLanguage .modal-dialog .modal-content .modal-header {
+      background-image: url(../images/select-language-bg.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      min-height: 60px;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 14px;
+      color: #FFFFFF;
+      text-align: center;
+      border-radius: 0 !important; }
+    #customerAnnoucementImage .modal-dialog .modal-content .modal-body,
+    #customerAnnoucement .modal-dialog .modal-content .modal-body,
+    #newsModal .modal-dialog .modal-content .modal-body,
+    #selectLanguage .modal-dialog .modal-content .modal-body {
+      padding-top: 30px;
+      padding-bottom: 30px; }
+      #customerAnnoucementImage .modal-dialog .modal-content .modal-body img,
+      #customerAnnoucement .modal-dialog .modal-content .modal-body img,
+      #newsModal .modal-dialog .modal-content .modal-body img,
+      #selectLanguage .modal-dialog .modal-content .modal-body img {
+        max-width: 40px; }
+        #customerAnnoucementImage .modal-dialog .modal-content .modal-body img.image-content,
+        #customerAnnoucement .modal-dialog .modal-content .modal-body img.image-content,
+        #newsModal .modal-dialog .modal-content .modal-body img.image-content,
+        #selectLanguage .modal-dialog .modal-content .modal-body img.image-content {
+          max-width: none !important; }
+      #customerAnnoucementImage .modal-dialog .modal-content .modal-body .choose-language,
+      #customerAnnoucement .modal-dialog .modal-content .modal-body .choose-language,
+      #newsModal .modal-dialog .modal-content .modal-body .choose-language,
+      #selectLanguage .modal-dialog .modal-content .modal-body .choose-language {
+        word-break: keep-all; }
+      #customerAnnoucementImage .modal-dialog .modal-content .modal-body .title,
+      #customerAnnoucement .modal-dialog .modal-content .modal-body .title,
+      #newsModal .modal-dialog .modal-content .modal-body .title,
+      #selectLanguage .modal-dialog .modal-content .modal-body .title {
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 14px;
+        text-align: center;
+        color: #000000;
+        margin-top: 7px; }
+      #customerAnnoucementImage .modal-dialog .modal-content .modal-body .subtitle,
+      #customerAnnoucement .modal-dialog .modal-content .modal-body .subtitle,
+      #newsModal .modal-dialog .modal-content .modal-body .subtitle,
+      #selectLanguage .modal-dialog .modal-content .modal-body .subtitle {
+        display: flex;
+        place-items: center;
+        place-content: space-between;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 14px;
+        color: #000000;
+        padding-bottom: 25px; }
+
+#newsModal .modal-dialog .modal-content {
+  border-radius: 20px;
+  overflow: hidden; }
+  #newsModal .modal-dialog .modal-content .modal-body .table {
+    background: #fff; }
+    #newsModal .modal-dialog .modal-content .modal-body .table thead tr th {
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 14px;
+      text-align: center;
+      color: #fff;
+      vertical-align: middle;
+      border: none;
+      height: 50px;
+      background: linear-gradient(180deg, #8EA9FF 0%, #678BFF 32.29%, #557BF7 100%); }
+    #newsModal .modal-dialog .modal-content .modal-body .table tbody {
+      border-top: none !important; }
+      #newsModal .modal-dialog .modal-content .modal-body .table tbody tr td {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 14px;
+        color: #000000;
+        background-color: #fff;
+        height: 50px;
+        text-align: left;
+        vertical-align: middle; }
+
+#selectBankModal .select-bank-modal__items {
+  display: flex;
+  place-content: flex-start;
+  place-items: center;
+  gap: 15px;
+  border-bottom: 1px solid #f2f2f2;
+  padding: 15px; }
+  #selectBankModal .select-bank-modal__items__img {
+    min-width: 40px;
+    text-align: center; }
+    #selectBankModal .select-bank-modal__items__img img {
+      max-width: 30px;
+      max-height: 30px; }
+  #selectBankModal .select-bank-modal__items__content {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 14px;
+    color: #000000; }
+
+#chooseWalletModal .choose-modal__items {
+  display: flex;
+  place-content: space-between;
+  place-items: center;
+  gap: 15px;
+  border-bottom: 1px solid #f2f2f2;
+  padding: 15px; }
+  #chooseWalletModal .choose-modal__items__img {
+    min-width: 50px;
+    text-align: center; }
+  #chooseWalletModal .choose-modal__items__content {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 14px;
+    color: #000000; }
+  #chooseWalletModal .choose-modal__items .checkmark {
+    opacity: 0;
+    transition: .3s; }
+  #chooseWalletModal .choose-modal__items input:checked ~ .checkmark {
+    opacity: 1; }
+
+.mbsc-popup-content .mbsc-ios.mbsc-scroller {
+  background-color: #fff !important; }
+  .mbsc-popup-content .mbsc-ios.mbsc-scroller .mbsc-ios.mbsc-scroller-wheel-group-cont {
+    padding: 0; }
+    .mbsc-popup-content .mbsc-ios.mbsc-scroller .mbsc-ios.mbsc-scroller-wheel-group-cont .mbsc-ios.mbsc-scroller-wheel-line {
+      margin: 0;
+      border-radius: 0;
+      border-top: 1px solid #eee;
+      border-bottom: 1px solid #eee;
+      background: rgba(255, 255, 255, 0); }
+
+.mbsc-popup .mbsc-ios.mbsc-scroller-wheel-cont-bottom.mbsc-scroller-wheel-cont-3d,
+.mbsc-popup .mbsc-ios.mbsc-scroller-wheel-cont-top.mbsc-scroller-wheel-cont-3d {
+  background: #fff; }
+
+.mbsc-popup .mbsc-ios.mbsc-scroller-wheel-item.mbsc-selected {
+  background: #fff; }
+
+.mbsc-popup .mbsc-ios.mbsc-scroller-wheel-overlay-bottom,
+.mbsc-popup .mbsc-ios.mbsc-scroller-wheel-overlay-top {
+  background: transparent !important; }
+
+.mbsc-popup .mbsc-ios.mbsc-scroller-wheel-item {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 16px;
+  color: #000000; }
+
+.back-to-top {
+  margin-top: 20px;
+  padding: 20px;
+  text-align: center;
+  display: flex; }
+  .back-to-top a {
+    background: #fff;
+    display: flex;
+    place-content: center;
+    place-items: center;
+    margin: auto;
+    flex-direction: column;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #7E8796;
+    min-width: 130px;
+    border-radius: 50px;
+    -webkit-box-shadow: 0px 4px 10px 2px rgba(1, 1, 1, 0.1);
+    box-shadow: 0px 4px 10px 2px rgba(1, 1, 1, 0.1); }
+
+#collapseCustomDate .action a {
+  display: flex;
+  place-content: center;
+  place-items: center; }
+
+html[lang="zh"] .register_link {
+  place-items: center !important; }
+  html[lang="zh"] .register_link span {
+    transform: rotate(-180deg) !important;
+    -webkit-transform: rotate(180deg) !important; }
+
+@media only screen and (max-width: 380px) {
+  .dropdown-menu .btn {
+    min-width: 50px !important; } }
