@@ -34,7 +34,11 @@ body {
   font-family: 'Roboto', sans-serif;
   min-height: 100vh;
   position: relative;
-  scroll-behavior: smooth; }
+  scroll-behavior: smooth;
+  background-image: url("../images/register/BG.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
 
 * {
   outline: none; }
@@ -1340,16 +1344,12 @@ span.input-group-text[data-i18n="To"] {
 
 .register-page {
   margin-top: 50px;
-  background-image: url("../images/register/BG.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
   min-height: 60vh;
   font-family: 'CodecPro', 'Roboto', sans-serif; }
   @media only screen and (max-width: 767px) {
     .register-page {
-      background-image: url("../images/register/BG-mobile.png");
-      padding-top: 10px; } }
+      padding-top: 10px;
+      min-height: auto; } }
   .register-page .step-title {
     background-color: #548de0;
     display: none;

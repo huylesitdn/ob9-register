@@ -1,3 +1,14 @@
+html,
+body {
+  max-width: var(--max-with-mobile);
+  margin: auto;
+  background-image: url("../images/register/BG-mobile.png");
+}
+
+.register-page {
+  min-height: inherit !important;
+}
+
 .navbar {
   max-width: var(--max-with-mobile);
 

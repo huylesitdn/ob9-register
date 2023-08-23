@@ -22,7 +22,11 @@ body {
   font-family: 'Roboto', sans-serif;
   min-height: 100vh;
   position: relative;
-  scroll-behavior: smooth; }
+  scroll-behavior: smooth;
+  background-image: url("../images/register/BG.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
 
 * {
   outline: none; }

@@ -1,15 +1,11 @@
 .register-page {
   margin-top: 50px;
-  background-image: url("../images/register/BG.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
   min-height: 60vh;
   font-family: 'CodecPro', 'Roboto', sans-serif;
 
   @media only screen and (max-width: 767px) {
-    background-image: url("../images/register/BG-mobile.png");
     padding-top: 10px;
+    min-height: auto;
   }
 
   .step-title {
