@@ -28,7 +28,7 @@ var translator = new Translator({
   persist: true,
   persistKey: "preferred_language",
   filesLocation: "assets/i18n",
-  // filesLocation: "https://raw.githubusercontent.com/huylesitdn/ob9-world-cup/main/assets/i18n",
+  // filesLocation: "https://raw.githubusercontent.com/huylesitdn/ob9-register/main/assets/i18n",
 });
 
 const PREFERED_REGION = "preferred_region";
