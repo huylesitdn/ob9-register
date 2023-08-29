@@ -5,8 +5,6 @@
     
     <!-- Content -->
     <section class="main register-page">
-      <!-- @@include('../components/base/navbar.html', {active: 1}) -->
-      @@include('../components/base/navbar-without-login.html', {active: 1})
 
       
       <div class="step-title"></div>
@@ -139,10 +137,19 @@
                     />
                   </div>
                 </div>
-                <div class="license p-3 text-center mb-3">
-                    <img data-i18n="register_page.license_img_1" data-i18n-attr="src"/>
+                <div class="row license p-3 text-center mb-3">
+                  <div class="col-4 col-md-4">
                     <img data-i18n="register_page.license_img_2" data-i18n-attr="src"/>
+                    <span class="text-muted" data-i18n="register_page.license_des_1"></span>
+                  </div>
+                  <div class="col-4 col-md-4">
+                    <img data-i18n="register_page.license_img_1" data-i18n-attr="src"/>
+                    <span class="text-muted" data-i18n="register_page.license_des_2"></span>
+                  </div>
+                  <div class="col-4 col-md-4">
                     <img data-i18n="register_page.license_img_3" data-i18n-attr="src"/>
+                    <span class="text-muted" data-i18n="register_page.license_des_3"></span>
+                  </div>
                 </div>
               </div>
             </div>
@@ -152,7 +159,6 @@
       
 
     </section>
-    @@include('../components/base/navbar-bottom.html', {active: 0})
     
     @@include('../components/base/footer.html')
   </body>
