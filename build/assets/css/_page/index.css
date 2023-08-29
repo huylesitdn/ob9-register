@@ -922,8 +922,7 @@
     .register-page .license img {
       height: 50px;
       width: auto;
-      max-width: 180px;
-      filter: grayscale(100%); }
+      max-width: 180px; }
       @media only screen and (max-width: 767px) {
         .register-page .license img {
           height: 40px;
